@@ -1,0 +1,67 @@
+Elige un archivo para cargar los equipos
+0: 000__Mix.txt
+1: 001__Mix.txt
+2: 002__Mix.txt
+3: 003__Mix.txt
+4: 004__Mix.txt
+5: 005__Mix.txt
+6: 006__Mix.txt
+7: 007__Mix.txt
+8: 008__Mix.txt
+9: 009__Mix.txt
+10: 010__Mix.txt
+11: 011__Mix.txt
+12: 012__Mix.txt
+13: 013__Mix.txt
+14: 014__Mix.txt
+15: 015__Mix.txt
+16: 016__Mix.txt
+17: 017__Mix.txt
+18: 018__Mix.txt
+19: 019__Mix.txt
+20: 020__Mix.txt
+INPUT: 14
+Player 1 selecciona una opción
+0: Marth
+INPUT: 0
+Player 2 selecciona una opción
+0: Celica
+INPUT: 0
+Round 1: Marth (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Marth obtiene Atk+10
+Marth obtiene Res-10
+Los bonus de Atk de Marth fueron neutralizados
+Los bonus de Spd de Marth fueron neutralizados
+Los bonus de Def de Marth fueron neutralizados
+Los bonus de Res de Marth fueron neutralizados
+Los penalty de Atk de Marth fueron neutralizados
+Los penalty de Spd de Marth fueron neutralizados
+Los penalty de Def de Marth fueron neutralizados
+Los penalty de Res de Marth fueron neutralizados
+Marth ataca a Celica con 34 de daño
+Celica ataca a Marth con 26 de daño
+Ninguna unidad puede hacer un follow up
+Marth (28) : Celica (20)
+Player 2 selecciona una opción
+0: Celica
+INPUT: 0
+Player 1 selecciona una opción
+0: Marth
+INPUT: 0
+Round 2: Celica (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Marth obtiene Atk+10
+Marth obtiene Res-10
+Los bonus de Atk de Marth fueron neutralizados
+Los bonus de Spd de Marth fueron neutralizados
+Los bonus de Def de Marth fueron neutralizados
+Los bonus de Res de Marth fueron neutralizados
+Los penalty de Atk de Marth fueron neutralizados
+Los penalty de Spd de Marth fueron neutralizados
+Los penalty de Def de Marth fueron neutralizados
+Los penalty de Res de Marth fueron neutralizados
+Celica ataca a Marth con 26 de daño
+Marth ataca a Celica con 34 de daño
+Celica (0) : Marth (2)
+Player 1 ganó

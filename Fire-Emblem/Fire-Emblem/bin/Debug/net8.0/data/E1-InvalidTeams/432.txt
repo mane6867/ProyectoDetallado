@@ -1,0 +1,8 @@
+Player 1 Team
+Roy (Mirror Stance)
+Alm (Bracing Stance)
+Player 2 Team
+Sigurd (Dragonskin)
+Chrom (Spd/Def +5)
+Claude (Lance Power)
+Ephraim (Sol)

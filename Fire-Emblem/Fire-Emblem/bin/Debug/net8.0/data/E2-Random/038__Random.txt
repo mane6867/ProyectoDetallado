@@ -1,0 +1,6 @@
+Player 1 Team
+Ike (Perceptive,Resistance +5)
+Hector (Wrath,Speed +5)
+Player 2 Team
+Eirika
+Ephraim (Armored Blow)

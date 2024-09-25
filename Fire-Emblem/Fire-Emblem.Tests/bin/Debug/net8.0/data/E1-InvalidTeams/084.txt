@@ -1,0 +1,7 @@
+Player 1 Team
+Eirika (Deadly Blade)
+Hector (Bushido)
+Player 2 Team
+Dimitri (Attack +6,Darting Blow,Chivalry)
+Chrom (Steady Impact,Remote Mirror)
+Celica (Brazen Atk/Def,Atk/Def Push)

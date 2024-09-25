@@ -1,0 +1,4 @@
+Player 1 Team
+Player 2 Team
+Leif (Bow Agility)
+Corrin (Magic Guard)

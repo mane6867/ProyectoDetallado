@@ -1,0 +1,5 @@
+Player 1 Team
+Eliwood (Guard Bearing,Guard Bearing)
+Player 2 Team
+Lyn (Brazen Spd/Def)
+Shez (Brazen Atk/Def)

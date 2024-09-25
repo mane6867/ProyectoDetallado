@@ -1,0 +1,5 @@
+Player 1 Team
+Sigurd (Sword Agility)
+Sigurd (Sturdy Impact)
+Player 2 Team
+Lucina (Brazen Def/Res)

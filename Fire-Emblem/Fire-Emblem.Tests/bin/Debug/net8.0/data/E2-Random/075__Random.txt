@@ -1,0 +1,7 @@
+Player 1 Team
+Eliwood (Atk/Def +5)
+Leif (Resistance +5)
+Lucina
+Player 2 Team
+Sigurd (Bow Agility)
+Alm (Lull Spd/Def)

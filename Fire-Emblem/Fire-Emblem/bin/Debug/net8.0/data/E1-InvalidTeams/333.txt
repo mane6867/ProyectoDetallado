@@ -1,0 +1,5 @@
+Player 1 Team
+Player 2 Team
+Shez (Brazen Def/Res)
+Tiki (Spd/Def +5)
+Ephraim (Steady Impact)

@@ -1,0 +1,8 @@
+Player 1 Team
+Marth (Attack +6,Fort. Def/Res)
+Ike (Sword Agility)
+Alm (Wrath)
+Player 2 Team
+Claude (Sword Power,Sandstorm)
+Corrin (Lull Atk/Res,Lull Def/Res)
+Micaiah (Swift Strike)

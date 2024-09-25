@@ -1,0 +1,6 @@
+Player 1 Team
+Sigurd
+Leif
+Player 2 Team
+Roy
+Robin

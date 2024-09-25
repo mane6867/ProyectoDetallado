@@ -1,0 +1,6 @@
+Player 1 Team
+Ike (Brazen Atk/Spd)
+Lucina (Resistance +5)
+Claude (Bracing Blow)
+Player 2 Team
+Robin (Chaos Style)

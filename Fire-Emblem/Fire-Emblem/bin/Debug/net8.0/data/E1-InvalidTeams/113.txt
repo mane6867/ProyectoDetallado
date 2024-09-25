@@ -1,0 +1,6 @@
+Player 1 Team
+Chrom (Hold Out,Hold Out)
+Camilla (Eclipse Brace)
+Hector (Attack +6)
+Player 2 Team
+Camilla (Steady Blow)

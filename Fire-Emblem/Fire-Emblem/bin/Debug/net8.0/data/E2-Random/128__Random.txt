@@ -1,0 +1,7 @@
+Player 1 Team
+Eliwood (Attack +6,Swift Strike)
+Lyn (Agnea's Arrow)
+Player 2 Team
+Claude (Brazen Spd/Res)
+Eliwood
+Dimitri (Lull Spd/Res,Lull Def/Res)

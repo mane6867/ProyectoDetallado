@@ -1,0 +1,5 @@
+Player 1 Team
+Ike (Brazen Atk/Def)
+Player 2 Team
+Alear (Ignis)
+Tiki (Brazen Def/Res)

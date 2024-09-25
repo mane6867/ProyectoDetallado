@@ -1,0 +1,9 @@
+Player 1 Team
+Chrom (Swift Impact)
+Edelgard (Dragonskin)
+Leif (Windsweep)
+Seliph (Still Water)
+Eliwood (Darting Stance)
+Player 2 Team
+Roy (Wily Fighter)
+Ephraim (Swift Strike)

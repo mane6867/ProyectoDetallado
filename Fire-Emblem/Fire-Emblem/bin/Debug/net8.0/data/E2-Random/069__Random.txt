@@ -1,0 +1,8 @@
+Player 1 Team
+Seliph
+Lyn (Wind Boost)
+Alm
+Player 2 Team
+Eliwood (Lull Atk/Def)
+Shez (Lull Atk/Spd)
+Soren

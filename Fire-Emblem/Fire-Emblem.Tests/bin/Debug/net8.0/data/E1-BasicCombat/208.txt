@@ -1,0 +1,6 @@
+Player 1 Team
+Ike
+Soren
+Player 2 Team
+Marth
+Veronica

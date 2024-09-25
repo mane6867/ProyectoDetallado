@@ -1,0 +1,9 @@
+Player 1 Team
+Seliph (Melee Breaker)
+Ephraim (Null C-Disrupt)
+Sigurd (Guard Bearing)
+Player 2 Team
+Tiki (Windsweep)
+Edelgard (Aegis Shield)
+Marth (Remote Mirror)
+Celica (Remote Mirror)

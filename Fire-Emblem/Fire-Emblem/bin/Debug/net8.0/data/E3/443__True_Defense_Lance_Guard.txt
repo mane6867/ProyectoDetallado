@@ -1,0 +1,7 @@
+Player 1 Team
+Eirika (Lance Guard)
+Chrom (Lance Guard)
+Hector (Lance Guard)
+Player 2 Team
+Ephraim (Lance Guard)
+Veronica (Lance Guard)

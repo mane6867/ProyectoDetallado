@@ -1,0 +1,10 @@
+Player 1 Team
+Lyn (Arms Shield)
+Roy (Bravery)
+Claude (Gift of Magic)
+Seliph (Fair Fight)
+Lucina (Attack +6)
+Player 2 Team
+Byleth (Spd Preempt)
+Hector (Null C-Disrupt)
+Micaiah (Lull Atk/Spd)

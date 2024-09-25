@@ -1,0 +1,8 @@
+Player 1 Team
+Corrin
+Eliwood (Scendscale)
+Ike (Spd/Def Push)
+Player 2 Team
+Camilla (Eclipse Brace)
+Roy (Spd/Res Push,Atk/Spd Push)
+Leif (Spd/Def Push)

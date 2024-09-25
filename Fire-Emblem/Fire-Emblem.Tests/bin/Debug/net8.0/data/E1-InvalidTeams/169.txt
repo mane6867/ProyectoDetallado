@@ -1,0 +1,8 @@
+Player 1 Team
+Roy (Dragon's Ire)
+Byleth (Gift of Magic)
+Player 2 Team
+Celica (Swift Strike)
+Veronica (Blue Lion Rule)
+Dimitri (Atk/Def +5)
+Shez (Flare)

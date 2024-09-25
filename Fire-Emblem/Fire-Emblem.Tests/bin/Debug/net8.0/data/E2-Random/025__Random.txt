@@ -1,0 +1,8 @@
+Player 1 Team
+Eliwood (Darting Blow)
+Sigurd (Lull Spd/Def,Spd/Res +5)
+Veronica
+Player 2 Team
+Marth (Defense +5)
+Byleth (Mirror Strike)
+Tiki (Brazen Def/Res)

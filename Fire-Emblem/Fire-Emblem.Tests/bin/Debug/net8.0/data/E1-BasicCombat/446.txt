@@ -1,0 +1,8 @@
+Player 1 Team
+Corrin
+Marth
+Celica
+Player 2 Team
+Veronica
+Leif
+Micaiah

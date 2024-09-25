@@ -1,0 +1,7 @@
+Player 1 Team
+Alear (Still Water,Tome Precision)
+Chrom (Sword Agility)
+Player 2 Team
+Celica
+Marth (Charmer)
+Eirika (Swift Sparrow,Lull Spd/Def)

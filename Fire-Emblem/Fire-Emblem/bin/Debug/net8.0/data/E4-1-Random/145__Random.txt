@@ -1,0 +1,4 @@
+Player 1 Team
+Marth (Spd/Def Push,True Dragon Wall)
+Player 2 Team
+Eirika (Bewitching Tome,Solar Brace)

@@ -1,0 +1,7 @@
+Player 1 Team
+Chrom (Bow Agility)
+Veronica (Bow Agility)
+Player 2 Team
+Ephraim (Bow Agility)
+Camilla (Bow Agility)
+Roy (Bow Agility)

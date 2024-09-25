@@ -1,0 +1,5 @@
+Player 1 Team
+Ike (Atk/Res Push)
+Leif (Def/Res Push,Solar Brace)
+Player 2 Team
+Eliwood (Atk/Res Push,Mystic Boost)

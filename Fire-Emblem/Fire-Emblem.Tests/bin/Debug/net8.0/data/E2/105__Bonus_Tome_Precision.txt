@@ -1,0 +1,7 @@
+Player 1 Team
+Marth (Tome Precision)
+Sigurd (Tome Precision)
+Hector (Tome Precision)
+Player 2 Team
+Chrom (Tome Precision)
+Soren (Tome Precision)

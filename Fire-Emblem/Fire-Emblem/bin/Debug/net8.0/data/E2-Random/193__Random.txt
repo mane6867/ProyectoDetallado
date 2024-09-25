@@ -1,0 +1,6 @@
+Player 1 Team
+Marth
+Robin (Sword Power)
+Sigurd
+Player 2 Team
+Hector (Bow Agility)

@@ -1,0 +1,6 @@
+Player 1 Team
+Chrom (Speed +5)
+Claude (Speed +5)
+Player 2 Team
+Sigurd
+Byleth (Speed +5)

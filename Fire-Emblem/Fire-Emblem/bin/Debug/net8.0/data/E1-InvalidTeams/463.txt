@@ -1,0 +1,8 @@
+Player 1 Team
+Alear (Spd/Def Push)
+Corrin (Resonance)
+Player 2 Team
+Sigurd (Kestrel Stance)
+Tiki (Melee Breaker)
+Alear (Brazen Atk/Res)
+Dimitri (Armored Blow)

@@ -1,0 +1,4 @@
+Player 1 Team
+Sigurd (Speed +5,Binding Shield)
+Player 2 Team
+Lyn (Warding Blow,Dragon Wall)

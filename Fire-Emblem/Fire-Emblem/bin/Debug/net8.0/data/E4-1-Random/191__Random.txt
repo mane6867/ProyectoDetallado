@@ -1,0 +1,8 @@
+Player 1 Team
+Celica (Spd/Res Push,True Dragon Wall)
+Robin (Spd/Res Push)
+Marth (Spd/Def Push)
+Player 2 Team
+Celica (Sol)
+Robin (Atk/Res Push)
+Leif (Mastermind)

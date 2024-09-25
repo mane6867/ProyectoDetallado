@@ -1,0 +1,4 @@
+Player 1 Team
+Lucina (Deadly Blade,Mirror Strike,Magic Guard,Ignis)
+Player 2 Team
+Veronica (Resistance +5)

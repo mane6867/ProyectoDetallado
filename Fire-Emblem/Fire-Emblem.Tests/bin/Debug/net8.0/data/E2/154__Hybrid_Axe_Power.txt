@@ -1,0 +1,7 @@
+Player 1 Team
+Marth (Axe Power)
+Edelgard (Axe Power)
+Player 2 Team
+Lucina (Axe Power)
+Ephraim (Axe Power)
+Celica (Axe Power)

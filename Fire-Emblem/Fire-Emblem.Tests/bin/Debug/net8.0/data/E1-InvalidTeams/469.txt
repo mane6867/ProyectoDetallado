@@ -1,0 +1,5 @@
+Player 1 Team
+Leif (Brazen Def/Res,Brazen Def/Res)
+Player 2 Team
+Tiki (HP +15)
+Claude (Lull Def/Res)

@@ -1,0 +1,8 @@
+Player 1 Team
+Eliwood (Atk/Def Push,Windsweep)
+Soren (Flare,Atk/Res Push)
+Seliph
+Player 2 Team
+Lucina (Resonance,Laws of Sacae)
+Seliph (Mastermind,Atk/Def Push)
+Claude (Eclipse Brace)

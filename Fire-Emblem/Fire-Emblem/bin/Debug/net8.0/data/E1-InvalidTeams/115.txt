@@ -1,0 +1,7 @@
+Player 1 Team
+Dimitri (Lull Atk/Def)
+Eliwood (Slick Fighter)
+Roy (Armored Blow)
+Player 2 Team
+Lucina (Flow Feather,HP +15,Bow Focus)
+Marth (Slick Fighter,Mirror Impact)

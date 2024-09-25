@@ -1,0 +1,8 @@
+Player 1 Team
+Leif
+Byleth (Atk/Res +5)
+Edelgard
+Player 2 Team
+Lucina
+Soren (Atk/Res +5)
+Roy

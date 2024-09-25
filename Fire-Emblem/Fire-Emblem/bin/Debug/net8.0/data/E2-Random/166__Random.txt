@@ -1,0 +1,8 @@
+Player 1 Team
+Chrom (Brazen Spd/Def)
+Claude (Belief in Love)
+Hector (Darting Blow)
+Player 2 Team
+Lyn (Spd/Res +5,Fire Boost)
+Ephraim
+Celica (Will to Win)

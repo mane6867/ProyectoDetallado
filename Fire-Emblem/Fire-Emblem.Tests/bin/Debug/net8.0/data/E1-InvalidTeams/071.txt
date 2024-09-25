@@ -1,0 +1,8 @@
+Player 1 Team
+Eirika (Slick Fighter)
+Marth (Vantage)
+Eirika (Solar Brace)
+Player 2 Team
+Corrin (Yngvi Ascendant)
+Tiki (Lull Atk/Spd)
+Ike (Lull Atk/Res)

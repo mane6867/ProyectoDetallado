@@ -1,0 +1,4 @@
+Player 1 Team
+Edelgard (Phys. Null Follow,Mag. Null Follow)
+Player 2 Team
+Micaiah (Dodge,Bushido)

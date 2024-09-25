@@ -1,0 +1,6 @@
+Player 1 Team
+Veronica (Lull Atk/Def)
+Sigurd
+Player 2 Team
+Lucina
+Veronica (Atk/Def +5,Charmer)

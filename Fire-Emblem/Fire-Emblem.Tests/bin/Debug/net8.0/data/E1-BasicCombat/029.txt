@@ -1,0 +1,7 @@
+Player 1 Team
+Hector
+Ike
+Player 2 Team
+Ephraim
+Tiki
+Celica

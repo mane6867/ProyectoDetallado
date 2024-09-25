@@ -1,0 +1,6 @@
+Player 1 Team
+Ephraim
+Leif (Brazen Spd/Def,Darting Blow)
+Claude (Brazen Atk/Spd)
+Player 2 Team
+Veronica (Darting Blow,Brazen Spd/Def)

@@ -1,0 +1,8 @@
+Player 1 Team
+Corrin
+Alm
+Byleth
+Player 2 Team
+Claude
+Marth
+Camilla

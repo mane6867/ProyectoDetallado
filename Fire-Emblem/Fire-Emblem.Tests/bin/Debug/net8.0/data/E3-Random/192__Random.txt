@@ -1,0 +1,7 @@
+Player 1 Team
+Hector (Charmer)
+Leif (Perceptive)
+Player 2 Team
+Lucina (Lance Agility,Remote Mirror)
+Tiki (Lull Atk/Spd)
+Hector (Steady Blow)

@@ -1,0 +1,5 @@
+Player 1 Team
+Marth (Lance Agility)
+Player 2 Team
+Roy (Lance Guard)
+Roy (Resolve)

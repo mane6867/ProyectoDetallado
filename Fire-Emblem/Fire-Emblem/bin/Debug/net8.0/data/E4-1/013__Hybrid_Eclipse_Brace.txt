@@ -1,0 +1,8 @@
+Player 1 Team
+Celica (Eclipse Brace)
+Lucina (Eclipse Brace)
+Ephraim (Eclipse Brace)
+Player 2 Team
+Hector (Eclipse Brace)
+Marth (Eclipse Brace)
+Sigurd (Eclipse Brace)

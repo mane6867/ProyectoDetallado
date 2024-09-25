@@ -1,0 +1,6 @@
+Player 1 Team
+Sigurd (Agnea's Arrow)
+Soren (Guard Bearing)
+Player 2 Team
+Tiki (Spd/Res +5,Gentility,Darting Blow,Steady Blow)
+Robin (Atk/Spd +5)

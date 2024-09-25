@@ -1,0 +1,7 @@
+Player 1 Team
+Veronica (Atk/Def +5)
+Chrom (Atk/Def +5)
+Player 2 Team
+Sigurd (Atk/Def +5)
+Roy (Atk/Def +5)
+Alear

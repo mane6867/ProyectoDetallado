@@ -1,0 +1,4 @@
+Player 1 Team
+Lyn (Wary Fighter,Null Follow-Up)
+Player 2 Team
+Ike (Quick Riposte,Mjölnir)

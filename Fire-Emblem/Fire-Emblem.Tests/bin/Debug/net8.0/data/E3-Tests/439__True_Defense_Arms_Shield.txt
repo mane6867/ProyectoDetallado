@@ -1,0 +1,70 @@
+Elige un archivo para cargar los equipos
+0: 000__Damage_Reduction_Dodge.txt
+1: 001__Damage_Reduction_Dragon_Wall.txt
+2: 002__Damage_Reduction_Golden_Lotus.txt
+3: 003__Hybrid_Aegis_Shield.txt
+4: 004__Hybrid_Blue_Skies.txt
+5: 005__Hybrid_Bracing_Stance.txt
+6: 006__Hybrid_Bushido.txt
+7: 007__Hybrid_Chivalry.txt
+8: 008__Hybrid_Darting_Stance.txt
+9: 009__Hybrid_Divine_Recreation.txt
+10: 010__Hybrid_Dragons_Wrath.txt
+11: 011__Hybrid_Extra_Chivalry.txt
+12: 012__Hybrid_Extra_Chivalry.txt
+13: 013__Hybrid_Fierce_Stance.txt
+14: 014__Hybrid_Guard_Bearing.txt
+15: 015__Hybrid_Guard_Bearing.txt
+16: 016__Hybrid_Kestrel_Stance.txt
+17: 017__Hybrid_Laguz_Friend.txt
+18: 018__Hybrid_Mirror_Stance.txt
+19: 019__Hybrid_Moon-Twin_wing.txt
+20: 020__Hybrid_Moon-Twin_wing.txt
+21: 021__Hybrid_Poetic_Justice.txt
+22: 022__Hybrid_Prescience.txt
+23: 023__Hybrid_Prescience.txt
+24: 024__Hybrid_Remote_Mirror.txt
+25: 025__Hybrid_Remote_Sparrow.txt
+26: 026__Hybrid_Remote_Sturdy.txt
+27: 027__Hybrid_Steady_Posture.txt
+28: 028__Hybrid_Steady_Stance.txt
+29: 029__Hybrid_SturdyStance.txt
+30: 030__Hybrid_Swift_Stance.txt
+31: 031__Hybrid_Warding_Stance.txt
+32: 433__True_Damage_Back_at_You.txt
+33: 434__True_Damage_Back_at_You.txt
+34: 435__True_Damage_Bravery.txt
+35: 436__True_Damage_Lunar_Brace.txt
+36: 437__True_Damage_Lunar_Brace.txt
+37: 438__True_Defense_Arms_Shield.txt
+38: 439__True_Defense_Arms_Shield.txt
+39: 440__True_Defense_Axe_Guard.txt
+40: 441__True_Defense_Bow_Guard.txt
+41: 442__True_Defense_Gentility.txt
+42: 443__True_Defense_Lance_Guard.txt
+43: 444__True_Defense_Magic_Guard.txt
+44: 445__True_Defense_Sympathetic.txt
+INPUT: 38
+Player 1 selecciona una opción
+0: Lucina
+INPUT: 0
+Player 2 selecciona una opción
+0: Robin
+INPUT: 0
+Round 1: Lucina (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Lucina ataca a Robin con 20 de daño
+Robin ataca a Lucina con 28 de daño
+Ninguna unidad puede hacer un follow up
+Lucina (23) : Robin (34)
+Player 2 selecciona una opción
+0: Robin
+INPUT: 0
+Player 1 selecciona una opción
+0: Lucina
+INPUT: 0
+Round 2: Robin (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Robin ataca a Lucina con 28 de daño
+Robin (34) : Lucina (0)
+Player 2 ganó

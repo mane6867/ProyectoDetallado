@@ -1,0 +1,6 @@
+Player 1 Team
+Celica (Defense +5)
+Chrom (Defense +5)
+Player 2 Team
+Byleth
+Eliwood

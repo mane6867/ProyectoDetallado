@@ -1,0 +1,215 @@
+Elige un archivo para cargar los equipos
+0: 000__Hybrid_Atk_Def_Push.txt
+1: 001__Hybrid_Atk_Def_Push.txt
+2: 002__Hybrid_Atk_Res_Push.txt
+3: 003__Hybrid_Atk_Res_Push.txt
+4: 004__Hybrid_Atk_Spd_Push.txt
+5: 005__Hybrid_Atk_Spd_Push.txt
+6: 006__Hybrid_Bewitching_Tome.txt
+7: 007__Hybrid_Bewitching_Tome.txt
+8: 008__Hybrid_Bewitching_Tome.txt
+9: 009__Hybrid_Bewitching_Tome.txt
+10: 010__Hybrid_Bewitching_Tome.txt
+11: 011__Hybrid_Def_Res_Push.txt
+12: 012__Hybrid_Def_Res_Push.txt
+13: 013__Hybrid_Eclipse_Brace.txt
+14: 014__Hybrid_Flare.txt
+15: 015__Hybrid_Flare.txt
+16: 016__Hybrid_Fury.txt
+17: 017__Hybrid_Laws_of_Sacae.txt
+18: 018__Hybrid_Laws_of_Sacae.txt
+19: 019__Hybrid_Laws_of_Sacae.txt
+20: 020__Hybrid_Laws_of_Sacae.txt
+21: 021__Hybrid_Laws_of_Sacae.txt
+22: 022__Hybrid_Laws_of_Sacae.txt
+23: 023__Hybrid_Laws_of_Sacae.txt
+24: 024__Hybrid_Mastermind.txt
+25: 025__Hybrid_Mastermind.txt
+26: 026__Hybrid_Mystic_Boost.txt
+27: 027__Hybrid_Resonance.txt
+28: 028__Hybrid_Resonance.txt
+29: 029__Hybrid_Resonance.txt
+30: 030__Hybrid_Scendscale.txt
+31: 031__Hybrid_Spd_Def_Push.txt
+32: 032__Hybrid_Spd_Def_Push.txt
+33: 033__Hybrid_Spd_Def_Push.txt
+34: 034__Hybrid_Spd_Res_Push.txt
+35: 035__Hybrid_Spd_Res_Push.txt
+36: 036__Hybrid_Spd_Res_Push.txt
+37: 037__Hybrid_True_Dragon_Wall.txt
+38: 038__In_Combat_Healing_Nosferatu.txt
+39: 039__In_Combat_Healing_Nosferatu.txt
+40: 040__In_Combat_Healing_Sol.txt
+41: 041__In_Combat_Healing_Sol.txt
+42: 042__In_Combat_Healing_Solar_Brace.txt
+43: 123__Null_Counter_Hliðskjálf.txt
+44: 124__Null_Counter_Hliðskjálf.txt
+45: 125__Null_Counter_Hliðskjálf.txt
+46: 126__Null_Counter_Hliðskjálf.txt
+47: 127__Null_Counter_Hliðskjálf.txt
+48: 128__Null_Counter_Hliðskjálf.txt
+49: 129__Null_Counter_Surprise_Attack.txt
+50: 130__Null_Counter_Surprise_Attack.txt
+51: 131__Null_Counter_Surprise_Attack.txt
+52: 132__Null_Counter_Surprise_Attack.txt
+53: 133__Null_Counter_Surprise_Attack.txt
+54: 134__Null_Counter_Surprise_Attack.txt
+55: 135__Null_Counter_Windsweep.txt
+56: 136__Null_Counter_Windsweep.txt
+57: 137__Null_Counter_Windsweep.txt
+58: 138__Null_Counter_Windsweep.txt
+59: 139__Null_Counter_Windsweep.txt
+60: 140__Null_Counter_Windsweep.txt
+61: 141__Null_Counter_Disrupt_Null_C-Disrupt.txt
+62: 142__Null_Counter_Disrupt_Null_C-Disrupt.txt
+63: 143__Null_Counter_Disrupt_Null_C-Disrupt.txt
+64: 144__Null_Counter_Disrupt_Null_C-Disrupt.txt
+65: 145__Null_Counter_Disrupt_Null_C-Disrupt.txt
+INPUT: 37
+Player 1 selecciona una opción
+0: Robin
+1: Roy
+2: Micaiah
+INPUT: 0
+Player 2 selecciona una opción
+0: Chrom
+1: Edelgard
+2: Dimitri
+INPUT: 0
+Round 1: Robin (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Robin ataca a Chrom con 24 de daño
+Chrom ataca a Robin con 30 de daño
+Robin ataca a Chrom con 24 de daño
+Robin (24) : Chrom (7)
+Player 2 selecciona una opción
+0: Chrom
+1: Edelgard
+2: Dimitri
+INPUT: 0
+Player 1 selecciona una opción
+0: Robin
+1: Roy
+2: Micaiah
+INPUT: 1
+Round 2: Chrom (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Roy reducirá el daño del primer ataque del rival en un 6%
+Roy reducirá el daño del Follow-Up del rival en un 4%
+Chrom ataca a Roy con 26 de daño
+Roy ataca a Chrom con 16 de daño
+Roy recupera 7 HP despues del combate
+Chrom (0) : Roy (34)
+Player 1 selecciona una opción
+0: Robin
+1: Roy
+2: Micaiah
+INPUT: 1
+Player 2 selecciona una opción
+0: Edelgard
+1: Dimitri
+INPUT: 0
+Round 3: Roy (Player 1) comienza
+Roy (Sword) tiene ventaja con respecto a Edelgard (Axe)
+Edelgard reducirá el daño del primer ataque del rival en un 60%
+Edelgard reducirá el daño del Follow-Up del rival en un 40%
+Roy ataca a Edelgard con 9 de daño
+Edelgard ataca a Roy con 15 de daño
+Roy ataca a Edelgard con 13 de daño
+Roy recupera 7 HP despues del combate
+Roy (26) : Edelgard (37)
+Player 2 selecciona una opción
+0: Edelgard
+1: Dimitri
+INPUT: 1
+Player 1 selecciona una opción
+0: Robin
+1: Roy
+2: Micaiah
+INPUT: 2
+Round 4: Dimitri (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Micaiah reducirá el daño del primer ataque del rival en un 60%
+Micaiah reducirá el daño del Follow-Up del rival en un 40%
+Dimitri ataca a Micaiah con 16 de daño
+Micaiah ataca a Dimitri con 41 de daño
+Dimitri ataca a Micaiah con 24 de daño
+Micaiah recupera 7 HP despues del combate
+Dimitri (12) : Micaiah (17)
+Player 1 selecciona una opción
+0: Robin
+1: Roy
+2: Micaiah
+INPUT: 0
+Player 2 selecciona una opción
+0: Edelgard
+1: Dimitri
+INPUT: 0
+Round 5: Robin (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Edelgard reducirá el daño del primer ataque del rival en un 60%
+Edelgard reducirá el daño del Follow-Up del rival en un 40%
+Robin ataca a Edelgard con 5 de daño
+Edelgard ataca a Robin con 32 de daño
+Robin (0) : Edelgard (32)
+Player 2 selecciona una opción
+0: Edelgard
+1: Dimitri
+INPUT: 0
+Player 1 selecciona una opción
+0: Roy
+1: Micaiah
+INPUT: 0
+Round 6: Edelgard (Player 2) comienza
+Roy (Sword) tiene ventaja con respecto a Edelgard (Axe)
+Edelgard reducirá el daño del primer ataque del rival en un 60%
+Edelgard reducirá el daño del Follow-Up del rival en un 40%
+Edelgard ataca a Roy con 15 de daño
+Roy ataca a Edelgard con 9 de daño
+Roy ataca a Edelgard con 13 de daño
+Roy recupera 7 HP despues del combate
+Edelgard (10) : Roy (18)
+Player 1 selecciona una opción
+0: Roy
+1: Micaiah
+INPUT: 1
+Player 2 selecciona una opción
+0: Edelgard
+1: Dimitri
+INPUT: 0
+Round 7: Micaiah (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Micaiah reducirá el daño del primer ataque del rival en un 24%
+Micaiah reducirá el daño del Follow-Up del rival en un 16%
+Micaiah ataca a Edelgard con 22 de daño
+Micaiah (17) : Edelgard (0)
+Player 2 selecciona una opción
+0: Dimitri
+INPUT: 0
+Player 1 selecciona una opción
+0: Roy
+1: Micaiah
+INPUT: 0
+Round 8: Dimitri (Player 2) comienza
+Dimitri (Lance) tiene ventaja con respecto a Roy (Sword)
+Roy reducirá el daño del primer ataque del rival en un 54%
+Roy reducirá el daño del Follow-Up del rival en un 36%
+Dimitri ataca a Roy con 17 de daño
+Roy ataca a Dimitri con 1 de daño
+Ninguna unidad puede hacer un follow up
+Roy recupera 7 HP despues del combate
+Dimitri (11) : Roy (8)
+Player 1 selecciona una opción
+0: Roy
+1: Micaiah
+INPUT: 1
+Player 2 selecciona una opción
+0: Dimitri
+INPUT: 0
+Round 9: Micaiah (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Micaiah reducirá el daño del primer ataque del rival en un 60%
+Micaiah reducirá el daño del Follow-Up del rival en un 40%
+Micaiah ataca a Dimitri con 41 de daño
+Micaiah (17) : Dimitri (0)
+Player 1 ganó

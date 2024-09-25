@@ -1,0 +1,4 @@
+Player 1 Team
+Ike (Quick Riposte,Spd/Res +5,Lull Atk/Def)
+Player 2 Team
+Marth (Brazen Atk/Res)

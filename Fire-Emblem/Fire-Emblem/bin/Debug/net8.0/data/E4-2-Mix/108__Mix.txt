@@ -1,0 +1,7 @@
+Player 1 Team
+Eirika (Wily Fighter)
+Marth
+Player 2 Team
+Lyn
+Leif
+Camilla (Defense +5)

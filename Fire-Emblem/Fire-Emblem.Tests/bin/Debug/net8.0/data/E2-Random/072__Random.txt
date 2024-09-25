@@ -1,0 +1,6 @@
+Player 1 Team
+Marth (Dragonskin)
+Dimitri
+Player 2 Team
+Alm (Atk/Def +5)
+Eirika (Brazen Def/Res)

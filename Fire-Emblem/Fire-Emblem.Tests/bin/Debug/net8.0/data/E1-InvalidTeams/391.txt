@@ -1,0 +1,5 @@
+Player 1 Team
+Celica (True Dragon Wall,Wrath,Swift Sparrow,Mjölnir)
+Soren (Bracing Blow,Solar Brace)
+Player 2 Team
+Byleth (Lull Atk/Spd)

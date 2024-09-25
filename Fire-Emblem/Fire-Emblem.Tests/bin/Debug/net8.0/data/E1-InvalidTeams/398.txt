@@ -1,0 +1,7 @@
+Player 1 Team
+Marth (Dragon's Ire)
+Player 2 Team
+Claude (Deadly Blade)
+Eliwood (Brazen Atk/Def)
+Tiki (Holy War's End)
+Veronica (Atk/Spd +5)

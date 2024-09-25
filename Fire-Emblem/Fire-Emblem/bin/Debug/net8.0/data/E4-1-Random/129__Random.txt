@@ -1,0 +1,5 @@
+Player 1 Team
+Lyn (Windsweep)
+Player 2 Team
+Roy (Resonance)
+Camilla (Windsweep,Spd/Def Push)

@@ -1,0 +1,5 @@
+Player 1 Team
+Marth (Lull Atk/Res,Luna)
+Player 2 Team
+Claude
+Corrin (Perceptive)

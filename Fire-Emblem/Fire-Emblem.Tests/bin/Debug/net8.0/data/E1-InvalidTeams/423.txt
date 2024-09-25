@@ -1,0 +1,8 @@
+Player 1 Team
+Alm (Sword Agility)
+Celica (Bow Focus)
+Marth (Alacrity)
+Player 2 Team
+Marth (Death Blow)
+Lucina (Arms Shield)
+Marth (Windsweep)

@@ -1,0 +1,8 @@
+Player 1 Team
+Eliwood
+Corrin
+Eirika
+Player 2 Team
+Dimitri (Lance Guard)
+Soren (Prescience,Magic Guard)
+Tiki

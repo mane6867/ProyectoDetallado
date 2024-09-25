@@ -1,0 +1,7 @@
+Player 1 Team
+Lucina (Windsweep,Hliðskjálf)
+Sigurd (Nosferatu,Fury)
+Seliph (Spd/Def Push,Atk/Def Push)
+Player 2 Team
+Eirika (True Dragon Wall,Sol)
+Marth (Eclipse Brace,Atk/Def Push)

@@ -1,0 +1,8 @@
+Player 1 Team
+Chrom (Wyvern Flight)
+Marth
+Shez
+Player 2 Team
+Edelgard (Wyvern Flight)
+Robin
+Tiki (Wyvern Flight)

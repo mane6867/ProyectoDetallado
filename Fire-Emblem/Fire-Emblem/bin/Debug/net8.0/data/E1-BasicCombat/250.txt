@@ -1,0 +1,8 @@
+Player 1 Team
+Byleth
+Dimitri
+Marth
+Player 2 Team
+Celica
+Lyn
+Leif

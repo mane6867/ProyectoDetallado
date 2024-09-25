@@ -1,0 +1,7 @@
+Player 1 Team
+Ike
+Roy
+Player 2 Team
+Soren
+Seliph
+Shez

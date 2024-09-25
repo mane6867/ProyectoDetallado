@@ -1,0 +1,6 @@
+Player 1 Team
+Celica
+Marth
+Player 2 Team
+Leif
+Sigurd

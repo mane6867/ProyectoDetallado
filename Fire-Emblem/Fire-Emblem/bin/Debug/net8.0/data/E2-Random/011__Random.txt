@@ -1,0 +1,4 @@
+Player 1 Team
+Alm (Atk/Res +5,Defense +5)
+Player 2 Team
+Hector (Warding Blow)

@@ -1,0 +1,8 @@
+Player 1 Team
+Eliwood (Fury)
+Eirika (Fury)
+Corrin (Def/Res Push)
+Player 2 Team
+Seliph (Atk/Def Push)
+Byleth (Sol)
+Eliwood (Def/Res Push,Nosferatu)

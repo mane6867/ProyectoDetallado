@@ -1,0 +1,5 @@
+Player 1 Team
+Veronica (Warding Blow)
+Hector (Atk/Res +5)
+Player 2 Team
+Eliwood (Spd/Res +5)

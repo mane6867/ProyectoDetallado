@@ -1,0 +1,8 @@
+Player 1 Team
+Leif
+Chrom
+Shez
+Player 2 Team
+Ephraim
+Camilla
+Soren

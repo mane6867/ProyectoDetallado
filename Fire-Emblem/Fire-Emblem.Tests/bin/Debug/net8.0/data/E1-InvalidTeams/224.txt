@@ -1,0 +1,5 @@
+Player 1 Team
+Ike (Brash Assault)
+Marth (Sturdy Stance)
+Player 2 Team
+Chrom (Aegis Shield,Earth Boost,Flow Refresh,Brazen Spd/Def)

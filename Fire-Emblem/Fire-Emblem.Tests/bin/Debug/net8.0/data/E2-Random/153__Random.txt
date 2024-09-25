@@ -1,0 +1,8 @@
+Player 1 Team
+Robin
+Eliwood (Armored Blow,Resistance +5)
+Byleth
+Player 2 Team
+Eliwood
+Roy (Life and Death)
+Claude (Luna,Agnea's Arrow)

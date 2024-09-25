@@ -1,0 +1,7 @@
+Player 1 Team
+Roy (Binding Shield,Brazen Def/Res,Def/Res Push,Sword Agility)
+Veronica (Light and Dark,Vantage)
+Player 2 Team
+Tiki (Sword Agility)
+Alear (Bow Guard)
+Claude (Nosferatu)

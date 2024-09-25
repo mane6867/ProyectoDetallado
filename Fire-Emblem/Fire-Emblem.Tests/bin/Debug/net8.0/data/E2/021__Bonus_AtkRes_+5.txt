@@ -1,0 +1,7 @@
+Player 1 Team
+Edelgard (Atk/Res +5)
+Eirika
+Player 2 Team
+Soren
+Celica
+Lucina (Atk/Res +5)

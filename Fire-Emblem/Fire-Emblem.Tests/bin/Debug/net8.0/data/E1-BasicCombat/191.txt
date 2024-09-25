@@ -1,0 +1,8 @@
+Player 1 Team
+Dimitri
+Leif
+Alm
+Player 2 Team
+Tiki
+Hector
+Lucina

@@ -1,0 +1,5 @@
+Player 1 Team
+Alear (Defense +5)
+Player 2 Team
+Celica (Defense +5)
+Hector (Defense +5)

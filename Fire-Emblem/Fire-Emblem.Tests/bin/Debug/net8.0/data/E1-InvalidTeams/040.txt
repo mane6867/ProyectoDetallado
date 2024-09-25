@@ -1,0 +1,6 @@
+Player 1 Team
+Byleth (Wrath,Nosferatu,Chivalry,Close Def)
+Chrom (Spd/Def +5)
+Roy (Armored Blow)
+Player 2 Team
+Celica (New Divinity)

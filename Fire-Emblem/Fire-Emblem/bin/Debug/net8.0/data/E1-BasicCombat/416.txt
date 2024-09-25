@@ -1,0 +1,8 @@
+Player 1 Team
+Leif
+Soren
+Chrom
+Player 2 Team
+Eirika
+Seliph
+Robin

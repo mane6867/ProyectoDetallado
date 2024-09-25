@@ -1,0 +1,6 @@
+Player 1 Team
+Ike (Darting Blow)
+Chrom (Brazen Atk/Def,Brazen Atk/Spd)
+Player 2 Team
+Dimitri (Mirror Strike)
+Sigurd (Single-Minded)

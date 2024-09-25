@@ -1,0 +1,8 @@
+Player 1 Team
+Chrom
+Micaiah
+Edelgard
+Player 2 Team
+Shez
+Robin
+Byleth

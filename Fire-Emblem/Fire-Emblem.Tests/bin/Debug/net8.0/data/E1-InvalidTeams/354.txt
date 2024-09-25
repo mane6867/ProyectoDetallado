@@ -1,0 +1,9 @@
+Player 1 Team
+Alear (Lull Def/Res)
+Camilla (Deadly Blade)
+Robin (Def/Res Push)
+Lucina (Soulblade)
+Player 2 Team
+Lucina (Back at You)
+Hector (Sword Agility)
+Ephraim (Spd/Def +5)

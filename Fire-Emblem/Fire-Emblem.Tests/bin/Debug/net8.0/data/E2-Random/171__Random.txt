@@ -1,0 +1,6 @@
+Player 1 Team
+Leif (HP +15)
+Alear (Sturdy Blow)
+Edelgard (Sword Power)
+Player 2 Team
+Ike (Lull Spd/Def,Axe Power)

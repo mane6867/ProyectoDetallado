@@ -1,0 +1,7 @@
+Player 1 Team
+Marth
+Chrom
+Celica
+Player 2 Team
+Seliph
+Sigurd

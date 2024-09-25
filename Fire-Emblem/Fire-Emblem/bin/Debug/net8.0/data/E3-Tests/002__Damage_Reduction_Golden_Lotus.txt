@@ -1,0 +1,182 @@
+Elige un archivo para cargar los equipos
+0: 000__Damage_Reduction_Dodge.txt
+1: 001__Damage_Reduction_Dragon_Wall.txt
+2: 002__Damage_Reduction_Golden_Lotus.txt
+3: 003__Hybrid_Aegis_Shield.txt
+4: 004__Hybrid_Blue_Skies.txt
+5: 005__Hybrid_Bracing_Stance.txt
+6: 006__Hybrid_Bushido.txt
+7: 007__Hybrid_Chivalry.txt
+8: 008__Hybrid_Darting_Stance.txt
+9: 009__Hybrid_Divine_Recreation.txt
+10: 010__Hybrid_Dragons_Wrath.txt
+11: 011__Hybrid_Extra_Chivalry.txt
+12: 012__Hybrid_Extra_Chivalry.txt
+13: 013__Hybrid_Fierce_Stance.txt
+14: 014__Hybrid_Guard_Bearing.txt
+15: 015__Hybrid_Guard_Bearing.txt
+16: 016__Hybrid_Kestrel_Stance.txt
+17: 017__Hybrid_Laguz_Friend.txt
+18: 018__Hybrid_Mirror_Stance.txt
+19: 019__Hybrid_Moon-Twin_wing.txt
+20: 020__Hybrid_Moon-Twin_wing.txt
+21: 021__Hybrid_Poetic_Justice.txt
+22: 022__Hybrid_Prescience.txt
+23: 023__Hybrid_Prescience.txt
+24: 024__Hybrid_Remote_Mirror.txt
+25: 025__Hybrid_Remote_Sparrow.txt
+26: 026__Hybrid_Remote_Sturdy.txt
+27: 027__Hybrid_Steady_Posture.txt
+28: 028__Hybrid_Steady_Stance.txt
+29: 029__Hybrid_SturdyStance.txt
+30: 030__Hybrid_Swift_Stance.txt
+31: 031__Hybrid_Warding_Stance.txt
+32: 433__True_Damage_Back_at_You.txt
+33: 434__True_Damage_Back_at_You.txt
+34: 435__True_Damage_Bravery.txt
+35: 436__True_Damage_Lunar_Brace.txt
+36: 437__True_Damage_Lunar_Brace.txt
+37: 438__True_Defense_Arms_Shield.txt
+38: 439__True_Defense_Arms_Shield.txt
+39: 440__True_Defense_Axe_Guard.txt
+40: 441__True_Defense_Bow_Guard.txt
+41: 442__True_Defense_Gentility.txt
+42: 443__True_Defense_Lance_Guard.txt
+43: 444__True_Defense_Magic_Guard.txt
+44: 445__True_Defense_Sympathetic.txt
+INPUT: 2
+Player 1 selecciona una opción
+0: Edelgard
+1: Claude
+2: Byleth
+INPUT: 0
+Player 2 selecciona una opción
+0: Edelgard
+1: Shez
+2: Dimitri
+INPUT: 1
+Round 1: Edelgard (Player 1) comienza
+Shez (Sword) tiene ventaja con respecto a Edelgard (Axe)
+Edelgard reducirá el daño del primer ataque del rival en un 50%
+Edelgard ataca a Shez con 19 de daño
+Shez ataca a Edelgard con 10 de daño
+Shez ataca a Edelgard con 20 de daño
+Edelgard (29) : Shez (32)
+Player 2 selecciona una opción
+0: Edelgard
+1: Shez
+2: Dimitri
+INPUT: 2
+Player 1 selecciona una opción
+0: Edelgard
+1: Claude
+2: Byleth
+INPUT: 0
+Round 2: Dimitri (Player 2) comienza
+Edelgard (Axe) tiene ventaja con respecto a Dimitri (Lance)
+Edelgard reducirá el daño del primer ataque del rival en un 50%
+Dimitri ataca a Edelgard con 1 de daño
+Edelgard ataca a Dimitri con 39 de daño
+Dimitri ataca a Edelgard con 3 de daño
+Dimitri (14) : Edelgard (25)
+Player 1 selecciona una opción
+0: Edelgard
+1: Claude
+2: Byleth
+INPUT: 0
+Player 2 selecciona una opción
+0: Edelgard
+1: Shez
+2: Dimitri
+INPUT: 0
+Round 3: Edelgard (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Edelgard reducirá el daño del primer ataque del rival en un 50%
+Edelgard reducirá el daño del primer ataque del rival en un 50%
+Edelgard ataca a Edelgard con 11 de daño
+Edelgard ataca a Edelgard con 11 de daño
+Ninguna unidad puede hacer un follow up
+Edelgard (14) : Edelgard (48)
+Player 2 selecciona una opción
+0: Edelgard
+1: Shez
+2: Dimitri
+INPUT: 0
+Player 1 selecciona una opción
+0: Edelgard
+1: Claude
+2: Byleth
+INPUT: 1
+Round 4: Edelgard (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Edelgard reducirá el daño del primer ataque del rival en un 50%
+Edelgard ataca a Claude con 40 de daño
+Claude ataca a Edelgard con 5 de daño
+Claude ataca a Edelgard con 11 de daño
+Edelgard (32) : Claude (14)
+Player 1 selecciona una opción
+0: Edelgard
+1: Claude
+2: Byleth
+INPUT: 2
+Player 2 selecciona una opción
+0: Edelgard
+1: Shez
+2: Dimitri
+INPUT: 0
+Round 5: Byleth (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Byleth ataca a Edelgard con 17 de daño
+Edelgard ataca a Byleth con 38 de daño
+Byleth ataca a Edelgard con 17 de daño
+Byleth (15) : Edelgard (0)
+Player 2 selecciona una opción
+0: Shez
+1: Dimitri
+INPUT: 0
+Player 1 selecciona una opción
+0: Edelgard
+1: Claude
+2: Byleth
+INPUT: 0
+Round 6: Shez (Player 2) comienza
+Shez (Sword) tiene ventaja con respecto a Edelgard (Axe)
+Edelgard reducirá el daño del primer ataque del rival en un 50%
+Shez ataca a Edelgard con 10 de daño
+Edelgard ataca a Shez con 19 de daño
+Shez ataca a Edelgard con 20 de daño
+Shez (13) : Edelgard (0)
+Player 1 selecciona una opción
+0: Claude
+1: Byleth
+INPUT: 0
+Player 2 selecciona una opción
+0: Shez
+1: Dimitri
+INPUT: 0
+Round 7: Claude (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Claude ataca a Shez con 23 de daño
+Claude (14) : Shez (0)
+Player 2 selecciona una opción
+0: Dimitri
+INPUT: 0
+Player 1 selecciona una opción
+0: Claude
+1: Byleth
+INPUT: 0
+Round 8: Dimitri (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Dimitri ataca a Claude con 35 de daño
+Dimitri (14) : Claude (0)
+Player 1 selecciona una opción
+0: Byleth
+INPUT: 0
+Player 2 selecciona una opción
+0: Dimitri
+INPUT: 0
+Round 9: Byleth (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Byleth ataca a Dimitri con 36 de daño
+Byleth (15) : Dimitri (0)
+Player 1 ganó

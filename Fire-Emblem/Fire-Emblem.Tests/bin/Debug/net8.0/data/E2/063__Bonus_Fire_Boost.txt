@@ -1,0 +1,5 @@
+Player 1 Team
+Marth (Fire Boost)
+Player 2 Team
+Lyn (Fire Boost)
+Soren (Fire Boost)

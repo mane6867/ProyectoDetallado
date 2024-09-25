@@ -1,0 +1,7 @@
+Player 1 Team
+Lucina
+Sigurd
+Player 2 Team
+Alm
+Seliph
+Eirika

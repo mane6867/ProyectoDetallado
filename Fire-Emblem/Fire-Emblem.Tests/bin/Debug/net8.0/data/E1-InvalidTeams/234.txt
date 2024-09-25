@@ -1,0 +1,9 @@
+Player 1 Team
+Claude (Laws of Sacae)
+Robin (Defense +5)
+Eliwood (Sympathetic)
+Player 2 Team
+Ephraim (Axe Guard)
+Tiki (Armored Blow)
+Chrom (Lull Spd/Res)
+Dimitri (Spd/Def +5)

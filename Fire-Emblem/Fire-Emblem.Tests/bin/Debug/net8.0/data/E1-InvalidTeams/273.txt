@@ -1,0 +1,9 @@
+Player 1 Team
+Chrom (Brazen Spd/Def)
+Micaiah (Hold Out)
+Hector (Dragon's Ire)
+Byleth (Belief in Love)
+Player 2 Team
+Ike (Spd Preempt)
+Marth (Mirror Strike)
+Lyn (Chivalry)

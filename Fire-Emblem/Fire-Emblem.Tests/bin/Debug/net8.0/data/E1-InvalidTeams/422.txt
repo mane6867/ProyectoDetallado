@@ -1,0 +1,5 @@
+Player 1 Team
+Ike (Atk/Spd Push)
+Lyn (Brazen Spd/Res)
+Player 2 Team
+Tiki (Aegis Shield,Aegis Shield)

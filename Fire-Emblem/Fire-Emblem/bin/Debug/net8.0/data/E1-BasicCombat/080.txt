@@ -1,0 +1,5 @@
+Player 1 Team
+Byleth
+Player 2 Team
+Marth
+Eirika

@@ -1,0 +1,7 @@
+Player 1 Team
+Chrom (Lull Atk/Spd)
+Micaiah (Lull Atk/Spd)
+Player 2 Team
+Hector
+Robin
+Eliwood

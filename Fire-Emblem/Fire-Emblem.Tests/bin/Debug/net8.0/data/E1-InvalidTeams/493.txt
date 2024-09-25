@@ -1,0 +1,6 @@
+Player 1 Team
+Lucina (Guard Bearing)
+Roy (Swift Impact)
+Byleth (Speed +5)
+Player 2 Team
+Shez (Phys. Null Follow,Mystic Boost,Atk/Res Push)

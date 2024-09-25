@@ -1,0 +1,8 @@
+Player 1 Team
+Eliwood (Brazen Spd/Res)
+Claude (Flow Flight)
+Soren (Atk/Spd Push)
+Shez (Duality)
+Ike (Spd/Res Push)
+Player 2 Team
+Dimitri (Death Blow)

@@ -1,0 +1,9 @@
+Player 1 Team
+Robin (Life and Death)
+Hector (Defense +5)
+Player 2 Team
+Eirika (Axe Guard)
+Camilla (Atk/Spd +5)
+Shez (Deadly Blade)
+Byleth (Wind Boost)
+Corrin (Swift Sparrow)

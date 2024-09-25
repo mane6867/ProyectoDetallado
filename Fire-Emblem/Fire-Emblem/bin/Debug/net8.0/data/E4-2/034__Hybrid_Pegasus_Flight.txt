@@ -1,0 +1,6 @@
+Player 1 Team
+Chrom (Pegasus Flight)
+Roy
+Marth
+Player 2 Team
+Tiki (Pegasus Flight)

@@ -1,0 +1,8 @@
+Player 1 Team
+Soren
+Tiki
+Claude
+Player 2 Team
+Claude
+Eliwood
+Soren

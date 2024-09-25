@@ -1,0 +1,8 @@
+Player 1 Team
+Celica (Swift Sparrow)
+Edelgard (Bracing Blow,Perceptive)
+Veronica (Lance Agility)
+Player 2 Team
+Sigurd (Blinding Flash,Fair Fight)
+Roy
+Ephraim

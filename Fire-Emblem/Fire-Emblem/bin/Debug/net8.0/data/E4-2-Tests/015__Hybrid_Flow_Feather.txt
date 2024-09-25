@@ -1,0 +1,209 @@
+Elige un archivo para cargar los equipos
+0: 000__Defensive_Null_Follow-Up_Piercing_Tribute.txt
+1: 001__Follow-Up_Denial_Wary_Fighter.txt
+2: 002__Follow-Up_Denial_Wary_Fighter.txt
+3: 003__Guaranteed_Follow-Up_Follow-Up_Ring.txt
+4: 004__Guaranteed_Follow-Up_Quick_Riposte.txt
+5: 005__Guaranteed_Follow-Up_Quick_Riposte.txt
+6: 006__Hybrid_Binding_Shield.txt
+7: 007__Hybrid_Black_Eagle_Rule.txt
+8: 008__Hybrid_Black_Eagle_Rule.txt
+9: 009__Hybrid_Blue_Lion_rule.txt
+10: 010__Hybrid_Blue_Lion_rule.txt
+11: 011__Hybrid_Brash_Assault.txt
+12: 012__Hybrid_Brash_Assault.txt
+13: 013__Hybrid_Brash_Assault.txt
+14: 014__Hybrid_Dragons_Ire.txt
+15: 015__Hybrid_Flow_Feather.txt
+16: 016__Hybrid_Flow_Feather.txt
+17: 017__Hybrid_Flow_Flight.txt
+18: 018__Hybrid_Flow_Flight.txt
+19: 019__Hybrid_Flow_Force.txt
+20: 020__Hybrid_Flow_Refresh.txt
+21: 021__Hybrid_Mag_Null_Follow.txt
+22: 022__Hybrid_Melee_Breaker.txt
+23: 023__Hybrid_Melee_Breaker.txt
+24: 024__Hybrid_Melee_Breaker.txt
+25: 025__Hybrid_Melee_Breaker.txt
+26: 026__Hybrid_Melee_Breaker.txt
+27: 027__Hybrid_Melee_Breaker.txt
+28: 028__Hybrid_Melee_Breaker.txt
+29: 029__Hybrid_Mirror_Impact.txt
+30: 030__Hybrid_New_Divinity.txt
+31: 031__Hybrid_New_Divinity.txt
+32: 032__Hybrid_Null_Follow-Up.txt
+33: 033__Hybrid_Pegasus_Flight.txt
+34: 034__Hybrid_Pegasus_Flight.txt
+35: 035__Hybrid_Pegasus_Flight.txt
+36: 036__Hybrid_Pegasus_Flight.txt
+37: 037__Hybrid_Pegasus_Flight.txt
+38: 038__Hybrid_Pegasus_Flight.txt
+39: 039__Hybrid_Pegasus_Flight.txt
+40: 040__Hybrid_Phys_Null_Follow.txt
+41: 041__Hybrid_Range_Breaker.txt
+42: 042__Hybrid_Range_Breaker.txt
+43: 043__Hybrid_Range_Breaker.txt
+44: 044__Hybrid_Range_Breaker.txt
+45: 045__Hybrid_Range_Breaker.txt
+46: 046__Hybrid_Range_Breaker.txt
+47: 047__Hybrid_Range_Breaker.txt
+48: 048__Hybrid_Range_Breaker.txt
+49: 049__Hybrid_Range_Breaker.txt
+50: 050__Hybrid_Savvy_Fighter.txt
+51: 051__Hybrid_Wily_Fighter.txt
+52: 052__Hybrid_Steady_Impact.txt
+53: 053__Hybrid_Sturdy_Impact.txt
+54: 054__Hybrid_Sun-Twin_wing.txt
+55: 055__Hybrid_Sun-Twin_wing.txt
+56: 056__Hybrid_Swift_Impact.txt
+57: 057__Hybrid_Slick_Fighter.txt
+58: 058__Hybrid_Wyvern_Flight.txt
+59: 059__Hybrid_Wyvern_Flight.txt
+60: 060__Hybrid_Wyvern_Flight.txt
+61: 061__Hybrid_Wyvern_Flight.txt
+62: 062__Offensive_Null_Follow-Up_Mjölnir.txt
+INPUT: 15
+Player 1 selecciona una opción
+0: Eliwood
+1: Ike
+2: Tiki
+INPUT: 0
+Player 2 selecciona una opción
+0: Marth
+1: Micaiah
+2: Alear
+INPUT: 2
+Round 1: Eliwood (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Eliwood es inmune a los efectos que neutralizan su follow up
+Eliwood ataca a Alear con 26 de daño
+Alear ataca a Eliwood con 23 de daño
+Alear ataca a Eliwood con 23 de daño
+Eliwood (5) : Alear (25)
+Player 2 selecciona una opción
+0: Marth
+1: Micaiah
+2: Alear
+INPUT: 1
+Player 1 selecciona una opción
+0: Eliwood
+1: Ike
+2: Tiki
+INPUT: 1
+Round 2: Micaiah (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Micaiah realizará +7 daño extra en cada ataque
+Micaiah recibirá -7 daño en cada ataque
+Micaiah es inmune a los efectos que neutralizan su follow up
+Micaiah ataca a Ike con 43 de daño
+Ike ataca a Micaiah con 30 de daño
+Ninguna unidad puede hacer un follow up
+Micaiah (20) : Ike (13)
+Player 1 selecciona una opción
+0: Eliwood
+1: Ike
+2: Tiki
+INPUT: 2
+Player 2 selecciona una opción
+0: Marth
+1: Micaiah
+2: Alear
+INPUT: 0
+Round 3: Tiki (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Tiki realizará +1 daño extra en cada ataque
+Tiki recibirá -1 daño en cada ataque
+Tiki es inmune a los efectos que neutralizan su follow up
+Tiki ataca a Marth con 25 de daño
+Marth ataca a Tiki con 14 de daño
+Marth ataca a Tiki con 14 de daño
+Tiki (31) : Marth (29)
+Player 2 selecciona una opción
+0: Marth
+1: Micaiah
+2: Alear
+INPUT: 0
+Player 1 selecciona una opción
+0: Eliwood
+1: Ike
+2: Tiki
+INPUT: 2
+Round 4: Marth (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Marth ataca a Tiki con 15 de daño
+Tiki ataca a Marth con 24 de daño
+Marth ataca a Tiki con 15 de daño
+Marth (5) : Tiki (1)
+Player 1 selecciona una opción
+0: Eliwood
+1: Ike
+2: Tiki
+INPUT: 2
+Player 2 selecciona una opción
+0: Marth
+1: Micaiah
+2: Alear
+INPUT: 0
+Round 5: Tiki (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Tiki realizará +1 daño extra en cada ataque
+Tiki recibirá -1 daño en cada ataque
+Tiki es inmune a los efectos que neutralizan su follow up
+Tiki ataca a Marth con 25 de daño
+Tiki (1) : Marth (0)
+Player 2 selecciona una opción
+0: Micaiah
+1: Alear
+INPUT: 0
+Player 1 selecciona una opción
+0: Eliwood
+1: Ike
+2: Tiki
+INPUT: 1
+Round 6: Micaiah (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Micaiah realizará +7 daño extra en cada ataque
+Micaiah recibirá -7 daño en cada ataque
+Micaiah es inmune a los efectos que neutralizan su follow up
+Micaiah ataca a Ike con 43 de daño
+Micaiah (20) : Ike (0)
+Player 1 selecciona una opción
+0: Eliwood
+1: Tiki
+INPUT: 0
+Player 2 selecciona una opción
+0: Micaiah
+1: Alear
+INPUT: 1
+Round 7: Eliwood (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Eliwood es inmune a los efectos que neutralizan su follow up
+Eliwood ataca a Alear con 26 de daño
+Eliwood (5) : Alear (0)
+Player 2 selecciona una opción
+0: Micaiah
+INPUT: 0
+Player 1 selecciona una opción
+0: Eliwood
+1: Tiki
+INPUT: 0
+Round 8: Micaiah (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Micaiah realizará +7 daño extra en cada ataque
+Micaiah recibirá -7 daño en cada ataque
+Micaiah es inmune a los efectos que neutralizan su follow up
+Micaiah ataca a Eliwood con 49 de daño
+Micaiah (20) : Eliwood (0)
+Player 1 selecciona una opción
+0: Tiki
+INPUT: 0
+Player 2 selecciona una opción
+0: Micaiah
+INPUT: 0
+Round 9: Tiki (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Tiki es inmune a los efectos que neutralizan su follow up
+Tiki ataca a Micaiah con 11 de daño
+Micaiah ataca a Tiki con 29 de daño
+Tiki (0) : Micaiah (9)
+Player 2 ganó

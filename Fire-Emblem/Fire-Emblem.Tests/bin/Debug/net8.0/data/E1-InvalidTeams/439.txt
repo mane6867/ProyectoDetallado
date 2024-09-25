@@ -1,0 +1,6 @@
+Player 1 Team
+Eirika (Mag. Null Follow)
+Celica (Atk/Def Push)
+Player 2 Team
+Hector (Mag. Null Follow,Slick Fighter,Axe Power,Magic Guard)
+Claude (Spd/Def +5,Poetic Justice)

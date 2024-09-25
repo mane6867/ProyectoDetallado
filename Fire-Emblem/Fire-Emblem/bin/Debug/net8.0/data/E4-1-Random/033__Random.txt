@@ -1,0 +1,7 @@
+Player 1 Team
+Robin (Steady Posture)
+Lucina (Spd/Def Push,True Dragon Wall)
+Edelgard (Brazen Spd/Def)
+Player 2 Team
+Lucina
+Seliph (Dodge)

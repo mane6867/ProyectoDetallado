@@ -1,0 +1,5 @@
+Player 1 Team
+Chrom
+Lucina (Atk/Res +5)
+Player 2 Team
+Byleth (Fire Boost)

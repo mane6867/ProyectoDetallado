@@ -1,0 +1,6 @@
+Player 1 Team
+Hector (Slick Fighter,Quick Riposte)
+Leif (Phys. Null Follow,Mag. Null Follow)
+Player 2 Team
+Seliph (Wily Fighter)
+Ike

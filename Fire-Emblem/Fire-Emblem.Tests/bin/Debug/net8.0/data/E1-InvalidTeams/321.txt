@@ -1,0 +1,8 @@
+Player 1 Team
+Eliwood (Bracing Blow)
+Player 2 Team
+Marth (Phys. Null Follow)
+Micaiah (Sturdy Stance)
+Byleth (Mercy)
+Soren (Def/Res Push)
+Veronica (Fair Fight)

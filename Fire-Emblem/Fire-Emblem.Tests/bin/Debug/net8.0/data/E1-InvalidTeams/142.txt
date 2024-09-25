@@ -1,0 +1,7 @@
+Player 1 Team
+Robin (Speed +5)
+Dimitri (Sturdy Impact)
+Tiki (Laguz Friend)
+Player 2 Team
+Seliph (Atk/Def +5,Atk/Def +5)
+Eliwood (Lull Atk/Def)

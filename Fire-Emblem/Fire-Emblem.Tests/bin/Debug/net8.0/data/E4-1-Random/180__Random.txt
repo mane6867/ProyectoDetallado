@@ -1,0 +1,6 @@
+Player 1 Team
+Ephraim (Spd/Def Push,Atk/Res Push)
+Hector (Atk/Def Push)
+Player 2 Team
+Hector
+Ephraim (Mystic Boost)

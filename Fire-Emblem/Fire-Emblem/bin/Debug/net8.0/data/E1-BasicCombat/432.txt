@@ -1,0 +1,6 @@
+Player 1 Team
+Chrom
+Claude
+Leif
+Player 2 Team
+Seliph

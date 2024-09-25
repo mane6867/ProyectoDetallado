@@ -1,0 +1,8 @@
+Player 1 Team
+Ike
+Celica
+Eirika
+Player 2 Team
+Leif
+Edelgard
+Claude

@@ -1,0 +1,10 @@
+Player 1 Team
+Camilla (Light and Dark)
+Eirika (Pegasus Flight)
+Celica (Sun-Twin Wing)
+Player 2 Team
+Byleth (Lull Atk/Spd)
+Ike (Brazen Def/Res)
+Robin (Quick Riposte)
+Alm (Stunning Smile)
+Marth (HP +15)

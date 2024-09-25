@@ -1,0 +1,5 @@
+Player 1 Team
+Chrom (Fierce Stance)
+Tiki (Flow Feather,Hliðskjálf)
+Player 2 Team
+Claude (Guard Bearing,Spd/Def Push)

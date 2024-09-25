@@ -1,0 +1,5 @@
+Player 1 Team
+Chrom (Resistance +5)
+Leif (Resistance +5)
+Player 2 Team
+Leif

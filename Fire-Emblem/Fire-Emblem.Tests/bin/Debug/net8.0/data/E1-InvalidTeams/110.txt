@@ -1,0 +1,8 @@
+Player 1 Team
+Chrom (Sword Agility)
+Micaiah (Chaos Style)
+Micaiah (Brazen Atk/Def)
+Player 2 Team
+Roy (Luna)
+Ephraim (Surprise Attack)
+Veronica (Lance Guard)

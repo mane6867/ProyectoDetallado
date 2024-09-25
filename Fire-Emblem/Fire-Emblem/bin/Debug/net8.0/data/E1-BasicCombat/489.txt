@@ -1,0 +1,8 @@
+Player 1 Team
+Camilla
+Roy
+Eliwood
+Player 2 Team
+Micaiah
+Sigurd
+Celica

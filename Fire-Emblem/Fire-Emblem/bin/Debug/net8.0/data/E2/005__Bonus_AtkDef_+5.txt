@@ -1,0 +1,8 @@
+Player 1 Team
+Roy
+Eliwood
+Ephraim (Atk/Def +5)
+Player 2 Team
+Claude (Atk/Def +5)
+Chrom (Atk/Def +5)
+Corrin (Atk/Def +5)

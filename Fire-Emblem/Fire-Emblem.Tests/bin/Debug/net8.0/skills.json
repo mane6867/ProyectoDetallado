@@ -1,0 +1,718 @@
+[
+  {
+    "Name": "Fair Fight",
+    "Description": "Si la unidad inicia el combate, otorga Atk+6 a la unidad y al rival durante el combate."
+  },
+  {
+    "Name": "Will to Win",
+    "Description": "Si el HP de la unidad está al 50% o menos al inicio del combate, otorga Atk+8 a la unidad durante el combate."
+  },
+  {
+    "Name": "Single-Minded",
+    "Description": "En un combate contra un rival que también es el oponente más reciente de la unidad, otorga Atk+8 a la unidad durante el combate."
+  },
+  {
+    "Name": "Blinding Flash",
+    "Description": "Si la unidad inicia el combate, inflige Spd-4 en el rival durante el combate."
+  },
+  {
+    "Name": "Not *Quite*",
+    "Description": "Si el rival inicia el combate, inflige Atk-4 en ese rival durante el combate"
+  },
+  {
+    "Name": "Stunning Smile",
+    "Description": "Si el rival es hombre, inflige Spd-8 en ese rival durante el combate."
+  },
+  {
+    "Name": "Disarming Sigh",
+    "Description": "Si el rival es hombre, inflige Atk-8 en ese rival durante el combate"
+  },
+  {
+    "Name": "Charmer",
+    "Description": "En un combate contra un rival que también es el oponente más reciente de la unidad, inflige Atk/Spd-3 en ese rival durante el combate."
+  },
+  {
+    "Name": "Golden Lotus",
+    "Description": "Reduce el daño del primer ataque del rival en un 50% si este hace daño físico."
+  },
+  {
+    "Name": "Ignis",
+    "Description": "Otorga Atk+50% al primer ataque de la unidad. (Considere esto como un Bonus de Atk y el Atk como la base)."
+  },
+  {
+    "Name": "Sol",
+    "Description": "Por cada ataque, la unidad recupera HP=25% del daño infligido."
+  },
+  {
+    "Name": "Luna",
+    "Description": "Durante el primer ataque de la unidad, ignora la mitad de Def y Res base del rival. (Considere esta reduccion como un Penalty)."
+  },
+  {
+    "Name": "Sandstorm",
+    "Description": "Calcula el daño del Follow-Up utilizando el 150% de la Def base de la unidad en vez del Atk. (Considere esto un Bonus o un Penalty de Atk)."
+  },
+  {
+    "Name": "Back at You",
+    "Description": "Si el rival inicia el combate, la unidad inflige daño extra en cada ataque = mitad del HP que la unidad ha perdido (considera solo el HP perdido hasta el combate anterior)."
+  },
+  {
+    "Name": "Chaos Style",
+    "Description": "Si la unidad inicia el combate con un ataque físico contra un rival armado con magia, o viceversa, otorga Spd+3 durante el combate."
+  },
+  {
+    "Name": "Soulblade",
+    "Description": "Al atacar con una espada, el daño es calculado usando el promedio entre Def y Res base del rival. (Considere este como un bonus o un penalty a los stats correspondientes)."
+  },
+  {
+    "Name": "Perceptive",
+    "Description": "Si la unidad inicia el combate, otorga Spd+12 a la unidad durante el combate, y por cada cuatro puntos de Spd (sin contar bonus), la unidad gana Spd+1 adicional."
+  },
+  {
+    "Name": "Sword Agility",
+    "Description": "Si la unidad usa espada, otorga Spd+12 a un costo de Atk-6 durante el combate"
+  },
+  {
+    "Name": "Tome Precision",
+    "Description": "Otorga Atk/Spd+6 al usar magia."
+  },
+  {
+    "Name": "Resonance",
+    "Description": "Si la unidad usa magia y si HP de la unidad >=2, la unidad pierde 1 HP al inicio del combate e inflige +3 de daño por ataque durante el combate."
+  },
+  {
+    "Name": "Lance Power",
+    "Description": "Otorga Atk+10 a un costo de Def-10 al usar una lanza"
+  },
+  {
+    "Name": "Vantage",
+    "Description": "Si el HP de la unidad está al 75% o menos y el rival inicia el combate, la unidad puede contraatacar antes del primer ataque del rival."
+  },
+  {
+    "Name": "Arms Shield",
+    "Description": "Si la unidad tiene ventaja de arma, la unidad recibe -7 de daño en cada ataque del rival."
+  },
+  {
+    "Name": "Attack +6",
+    "Description": "Otorga Atk+6"
+  },
+  {
+    "Name": "Hold Out",
+    "Description": "Si la unidad tiene 2 HP o más al inicio del combate y un ataque del rival puede matar a la unidad, esta sobrevive el combate con 1 HP."
+  },
+  {
+    "Name": "Sword Power",
+    "Description": "Otorga Atk+10 a un costo de Def-10 al usar una espada."
+  },
+  {
+    "Name": "Speed +5",
+    "Description": "Otorga Spd+5"
+  },
+  {
+    "Name": "Alacrity",
+    "Description": "Si la unidad inicia el combate con Spd de la unidad >= Spd del rival+5, el follow-up de la unidad ocurre antes del contraataque del rival."
+  },
+  {
+    "Name": "Bow Focus",
+    "Description": "Otorga Atk+10 a un costo de Res-10 al usar un arco."
+  },
+  {
+    "Name": "Gentility",
+    "Description": "La unidad recibe -5 de daño en cada ataque del rival"
+  },
+  {
+    "Name": "Lance Agility",
+    "Description": "Otorga Spd+12 a un costo de Atk-6 al usar una lanza"
+  },
+  {
+    "Name": "Lunar Brace",
+    "Description": "Si la unidad inicia el combate con un ataque físico, inflige daño extra=30% de la Def del rival en cada ataque."
+  },
+  {
+    "Name": "Bravery",
+    "Description": "La unidad inflige +5 de daño en cada ataque."
+  },
+  {
+    "Name": "Solar Brace",
+    "Description": "Si la unidad inicia el combate, recupera HP=50% del daño realizado en cada ataque."
+  },
+  {
+    "Name": "Blue Skies",
+    "Description": "La unidad recibe -5 de daño en cada ataque del rival e inflige +5 de daño en cada ataque."
+  },
+  {
+    "Name": "Eclipse Brace",
+    "Description": "Si la unidad inicia el combate, inflige daño extra=30% de la Def del rival en cada ataque físico y recupera HP=50% del daño realizado en cada ataque."
+  },
+  {
+    "Name": "Defense +5",
+    "Description": "Otorga Def+5"
+  },
+  {
+    "Name": "Axe Power",
+    "Description": "Otorga Atk+10 a un costo de Def-10 al usar un hacha."
+  },
+  {
+    "Name": "Wrath",
+    "Description": "Al inicio del combate, por cada punto de HP que la unidad ha perdido, otorga Atk/Spd+1 durante el combate. (Max +30)"
+  },
+  {
+    "Name": "Laguz Friend",
+    "Description": "La unidad recibe 50% menos daño, pero neutraliza todo Bonus a Def y Res y reduce estos stats en un 50% de su base. (Considere esta reducción como un Penalty)."
+  },
+  {
+    "Name": "Resolve",
+    "Description": "Si el HP de la unidad está al 75% o menos al inicio del combate, otorga Def/Res+7"
+  },
+  {
+    "Name": "Resistance +5",
+    "Description": "Otorga Res+5"
+  },
+  {
+    "Name": "Nosferatu",
+    "Description": "Al usar magia, la unidad recupera HP = 50% del daño realizado por cada ataque."
+  },
+  {
+    "Name": "Bow Agility",
+    "Description": "Otorga Spd+12 a un costo de Atk-6 al usar un arco"
+  },
+  {
+    "Name": "HP +15",
+    "Description": "Otorga max HP+15"
+  },
+  {
+    "Name": "Sword Focus",
+    "Description": "Otorga Atk+10 a un costo de Res-10 al usar una espada."
+  },
+  {
+    "Name": "Aegis Shield",
+    "Description": "Otorga Def+6 y Res+3. Reduce el daño a la mitad en el primer ataque del rival"
+  },
+  {
+    "Name": "Bow Guard",
+    "Description": "Si el rival usa un arco, la unidad recibe -5 daño en cada ataque del rival"
+  },
+  {
+    "Name": "Lightsphere",
+    "Description": "Si la unidad inicia el combate, reduce Atk y Spd del rival en la mitad de su base. (Considere esto como un Penalty)."
+  },
+  {
+    "Name": "Axe Guard",
+    "Description": "Si el rival usa hachas, la unidad recibe -5 daño en cada ataque del rival."
+  },
+  {
+    "Name": "Atk/Def +5",
+    "Description": "Otorga Atk+5 y Def+5"
+  },
+  {
+    "Name": "Quick Riposte",
+    "Description": "Si el HP de la unidad está al 60% o más y el rival inicia el combate, la unidad realizará un follow-up garantizado."
+  },
+  {
+    "Name": "Impenetrable",
+    "Description": "Si el rival inicia el combate, otorga Def/Res+30% durante el combate. (Considere esto como un Bonus y Def/Res como los stats base)."
+  },
+  {
+    "Name": "Magic Guard",
+    "Description": "Si el rival usa magia, la unidad recibe -5 daño en cada ataque del rival"
+  },
+  {
+    "Name": "Atk/Res +5",
+    "Description": "Otorga Atk+5 y Res+5"
+  },
+  {
+    "Name": "Flare",
+    "Description": "Si la unidad usa magia, inflige Res-20% en el rival (considere esto como un Penalty y Res como el valor base) y la unidad recupera el 50% del daño realizado por ataque."
+  },
+  {
+    "Name": "Lance Guard",
+    "Description": "Si el rival usa lanza, la unidad recibe -5 daño en cada ataque del rival"
+  },
+  {
+    "Name": "Spd/Res +5",
+    "Description": "Otorga Spd+5 y Res+5"
+  },
+  {
+    "Name": "Sympathetic",
+    "Description": "Si el rival inicia el combate y el HP de la unidad está al 50% o menos al inicio del combate, la unidad recibe -5 daño en cada ataque del rival."
+  },
+  {
+    "Name": "Deadly Blade",
+    "Description": "Si la unidad inicia el combate con una espada, otorga Atk/Spd+8 durante el combate"
+  },
+  {
+    "Name": "Windsweep",
+    "Description": "Si la unidad inicia el combate con una espada contra un rival que usa espadas, el rival no podrá contraatacar."
+  },
+  {
+    "Name": "Mercy",
+    "Description": "Otorga Atk+50. Si la unidad puede realizar un ataque que derrotaría al rival y el rival tiene 2 HP o más al inicio del combate, deja al rival con HP=1."
+  },
+  {
+    "Name": "Chivalry",
+    "Description": "Si la unidad inicia el combate contra un rival con HP=100%, la unidad inflige +2 daño en cada ataque y recibe -2 daño por cada ataque del rival."
+  },
+  {
+    "Name": "Belief in Love",
+    "Description": "Si el rival inicia el combate o tiene HP=100% al inicio del combate, inflige Atk/Def-5 en el rival durante el combate."
+  },
+  {
+    "Name": "Black Eagle Rule",
+    "Description": "Si el HP de la unidad está al 25% o más al inicio del combate, la unidad realiza un follow-up garantizado, y también, si el rival inicia el combate, reduce el daño del follow-up del rival en un 80%"
+  },
+  {
+    "Name": "Blue Lion Rule",
+    "Description": "Si Def de la unidad > Def el rival, reduce el daño de cada ataque del rival por un porcentaje=diferencia entre los stats x 4 (máx. 40%), y también, si el rival inicia el combate, la unidad realiza un follow-up garantizado."
+  },
+  {
+    "Name": "Dragon Wall",
+    "Description": "Si Res de la unidad > Res del rival, reduce el daño de cada ataque del rival por un porcentaje=diferencia entre los stats x 4 (máx. 40%)"
+  },
+  {
+    "Name": "Poetic Justice",
+    "Description": "Inflige Spd-4 en el rival durante el combate y la unidad inflige daño extra = 15% del ataque del rival."
+  },
+  {
+    "Name": "Dodge",
+    "Description": "Si Spd de la unidad > Spd del rival, reduce el daño de cada ataque del rival por un porcentaje=diferencia entre los stats x 4 (máx. 40%)"
+  },
+  {
+    "Name": "Melee Breaker",
+    "Description": "Si el HP de la unidad está al 50% o más al inicio del combate contra un rival que usa espada, lanza o hacha, la unidad hace un follow-up garantizado y el rival no puede realizar un follow-up."
+  },
+  {
+    "Name": "Range Breaker",
+    "Description": "Si el HP de la unidad está al 50% o más al inicio del combate contra un rival que usa magia o arco, la unidad hace un follow-up garantizado y el rival no puede realizar un follow-up."
+  },
+  {
+    "Name": "Surprise Attack",
+    "Description": "Si la unidad inicia el combate con un arco contra un rival que usa arcos, el rival no podrá contraatacar."
+  },
+  {
+    "Name": "Spd/Def +5",
+    "Description": "Otorga Spd+5 y Def+5."
+  },
+  {
+    "Name": "Atk/Spd +5",
+    "Description": "Otorga Atk+5 y Spd+5."
+  },
+  {
+    "Name": "Reprisal",
+    "Description": "Al inicio del combate, otorga Atk = mitad del HP que la unidad ha perdido."
+  },
+  {
+    "Name": "Hliðskjálf",
+    "Description": "Si la unidad inicia el combate con magia contra un rival que usa magia, el rival no podrá contraatacar."
+  },
+  {
+    "Name": "Close Def",
+    "Description": "Si el rival inicia el combate usando espada, lanza o hacha, otorga Def/Res+8 y neutraliza los bonus del rival durante el combate."
+  },
+  {
+    "Name": "Distant Def",
+    "Description": "Si el rival inicia el combate usando magia o arco, otorga Def/Res+8 y neutraliza los bonus del rival durante el combate."
+  },
+  {
+    "Name": "Fury",
+    "Description": "Otorga Atk/Spd/Def/Res+4. Después del combate, inflige 8 de daño en la unidad."
+  },
+  {
+    "Name": "Frenzy",
+    "Description": "Inflige Spd/Def-4 en el rival durante el combate. Si la Spd de la unidad > Spd del rival, reduce el daño de los ataques del rival durante el combate por un porcentaje = diferencia entre estos Stats x5 (máx. 50%). Si el HP de la unidad <= 50% y la unidad inicia el combate, la unidad puede hacer su Follow-Up antes que el rival pueda contraatacar."
+  },
+  {
+    "Name": "Pegasus Flight",
+    "Description": "Inflige Atk/Def-4 en el rival durante el combate. Al inicio del combate, si el Spd base de la unidad >= Spd base del rival-10, inflige penalty en Atk/Def del rival = 80% de la diferencia entre sus Res base (Res de la unidad menos Res del rival) (máx. -8), y también, si al inicio del combate, Spd+Res de la unidad > Spd+Res del rival, el rival no puede realizar un Follow-Up."
+  },
+  {
+    "Name": "Wyvern Flight",
+    "Description": "Inflige Atk/Def-4 en el rival durante el combate. Al inicio del combate, si el Spd base de la unidad >= Spd base del rival-10, inflige penalty en Atk/Def del rival = 80% de la diferencia entre sus Def base (Def de la unidad menos Def del rival) (máx. -8), y también, si al inicio del combate, Spd+Def de la unidad > Spd+Def del rival, el rival no puede realizar un Follow-Up."
+  },
+  {
+    "Name": "Null Follow-Up",
+    "Description": "Neutraliza los efectos que previenen los Follow-Up de la unidad y que garantizan los Follow-Up del rival."
+  },
+  {
+    "Name": "Null C-Disrupt",
+    "Description": "Neutraliza los efectos que previenen los contraataques de la unidad."
+  },
+  {
+    "Name": "Spd Preempt",
+    "Description": "Inflige Spd-4 en el rival durante el combate. Si el rival inicia el combate y usa magia o arcos y el Spd de la unidad > Spd del rival, la unidad puede contraatacar antes del primer ataque del rival."
+  },
+  {
+    "Name": "Mystic Boost",
+    "Description": "Inflige Atk-5 en el rival durante el combate. Restaura 10 HP a la unidad después del combate."
+  },
+  {
+    "Name": "Brash Assault",
+    "Description": "Si el HP de la unidad <= 99% y la unidad inicia el combate, o si el HP del rival = 100% y la unidad inicia el combate, inflige Def/Res-4 en el rival, reduce el daño del primer ataque del rival en un 30%, la unidad realiza un Follow-Up garantizado y hace daño extra en el siguiente ataque de la unidad = 30% del daño del primer ataque del rival antes de la reducción (solo el valor más alto es aplicado; no se acumula). Reinicia al final del combate."
+  },
+  {
+    "Name": "Beorc's Blessing",
+    "Description": "Neutraliza los bonus del rival durante el combate."
+  },
+  {
+    "Name": "Lull Atk/Spd",
+    "Description": "Inflige Atk/Spd-3 en el rival y neutraliza los bonus a Atk/Spd del rival durante el combate."
+  },
+  {
+    "Name": "Lull Atk/Def",
+    "Description": "Inflige Atk/Def-3 en el rival y neutraliza los bonus a Atk/Def del rival durante el combate."
+  },
+  {
+    "Name": "Lull Atk/Res",
+    "Description": "Inflige Atk/Res-3 en el rival y neutraliza los bonus a Atk/Res del rival durante el combate."
+  },
+  {
+    "Name": "Lull Spd/Def",
+    "Description": "Inflige Spd/Def-3 en el rival y neutraliza los bonus a Spd/Def del rival durante el combate."
+  },
+  {
+    "Name": "Lull Spd/Res",
+    "Description": "Inflige Spd/Res-3 en el rival y neutraliza los bonus a Spd/Res del rival durante el combate."
+  },
+  {
+    "Name": "Lull Def/Res",
+    "Description": "Inflige Def/Res-3 en el rival y neutraliza los bonus a Def/Res del rival durante el combate."
+  },
+  {
+    "Name": "Agnea's Arrow",
+    "Description": "Neutraliza los penaltis de la unidad."
+  },
+  {
+    "Name": "Death Blow",
+    "Description": "Si la unidad inicia el combate, otorga Atk+8 durante el combate."
+  },
+  {
+    "Name": "Darting Blow",
+    "Description": "Si la unidad inicia el combate, otorga Spd+8 durante el combate."
+  },
+  {
+    "Name": "Armored Blow",
+    "Description": "Si la unidad inicia el combate, otorga Def+8 durante el combate."
+  },
+  {
+    "Name": "Warding Blow",
+    "Description": "Si la unidad inicia el combate, otorga Res+8 durante el combate."
+  },
+  {
+    "Name": "Swift Sparrow",
+    "Description": "Si la unidad inicia el combate, otorga Atk/Spd+6 durante el combate."
+  },
+  {
+    "Name": "Sturdy Blow",
+    "Description": "Si la unidad inicia el combate, otorga Atk/Def+6 durante el combate."
+  },
+  {
+    "Name": "Mirror Strike",
+    "Description": "Si la unidad inicia el combate, otorga Atk/Res+6 durante el combate."
+  },
+  {
+    "Name": "Steady Blow",
+    "Description": "Si la unidad inicia el combate, otorga Spd/Def+6 durante el combate."
+  },
+  {
+    "Name": "Swift Strike",
+    "Description": "Si la unidad inicia el combate, otorga Spd/Res+6 durante el combate."
+  },
+  {
+    "Name": "Bracing Blow",
+    "Description": "Si la unidad inicia el combate, otorga Def/Res+6 durante el combate."
+  },
+  {
+    "Name": "Sturdy Impact",
+    "Description": "Si la unidad inicia el combate, otorga Atk+6, Def+10 y el rival no puede realizar un Follow-up."
+  },
+  {
+    "Name": "Mirror Impact",
+    "Description": "Si la unidad inicia el combate, otorga Atk+6, Res+10 y el rival no puede realizar un Follow-up."
+  },
+  {
+    "Name": "Steady Impact",
+    "Description": "Si la unidad inicia el combate, otorga Spd+6, Def+10 y el rival no puede realizar un Follow-up."
+  },
+  {
+    "Name": "Swift Impact",
+    "Description": "Si la unidad inicia el combate, otorga Spd+6, Res+10 y el rival no puede realizar un Follow-up."
+  },
+  {
+    "Name": "Remote Sparrow",
+    "Description": "Si la unidad inicia el combate, otorga Atk/Spd+7 y reduce el daño del primer ataque del rival en un 30%."
+  },
+  {
+    "Name": "Remote Mirror",
+    "Description": "Si la unidad inicia el combate, otorga Atk+7, Res+10 y reduce el daño del primer ataque del rival en un 30%."
+  },
+  {
+    "Name": "Remote Sturdy",
+    "Description": "Si la unidad inicia el combate, otorga Atk+7, Def+10 y reduce el daño del primer ataque del rival en un 30%."
+  },
+  {
+    "Name": "Fort. Def/Res",
+    "Description": "Otorga Def/Res+6. Inflige Atk-2."
+  },
+  {
+    "Name": "Life and Death",
+    "Description": "Otorga Atk/Spd+6. Inflige Def/Res-5."
+  },
+  {
+    "Name": "Solid Ground",
+    "Description": "Otorga Atk/Def+6. Inflige Res-5."
+  },
+  {
+    "Name": "Still Water",
+    "Description": "Otorga Atk/Res+6. Inflige Def-5."
+  },
+  {
+    "Name": "Atk/Spd Push",
+    "Description": "Al inicio del combate, si el HP de la unidad >= 25%, otorga Atk/Spd+7, pero si la unidad atacó, inflige 5 de daño en la unidad después del combate."
+  },
+  {
+    "Name": "Atk/Def Push",
+    "Description": "Al inicio del combate, si el HP de la unidad >= 25%, otorga Atk/Def+7, pero si la unidad atacó, inflige 5 de daño en la unidad después del combate."
+  },
+  {
+    "Name": "Atk/Res Push",
+    "Description": "Al inicio del combate, si el HP de la unidad >= 25%, otorga Atk/Res+7, pero si la unidad atacó, inflige 5 de daño en la unidad después del combate."
+  },
+  {
+    "Name": "Spd/Def Push",
+    "Description": "Al inicio del combate, si el HP de la unidad >= 25%, otorga Spd/Def+7, pero si la unidad atacó, inflige 5 de daño en la unidad después del combate."
+  },
+  {
+    "Name": "Spd/Res Push",
+    "Description": "Al inicio del combate, si el HP de la unidad >= 25%, otorga Spd/Res+7, pero si la unidad atacó, inflige 5 de daño en la unidad después del combate."
+  },
+  {
+    "Name": "Def/Res Push",
+    "Description": "Al inicio del combate, si el HP de la unidad >= 25%, otorga Def/Res+7, pero si la unidad atacó, inflige 5 de daño en la unidad después del combate."
+  },
+  {
+    "Name": "Brazen Atk/Spd",
+    "Description": "Al inicio del combate, si el HP de la unidad <= 80%, otorga Atk/Spd+10 durante el combate."
+  },
+  {
+    "Name": "Brazen Atk/Def",
+    "Description": "Al inicio del combate, si el HP de la unidad <= 80%, otorga Atk/Def+10 durante el combate."
+  },
+  {
+    "Name": "Brazen Atk/Res",
+    "Description": "Al inicio del combate, si el HP de la unidad <= 80%, otorga Atk/Res+10 durante el combate."
+  },
+  {
+    "Name": "Brazen Spd/Def",
+    "Description": "Al inicio del combate, si el HP de la unidad <= 80%, otorga Spd/Def+10 durante el combate."
+  },
+  {
+    "Name": "Brazen Spd/Res",
+    "Description": "Al inicio del combate, si el HP de la unidad <= 80%, otorga Spd/Res+10 durante el combate."
+  },
+  {
+    "Name": "Brazen Def/Res",
+    "Description": "Al inicio del combate, si el HP de la unidad <= 80%, otorga Def/Res+10 durante el combate."
+  },
+  {
+    "Name": "Fire Boost",
+    "Description": "Al inicio del combate, si el HP de la unidad >= HP del rival+3, otorga Atk+6 durante el combate."
+  },
+  {
+    "Name": "Wind Boost",
+    "Description": "Al inicio del combate, si el HP de la unidad >= HP del rival+3, otorga Spd+6 durante el combate."
+  },
+  {
+    "Name": "Earth Boost",
+    "Description": "Al inicio del combate, si el HP de la unidad >= HP del rival+3, otorga Def+6 durante el combate."
+  },
+  {
+    "Name": "Water Boost",
+    "Description": "Al inicio del combate, si el HP de la unidad >= HP del rival+3, otorga Res+6 durante el combate."
+  },
+  {
+    "Name": "Fierce Stance",
+    "Description": "Si el rival inicia el combate, otorga Atk+8 durante el combate y reduce el daño del Follow-Up del rival en un 10%."
+  },
+  {
+    "Name": "Darting Stance",
+    "Description": "Si el rival inicia el combate, otorga Spd+8 durante el combate y reduce el daño del Follow-Up del rival en un 10%."
+  },
+  {
+    "Name": "Steady Stance",
+    "Description": "Si el rival inicia el combate, otorga Def+8 durante el combate y reduce el daño del Follow-Up del rival en un 10%."
+  },
+  {
+    "Name": "Warding Stance",
+    "Description": "Si el rival inicia el combate, otorga Res+8 durante el combate y reduce el daño del Follow-Up del rival en un 10%."
+  },
+  {
+    "Name": "Kestrel Stance",
+    "Description": "Si el rival inicia el combate, otorga Atk/Spd+6 durante el combate y reduce el daño del Follow-Up del rival en un 10%."
+  },
+  {
+    "Name": "Sturdy Stance",
+    "Description": "Si el rival inicia el combate, otorga Atk/Def+6 durante el combate y reduce el daño del Follow-Up del rival en un 10%."
+  },
+  {
+    "Name": "Mirror Stance",
+    "Description": "Si el rival inicia el combate, otorga Atk/Res+6 durante el combate y reduce el daño del Follow-Up del rival en un 10%."
+  },
+  {
+    "Name": "Steady Posture",
+    "Description": "Si el rival inicia el combate, otorga Spd/Def+6 durante el combate y reduce el daño del Follow-Up del rival en un 10%."
+  },
+  {
+    "Name": "Swift Stance",
+    "Description": "Si el rival inicia el combate, otorga Spd/Res+6 durante el combate y reduce el daño del Follow-Up del rival en un 10%."
+  },
+  {
+    "Name": "Bracing Stance",
+    "Description": "Si el rival inicia el combate, otorga Def/Res+6 durante el combate y reduce el daño del Follow-Up del rival en un 10%."
+  },
+  {
+    "Name": "Daring Fighter",
+    "Description": "Si la unidad inicia el combate, neutraliza los efectos que previenen los Follow-Up de la unidad. Si el HP de la unidad <= 80% y la unidad inicia el combate, la unidad puede hacer un Follow-Up antes que el rival pueda contraatacar."
+  },
+  {
+    "Name": "Savvy Fighter",
+    "Description": "Si el rival inicia el combate, neutraliza los efectos que garantizan los Follow-Up del rival y los efectos que previenen los Follow-Up de la unidad durante el combate, y también, si la Spd de la unidad >= Spd del rival -4, reduce el daño del primer ataque del rival en un 30%."
+  },
+  {
+    "Name": "Slick Fighter",
+    "Description": "Si el HP de la unidad >= 25% y el rival inicia el combate, neutraliza los penaltis de la unidad durante el combate y la unidad realiza un Follow-Up garantizado."
+  },
+  {
+    "Name": "Wary Fighter",
+    "Description": "Si el HP de la unidad >= 50% al inicio del combate, la unidad y el rival no pueden realizar un Follow-Up."
+  },
+  {
+    "Name": "Wily Fighter",
+    "Description": "Si el HP de la unidad >= 25% y el rival inicia el combate, neutraliza los bonus del rival durante el combate y la unidad realiza un Follow-Up garantizado."
+  },
+  {
+    "Name": "Flow Feather",
+    "Description": "Si la unidad inicia el combate, neutraliza los efectos que previenen los Follow-Up de la unidad durante el combate, y también, si el Spd de la unidad >= Spd del rival-10, hace daño extra por cada golpe = 70% de la diferencia entre las Res (Res de la unidad menos Res del rival) y reduce el daño de los ataques del rival en un 70% de esa diferencia (Min: 0, Max: 7)."
+  },
+  {
+    "Name": "Flow Flight",
+    "Description": "Si la unidad inicia el combate, neutraliza los efectos que previenen los Follow-Up de la unidad durante el combate, y también, si la Spd de la unidad >= Spd del rival-10, hace daño extra por cada golpe = 70% de la diferencia entre las Def (Def de la unidad menos Def del rival) y reduce el daño de los ataques del rival en un 70% de esa diferencia (Min:0, Max:7)."
+  },
+  {
+    "Name": "Flow Force",
+    "Description": "Si la unidad inicia el combate, neutraliza los efectos que previenen los Follow-Up de la unidad y neutraliza los penaltis a Atk/Spd de la unidad durante el combate."
+  },
+  {
+    "Name": "Flow Refresh",
+    "Description": "Si la unidad inicia el combate, neutraliza los efectos que previenen los Follow-Up de la unidad y restaura 10 HP a la unidad después del combate."
+  },
+  {
+    "Name": "Dragonskin",
+    "Description": "Si el rival inicia el combate o si el HP del rival >= 75% al inicio del combate, otorga Atk/Spd/Def/Res+6 a la unidad durante el combate y neutraliza los bonus del rival."
+  },
+  {
+    "Name": "Duality",
+    "Description": "Otorga Atk/Res+9. Otorga ventaja de triangulo de armas contra e inflige desventaja de triangulo de armas en espadas, lanzas y hachas durante el combate. Al inicio del combate, si el HP de la unidad >= 25%, la unidad realiza un Follow-Up garantizado durante el combate."
+  },
+  {
+    "Name": "Gift of Magic",
+    "Description": "Si la unidad inicia el combate contra un rival que usa magia o arco, inflige Atk/Res-10 en el rival durante el combate, la unidad hace un Follow-Up garantizado, y también, reduce el daño del Follow-Up del rival en un 80%. Si el rival con magia o arcos inicia el combate y el rival puede hacer un Follow-Up, el rival hace un Follow-Up antes que la unidad pueda contraatacar."
+  },
+  {
+    "Name": "Laws of Sacae",
+    "Description": "Si la unidad inicia el combate, otorga Atk/Spd/Def/Res+6 durante el combate, y también, si el rival usa espada, lanza o hacha y la Spd de la unidad >= Spd del rival +5, el rival no puede contraatacar."
+  },
+  {
+    "Name": "Yngvi Ascendant",
+    "Description": "Neutraliza los efectos que previenen los Follow-Up de la unidad durante el combate. Si la unidad inicia el combate, la unidad puede hacer un Follow-Up antes que el rival pueda contraatacar."
+  },
+  {
+    "Name": "True Dragon Wall",
+    "Description": "Si la Res de la unidad > Res del rival, reduce el daño en un porcentaje = diferencia entre los stats x 6 (máx. 60%) en el primer ataque del rival y en un porcentaje = diferencia entre los stats x 4 (máx. 40%) en el Follow-Up del rival. Si un aliado que usa magia está en el equipo de la unidad (excluye a la unidad, debe estar vivo), la unidad recupera 7 HP después del combate."
+  },
+  {
+    "Name": "Scendscale",
+    "Description": "Hace Daño extra por ataque = 25% del Atk de la unidad, pero después del combate, si la unidad atacó, inflige 7 de daño a la unidad."
+  },
+  {
+    "Name": "Binding Shield",
+    "Description": "Si el Spd de la unidad >= Spd del rival +5, la unidad realiza un Follow-Up garantizado y el rival no puede contraatacar o hacer un Follow-Up."
+  },
+  {
+    "Name": "Bushido",
+    "Description": "Inflige +7 de daño por ataque. Si el Spd de la unidad > Spd del rival, reduce el daño de los ataques del rival durante el combate por un porcentaje = diferencia entre stats x 4 (máx. 40%)."
+  },
+  {
+    "Name": "Sun-Twin Wing",
+    "Description": "Al inicio del combate, si el HP de la unidad >= 25%, inflige Spd/Def-5 en el rival y también neutraliza los efectos que garantizan los Follow-Up del rival y los efectos que previenen los Follow-Up de la unidad durante el combate."
+  },
+  {
+    "Name": "Soul of Zofia",
+    "Description": "Neutraliza los efectos que previenen los Follow-Up de la unidad y que garantizan los Follow-Up del rival durante el combate. Si la unidad inicia el combate, la unidad puede realizar un Follow-Up antes que el rival pueda contraatacar. Al inicio del combate, si el HP de la unidad >= 25%, inflige Spd-5 en el rival y reduce el porcentaje de las habilidades que \"reducen el daño en un X%\" en un 50% (Ejemplo: Un rival con \"reduce el daño en un 46%\" reduce el daño en un 23% en vez)."
+  },
+  {
+    "Name": "Prescience",
+    "Description": "Inflige Atk/Res-5 en el rival durante el combate. Si la unidad inicia el combate o si el rival usa magia o arcos, reduce el daño del primer ataque del rival en un 30%."
+  },
+  {
+    "Name": "Extra Chivalry",
+    "Description": "Al inicio del combate, si el HP del rival >= 50%, inflige Atk/Spd/Def-5 en el rival durante el combate. Reduce el daño de los ataques del rival durante el combate por un porcentaje = 50% del porcentaje de HP que le queda al rival al inicio del combate (Ejemplo: si el HP del rival = 75%, reduce el daño en un 37%) (Este porcentaje siempre será entero, para el ejemplo, se reducirá el daño en un 37%, nunca en un 37.5%) (Si el porcentaje del HP del rival no es entero, por ejemplo 37.5%, entonces se truncará al realizar los calculos de esta habilidad)."
+  },
+  {
+    "Name": "Divine Recreation",
+    "Description": "Al inicio del combate, si el HP del rival >= 50%, inflige Atk/Spd/Def/Res-4 en el rival durante el combate, reduce el daño del primer ataque del rival durante el combate en un 30% y hace daño extra en el siguiente ataque de la unidad por el total reducido en el primer ataque del rival (por cualquier medio, incluyendo otras habilidades). Reinicia al final del combate."
+  },
+  {
+    "Name": "Dragon's Ire",
+    "Description": "Al inicio del combate, si el HP de la unidad >= 25%, inflige Atk/Res-4 en el rival durante el combate, la unidad realiza un Follow-Up garantizado, y también, si el rival inicia el combate, neutraliza efectos que previenen el Follow-Up de la unidad."
+  },
+  {
+    "Name": "Dragon's Wrath",
+    "Description": "Reduce el daño del primer ataque del rival durante el combate en un 25%. Si el Atk de la unidad > Res del rival, el primer ataque de la unidad hace daño extra = 25% del Atk de la unidad menos Res del rival durante el combate."
+  },
+  {
+    "Name": "Follow-Up Ring",
+    "Description": "Al inicio del combate, si el HP de la unidad >= 50%, la unidad puede realizar un Follow-Up garantizado."
+  },
+  {
+    "Name": "New Divinity",
+    "Description": "Al inicio del combate, si el HP de la unidad >= 25%, inflige Atk/Res-5 en el rival durante el combate, y también, si la Res de la unidad > Res del rival, reduce el daño de los ataques del rival durante el combate en un porcentaje = diferencia entre stats x 4 (máx. 40%). Al inicio del combate, si el HP de la unidad >= 40%, el rival no puede hacer un Follow-Up durante el combate."
+  },
+  {
+    "Name": "Moon-Twin Wing",
+    "Description": "Al inicio del combate, si el HP de la unidad >= 25%, inflige Atk/Spd-5 en el rival durante el combate, y también, si la Spd de la unidad > Spd del rival, reduce el daño de los ataques del rival durante el combate en un porcentaje = diferencia entre los stats x 4 (máx. 40%)."
+  },
+  {
+    "Name": "Holy War's End",
+    "Description": "Si el HP de la unidad >= 50% y el rival inicia el combate, la unidad puede realizar un Follow-Up garantizado antes que el rival pueda realizar un Follow-Up. (Si la unidad tiene una habilidad que la deja contraatacar antes que el rival pueda atacar, estos ataques consecutivos ocurrirán antes que el primer ataque del rival)."
+  },
+  {
+    "Name": "Light and Dark",
+    "Description": "Inflige Atk/Spd/Def/Res-5 en el rival, neutraliza los penaltis de la unidad y los bonus del rival."
+  },
+  {
+    "Name": "Mjölnir",
+    "Description": "Neutraliza los efectos que previenen los Follow-Up de la unidad."
+  },
+  {
+    "Name": "Piercing Tribute",
+    "Description": "Neutraliza los efectos que garantizan los Follow-Up del rival."
+  },
+  {
+    "Name": "Guard Bearing",
+    "Description": "Inflige Spd/Def-4 en el rival. Reduce el daño de los ataques del rival en X% (Durante el primer combate de la unidad en que inicia el combate y durante el primer ataque de la unidad en que el rival inicia el combate, X = 60; en otro caso, X = 30)."
+  },
+  {
+    "Name": "Mag. Null Follow",
+    "Description": "Inflige Spd/Res-4 en el rival, neutraliza los efectos que previenen los Follow-Up de la unidad y que garantizan los Follow-Up del rival, y reduce el porcentaje de las habilidades que \"reducen el daño en un X%\" en un 50% (Ejemplo: Un rival con \"reduce el daño en un 46%\" reduce el daño en un 23% en vez)."
+  },
+  {
+    "Name": "Phys. Null Follow",
+    "Description": "Inflige Spd/Def-4 en el rival, neutraliza los efectos que previenen los Follow-Up de la unidad y que garantizan los Follow-Up del rival, y reduce el porcentaje de las habilidades que \"reducen el daño en un X%\" en un 50% (Ejemplo: Un rival con \"reduce el daño en un 46%\" reduce el daño en un 23% en vez)."
+  },
+  {
+    "Name": "Mastermind",
+    "Description": "Si el HP de la unidad >=2, la unidad pierde 1 HP al inicio del combate. Si la unidad inicia el combate, otorga Atk/Spd+9 a la unidad durante el combate y la unidad inflige daño extra en cada ataque = X + Y (X = 80% del total de bonus de la unidad; Y= 80% del total de penalties de rival; tomando en cuenta la neutralización de bonus y penalty)"
+  },
+  {
+    "Name": "Bewitching Tome",
+    "Description": "Si la unidad inicia el combate, el rival usa arco o el rival usa magia, el rival pierde HP al inicio del combate = X% del ataque del rival (si la unidad tiene ventaja del triangulo de armas o si Spd de la unidad > Spd del rival considerando Bonus, X = 40; en otro caso X = 20), otorga Atk/Spd/Def/Res+5 a la unidad, otorga Atk/Spd = 20% de la Spd base de la unidad, reduce el daño del primer ataque del rival en un 30% durante el combate, y restaura 7 HP a la unidad luego del combate."
+  }
+]

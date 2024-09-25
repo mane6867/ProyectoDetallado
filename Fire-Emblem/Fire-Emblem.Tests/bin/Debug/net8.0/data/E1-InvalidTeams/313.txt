@@ -1,0 +1,10 @@
+Player 1 Team
+Veronica (Lance Power)
+Lucina (Sturdy Impact)
+Camilla (Perceptive)
+Player 2 Team
+Seliph (Atk/Res +5)
+Ike (Spd Preempt)
+Tiki (Poetic Justice)
+Eliwood (Spd/Res +5)
+Dimitri (Atk/Def Push)

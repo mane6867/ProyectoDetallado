@@ -1,0 +1,4 @@
+Player 1 Team
+Chrom (Gentility,Dodge)
+Player 2 Team
+Hector (Sol,Bravery)

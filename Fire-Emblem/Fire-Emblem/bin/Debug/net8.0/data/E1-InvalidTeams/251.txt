@@ -1,0 +1,10 @@
+Player 1 Team
+Leif (Solid Ground)
+Chrom (Solid Ground)
+Ike (Dragon Wall)
+Ephraim (Spd Preempt)
+Eliwood (Blinding Flash)
+Player 2 Team
+Claude (Guard Bearing)
+Dimitri (HP +15)
+Chrom (Lance Guard)

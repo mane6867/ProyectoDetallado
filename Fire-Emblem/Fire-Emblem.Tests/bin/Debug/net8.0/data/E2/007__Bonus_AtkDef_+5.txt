@@ -1,0 +1,5 @@
+Player 1 Team
+Hector
+Veronica (Atk/Def +5)
+Player 2 Team
+Corrin (Atk/Def +5)

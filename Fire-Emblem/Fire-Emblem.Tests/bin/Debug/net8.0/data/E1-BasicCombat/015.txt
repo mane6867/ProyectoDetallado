@@ -1,0 +1,8 @@
+Player 1 Team
+Marth
+Shez
+Lucina
+Player 2 Team
+Tiki
+Soren
+Hector

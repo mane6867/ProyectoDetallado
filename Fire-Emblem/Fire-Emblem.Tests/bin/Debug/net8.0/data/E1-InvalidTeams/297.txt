@@ -1,0 +1,7 @@
+Player 1 Team
+Hector (HP +15)
+Player 2 Team
+Eliwood (Blinding Flash)
+Hector (Mirror Stance)
+Corrin (Atk/Spd Push)
+Celica (Soul of Zofia)

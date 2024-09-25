@@ -1,0 +1,7 @@
+Player 1 Team
+Lucina
+Robin
+Player 2 Team
+Soren
+Leif
+Eliwood

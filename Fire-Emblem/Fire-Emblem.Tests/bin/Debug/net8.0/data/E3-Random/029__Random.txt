@@ -1,0 +1,6 @@
+Player 1 Team
+Ike
+Lyn (Aegis Shield)
+Player 2 Team
+Leif (Warding Stance)
+Claude

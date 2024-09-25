@@ -1,0 +1,7 @@
+Player 1 Team
+Chrom (True Dragon Wall)
+Veronica (Resonance)
+Hector (Atk/Spd Push)
+Player 2 Team
+Seliph
+Leif (Hliðskjálf)

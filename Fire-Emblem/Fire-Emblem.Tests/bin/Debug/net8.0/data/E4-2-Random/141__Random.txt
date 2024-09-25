@@ -1,0 +1,5 @@
+Player 1 Team
+Alm (Slick Fighter,Phys. Null Follow)
+Corrin (Quick Riposte)
+Player 2 Team
+Camilla (Blue Lion Rule)

@@ -1,0 +1,6 @@
+Player 1 Team
+Ephraim
+Marth
+Player 2 Team
+Leif
+Alear

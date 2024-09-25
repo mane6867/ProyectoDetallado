@@ -1,0 +1,6 @@
+Player 1 Team
+Dimitri (Spd/Res +5)
+Player 2 Team
+Soren (Spd/Res +5)
+Shez (Spd/Res +5)
+Marth (Spd/Res +5)

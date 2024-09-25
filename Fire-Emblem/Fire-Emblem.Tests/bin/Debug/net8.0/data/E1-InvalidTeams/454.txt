@@ -1,0 +1,7 @@
+Player 1 Team
+Lucina (Brazen Spd/Def)
+Chrom (Bow Agility)
+Player 2 Team
+Corrin (Life and Death,Life and Death)
+Sigurd (Impenetrable)
+Lyn (Soul of Zofia)

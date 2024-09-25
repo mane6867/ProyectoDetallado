@@ -1,0 +1,8 @@
+Player 1 Team
+Eliwood
+Seliph
+Chrom
+Player 2 Team
+Marth
+Micaiah
+Lyn

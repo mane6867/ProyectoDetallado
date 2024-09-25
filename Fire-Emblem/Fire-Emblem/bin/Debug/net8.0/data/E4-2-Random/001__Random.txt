@@ -1,0 +1,6 @@
+Player 1 Team
+Eliwood (Binding Shield)
+Marth (Bracing Blow)
+Player 2 Team
+Sigurd (Atk/Res Push)
+Lyn (Disarming Sigh,Will to Win)

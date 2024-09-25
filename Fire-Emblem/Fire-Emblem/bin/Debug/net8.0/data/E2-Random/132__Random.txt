@@ -1,0 +1,6 @@
+Player 1 Team
+Roy (Sandstorm)
+Player 2 Team
+Tiki (Attack +6)
+Marth
+Camilla (HP +15)

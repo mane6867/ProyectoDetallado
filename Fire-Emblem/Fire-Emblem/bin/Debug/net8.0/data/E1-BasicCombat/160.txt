@@ -1,0 +1,7 @@
+Player 1 Team
+Tiki
+Sigurd
+Player 2 Team
+Marth
+Alear
+Soren

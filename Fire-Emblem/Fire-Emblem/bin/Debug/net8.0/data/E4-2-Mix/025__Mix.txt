@@ -1,0 +1,4 @@
+Player 1 Team
+Ike (Melee Breaker,Wary Fighter)
+Player 2 Team
+Camilla (Savvy Fighter,Follow-Up Ring)

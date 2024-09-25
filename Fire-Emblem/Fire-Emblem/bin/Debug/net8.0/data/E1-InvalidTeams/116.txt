@@ -1,0 +1,9 @@
+Player 1 Team
+Tiki (Lance Guard)
+Alm (Resolve)
+Hector (Savvy Fighter)
+Dimitri (Atk/Def Push)
+Player 2 Team
+Robin (Dragonskin)
+Sigurd (Mirror Impact)
+Seliph (Bow Guard)

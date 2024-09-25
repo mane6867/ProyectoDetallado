@@ -1,0 +1,7 @@
+Player 1 Team
+Alear (Lull Spd/Res)
+Ike (Spd/Res +5)
+Alear (Lance Power)
+Player 2 Team
+Hector (Flow Refresh)
+Ike (Brazen Spd/Def)

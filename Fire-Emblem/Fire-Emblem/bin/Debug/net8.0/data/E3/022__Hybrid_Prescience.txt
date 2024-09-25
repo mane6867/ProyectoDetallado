@@ -1,0 +1,8 @@
+Player 1 Team
+Marth (Prescience)
+Dimitri (Prescience)
+Hector (Prescience)
+Player 2 Team
+Roy (Prescience)
+Ephraim (Prescience)
+Camilla (Prescience)

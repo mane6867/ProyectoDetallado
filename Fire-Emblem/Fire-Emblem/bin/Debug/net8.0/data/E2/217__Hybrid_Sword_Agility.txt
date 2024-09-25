@@ -1,0 +1,8 @@
+Player 1 Team
+Marth (Sword Agility)
+Ephraim (Sword Agility)
+Hector (Sword Agility)
+Player 2 Team
+Chrom (Sword Agility)
+Celica (Sword Agility)
+Seliph (Sword Agility)

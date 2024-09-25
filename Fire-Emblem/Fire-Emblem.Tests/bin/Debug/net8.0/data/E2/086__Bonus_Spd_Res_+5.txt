@@ -1,0 +1,7 @@
+Player 1 Team
+Eliwood (Spd/Res +5)
+Camilla (Spd/Res +5)
+Player 2 Team
+Seliph (Spd/Res +5)
+Lucina (Spd/Res +5)
+Claude

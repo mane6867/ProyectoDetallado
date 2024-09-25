@@ -1,0 +1,7 @@
+Player 1 Team
+Roy (Armored Blow,Sol)
+Ephraim (Atk/Res +5,Bracing Blow)
+Alear (Will to Win,Lull Spd/Res)
+Player 2 Team
+Corrin (Atk/Def +5)
+Celica (Wrath)

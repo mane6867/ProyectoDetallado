@@ -1,0 +1,170 @@
+Elige un archivo para cargar los equipos
+0: 000__Damage_Reduction_Dodge.txt
+1: 001__Damage_Reduction_Dragon_Wall.txt
+2: 002__Damage_Reduction_Golden_Lotus.txt
+3: 003__Hybrid_Aegis_Shield.txt
+4: 004__Hybrid_Blue_Skies.txt
+5: 005__Hybrid_Bracing_Stance.txt
+6: 006__Hybrid_Bushido.txt
+7: 007__Hybrid_Chivalry.txt
+8: 008__Hybrid_Darting_Stance.txt
+9: 009__Hybrid_Divine_Recreation.txt
+10: 010__Hybrid_Dragons_Wrath.txt
+11: 011__Hybrid_Extra_Chivalry.txt
+12: 012__Hybrid_Extra_Chivalry.txt
+13: 013__Hybrid_Fierce_Stance.txt
+14: 014__Hybrid_Guard_Bearing.txt
+15: 015__Hybrid_Guard_Bearing.txt
+16: 016__Hybrid_Kestrel_Stance.txt
+17: 017__Hybrid_Laguz_Friend.txt
+18: 018__Hybrid_Mirror_Stance.txt
+19: 019__Hybrid_Moon-Twin_wing.txt
+20: 020__Hybrid_Moon-Twin_wing.txt
+21: 021__Hybrid_Poetic_Justice.txt
+22: 022__Hybrid_Prescience.txt
+23: 023__Hybrid_Prescience.txt
+24: 024__Hybrid_Remote_Mirror.txt
+25: 025__Hybrid_Remote_Sparrow.txt
+26: 026__Hybrid_Remote_Sturdy.txt
+27: 027__Hybrid_Steady_Posture.txt
+28: 028__Hybrid_Steady_Stance.txt
+29: 029__Hybrid_SturdyStance.txt
+30: 030__Hybrid_Swift_Stance.txt
+31: 031__Hybrid_Warding_Stance.txt
+32: 433__True_Damage_Back_at_You.txt
+33: 434__True_Damage_Back_at_You.txt
+34: 435__True_Damage_Bravery.txt
+35: 436__True_Damage_Lunar_Brace.txt
+36: 437__True_Damage_Lunar_Brace.txt
+37: 438__True_Defense_Arms_Shield.txt
+38: 439__True_Defense_Arms_Shield.txt
+39: 440__True_Defense_Axe_Guard.txt
+40: 441__True_Defense_Bow_Guard.txt
+41: 442__True_Defense_Gentility.txt
+42: 443__True_Defense_Lance_Guard.txt
+43: 444__True_Defense_Magic_Guard.txt
+44: 445__True_Defense_Sympathetic.txt
+INPUT: 19
+Player 1 selecciona una opción
+0: Eirika
+1: Alm
+INPUT: 0
+Player 2 selecciona una opción
+0: Ephraim
+1: Robin
+2: Shez
+INPUT: 0
+Round 1: Eirika (Player 1) comienza
+Ephraim (Lance) tiene ventaja con respecto a Eirika (Sword)
+Eirika reducirá el daño de los ataques del rival en un 40%
+Ephraim obtiene Atk-5
+Ephraim obtiene Spd-5
+Eirika ataca a Ephraim con 4 de daño
+Ephraim ataca a Eirika con 21 de daño
+Eirika ataca a Ephraim con 4 de daño
+Eirika (31) : Ephraim (49)
+Player 2 selecciona una opción
+0: Ephraim
+1: Robin
+2: Shez
+INPUT: 1
+Player 1 selecciona una opción
+0: Eirika
+1: Alm
+INPUT: 0
+Round 2: Robin (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Robin obtiene Atk-5
+Robin obtiene Spd-5
+Eirika reducirá el daño de los ataques del rival en un 36%
+Robin ataca a Eirika con 14 de daño
+Eirika ataca a Robin con 20 de daño
+Eirika ataca a Robin con 20 de daño
+Robin (14) : Eirika (17)
+Player 1 selecciona una opción
+0: Eirika
+1: Alm
+INPUT: 0
+Player 2 selecciona una opción
+0: Ephraim
+1: Robin
+2: Shez
+INPUT: 2
+Round 3: Eirika (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Shez obtiene Atk-5
+Shez obtiene Spd-5
+Eirika ataca a Shez con 22 de daño
+Shez ataca a Eirika con 16 de daño
+Ninguna unidad puede hacer un follow up
+Eirika (1) : Shez (29)
+Player 2 selecciona una opción
+0: Ephraim
+1: Robin
+2: Shez
+INPUT: 1
+Player 1 selecciona una opción
+0: Eirika
+1: Alm
+INPUT: 1
+Round 4: Robin (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Robin obtiene Atk-5
+Robin obtiene Spd-5
+Alm reducirá el daño de los ataques del rival en un 40%
+Robin ataca a Alm con 13 de daño
+Alm ataca a Robin con 22 de daño
+Robin (0) : Alm (41)
+Player 1 selecciona una opción
+0: Eirika
+1: Alm
+INPUT: 0
+Player 2 selecciona una opción
+0: Ephraim
+1: Shez
+INPUT: 1
+Round 5: Eirika (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Eirika ataca a Shez con 22 de daño
+Shez ataca a Eirika con 21 de daño
+Eirika (0) : Shez (7)
+Player 2 selecciona una opción
+0: Ephraim
+1: Shez
+INPUT: 1
+Player 1 selecciona una opción
+0: Alm
+INPUT: 0
+Round 6: Shez (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Shez obtiene Atk-5
+Shez obtiene Spd-5
+Shez ataca a Alm con 18 de daño
+Alm ataca a Shez con 24 de daño
+Shez (0) : Alm (23)
+Player 1 selecciona una opción
+0: Alm
+INPUT: 0
+Player 2 selecciona una opción
+0: Ephraim
+INPUT: 0
+Round 7: Alm (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Alm reducirá el daño de los ataques del rival en un 40%
+Ephraim obtiene Atk-5
+Ephraim obtiene Spd-5
+Alm ataca a Ephraim con 18 de daño
+Ephraim ataca a Alm con 15 de daño
+Alm ataca a Ephraim con 18 de daño
+Alm (8) : Ephraim (13)
+Player 2 selecciona una opción
+0: Ephraim
+INPUT: 0
+Player 1 selecciona una opción
+0: Alm
+INPUT: 0
+Round 8: Ephraim (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Ephraim ataca a Alm con 30 de daño
+Ephraim (13) : Alm (0)
+Player 2 ganó

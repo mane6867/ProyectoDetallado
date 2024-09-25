@@ -1,0 +1,66 @@
+Elige un archivo para cargar los equipos
+0: 000__Mix.txt
+1: 001__Mix.txt
+2: 002__Mix.txt
+3: 003__Mix.txt
+4: 004__Mix.txt
+5: 005__Mix.txt
+6: 006__Mix.txt
+7: 007__Mix.txt
+8: 008__Mix.txt
+9: 009__Mix.txt
+10: 010__Mix.txt
+11: 011__Mix.txt
+12: 012__Mix.txt
+13: 013__Mix.txt
+14: 014__Mix.txt
+15: 015__Mix.txt
+16: 016__Mix.txt
+17: 017__Mix.txt
+18: 018__Mix.txt
+19: 019__Mix.txt
+20: 020__Mix.txt
+INPUT: 15
+Player 1 selecciona una opción
+0: Marth
+INPUT: 0
+Player 2 selecciona una opción
+0: Chrom
+INPUT: 0
+Round 1: Marth (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Marth obtiene Atk+10
+Marth obtiene Def-10
+Los bonus de Atk de Marth fueron neutralizados
+Los bonus de Spd de Marth fueron neutralizados
+Los bonus de Def de Marth fueron neutralizados
+Los bonus de Res de Marth fueron neutralizados
+Los penalty de Atk de Marth fueron neutralizados
+Los penalty de Spd de Marth fueron neutralizados
+Los penalty de Def de Marth fueron neutralizados
+Los penalty de Res de Marth fueron neutralizados
+Marth ataca a Chrom con 17 de daño
+Chrom ataca a Marth con 27 de daño
+Marth ataca a Chrom con 17 de daño
+Marth (27) : Chrom (21)
+Player 2 selecciona una opción
+0: Chrom
+INPUT: 0
+Player 1 selecciona una opción
+0: Marth
+INPUT: 0
+Round 2: Chrom (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Marth obtiene Atk+10
+Marth obtiene Def-10
+Los bonus de Atk de Marth fueron neutralizados
+Los bonus de Spd de Marth fueron neutralizados
+Los bonus de Def de Marth fueron neutralizados
+Los bonus de Res de Marth fueron neutralizados
+Los penalty de Atk de Marth fueron neutralizados
+Los penalty de Spd de Marth fueron neutralizados
+Los penalty de Def de Marth fueron neutralizados
+Los penalty de Res de Marth fueron neutralizados
+Chrom ataca a Marth con 27 de daño
+Chrom (21) : Marth (0)
+Player 2 ganó

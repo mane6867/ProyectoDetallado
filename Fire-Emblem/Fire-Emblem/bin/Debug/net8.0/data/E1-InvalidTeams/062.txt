@@ -1,0 +1,8 @@
+Player 1 Team
+Ike (Duality,Mercy,Impenetrable)
+Lyn (Sympathetic,Null C-Disrupt)
+Camilla (Armored Blow,Stunning Smile)
+Player 2 Team
+Edelgard (Bow Agility)
+Dimitri (Melee Breaker)
+Byleth (Lull Atk/Res)

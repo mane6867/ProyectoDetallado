@@ -1,0 +1,5 @@
+Player 1 Team
+Alear (HP +15)
+Celica (Solid Ground)
+Player 2 Team
+Hector (Death Blow)

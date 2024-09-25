@@ -1,0 +1,6 @@
+Player 1 Team
+Shez
+Eliwood (Atk/Res +5)
+Alear (Atk/Res +5)
+Player 2 Team
+Roy (Atk/Res +5)

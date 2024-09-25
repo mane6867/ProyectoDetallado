@@ -1,0 +1,8 @@
+Player 1 Team
+Eliwood
+Marth
+Dimitri (Attack +6)
+Player 2 Team
+Tiki
+Edelgard
+Lucina

@@ -1,0 +1,220 @@
+Elige un archivo para cargar los equipos
+0: 000__Hybrid_Atk_Def_Push.txt
+1: 001__Hybrid_Atk_Def_Push.txt
+2: 002__Hybrid_Atk_Res_Push.txt
+3: 003__Hybrid_Atk_Res_Push.txt
+4: 004__Hybrid_Atk_Spd_Push.txt
+5: 005__Hybrid_Atk_Spd_Push.txt
+6: 006__Hybrid_Bewitching_Tome.txt
+7: 007__Hybrid_Bewitching_Tome.txt
+8: 008__Hybrid_Bewitching_Tome.txt
+9: 009__Hybrid_Bewitching_Tome.txt
+10: 010__Hybrid_Bewitching_Tome.txt
+11: 011__Hybrid_Def_Res_Push.txt
+12: 012__Hybrid_Def_Res_Push.txt
+13: 013__Hybrid_Eclipse_Brace.txt
+14: 014__Hybrid_Flare.txt
+15: 015__Hybrid_Flare.txt
+16: 016__Hybrid_Fury.txt
+17: 017__Hybrid_Laws_of_Sacae.txt
+18: 018__Hybrid_Laws_of_Sacae.txt
+19: 019__Hybrid_Laws_of_Sacae.txt
+20: 020__Hybrid_Laws_of_Sacae.txt
+21: 021__Hybrid_Laws_of_Sacae.txt
+22: 022__Hybrid_Laws_of_Sacae.txt
+23: 023__Hybrid_Laws_of_Sacae.txt
+24: 024__Hybrid_Mastermind.txt
+25: 025__Hybrid_Mastermind.txt
+26: 026__Hybrid_Mystic_Boost.txt
+27: 027__Hybrid_Resonance.txt
+28: 028__Hybrid_Resonance.txt
+29: 029__Hybrid_Resonance.txt
+30: 030__Hybrid_Scendscale.txt
+31: 031__Hybrid_Spd_Def_Push.txt
+32: 032__Hybrid_Spd_Def_Push.txt
+33: 033__Hybrid_Spd_Def_Push.txt
+34: 034__Hybrid_Spd_Res_Push.txt
+35: 035__Hybrid_Spd_Res_Push.txt
+36: 036__Hybrid_Spd_Res_Push.txt
+37: 037__Hybrid_True_Dragon_Wall.txt
+38: 038__In_Combat_Healing_Nosferatu.txt
+39: 039__In_Combat_Healing_Nosferatu.txt
+40: 040__In_Combat_Healing_Sol.txt
+41: 041__In_Combat_Healing_Sol.txt
+42: 042__In_Combat_Healing_Solar_Brace.txt
+43: 123__Null_Counter_Hliðskjálf.txt
+44: 124__Null_Counter_Hliðskjálf.txt
+45: 125__Null_Counter_Hliðskjálf.txt
+46: 126__Null_Counter_Hliðskjálf.txt
+47: 127__Null_Counter_Hliðskjálf.txt
+48: 128__Null_Counter_Hliðskjálf.txt
+49: 129__Null_Counter_Surprise_Attack.txt
+50: 130__Null_Counter_Surprise_Attack.txt
+51: 131__Null_Counter_Surprise_Attack.txt
+52: 132__Null_Counter_Surprise_Attack.txt
+53: 133__Null_Counter_Surprise_Attack.txt
+54: 134__Null_Counter_Surprise_Attack.txt
+55: 135__Null_Counter_Windsweep.txt
+56: 136__Null_Counter_Windsweep.txt
+57: 137__Null_Counter_Windsweep.txt
+58: 138__Null_Counter_Windsweep.txt
+59: 139__Null_Counter_Windsweep.txt
+60: 140__Null_Counter_Windsweep.txt
+61: 141__Null_Counter_Disrupt_Null_C-Disrupt.txt
+62: 142__Null_Counter_Disrupt_Null_C-Disrupt.txt
+63: 143__Null_Counter_Disrupt_Null_C-Disrupt.txt
+64: 144__Null_Counter_Disrupt_Null_C-Disrupt.txt
+65: 145__Null_Counter_Disrupt_Null_C-Disrupt.txt
+INPUT: 16
+Player 1 selecciona una opción
+0: Celica
+1: Robin
+2: Sigurd
+INPUT: 0
+Player 2 selecciona una opción
+0: Hector
+1: Shez
+2: Leif
+INPUT: 1
+Round 1: Celica (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Celica obtiene Atk+4
+Celica obtiene Spd+4
+Celica obtiene Def+4
+Celica obtiene Res+4
+Celica ataca a Shez con 35 de daño
+Shez ataca a Celica con 27 de daño
+Ninguna unidad puede hacer un follow up
+Celica recibe 8 de daño despues del combate
+Celica (19) : Shez (16)
+Player 2 selecciona una opción
+0: Hector
+1: Shez
+2: Leif
+INPUT: 2
+Player 1 selecciona una opción
+0: Celica
+1: Robin
+2: Sigurd
+INPUT: 1
+Round 2: Leif (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Leif obtiene Atk+4
+Leif obtiene Spd+4
+Leif obtiene Def+4
+Leif obtiene Res+4
+Leif ataca a Robin con 22 de daño
+Robin ataca a Leif con 17 de daño
+Robin ataca a Leif con 17 de daño
+Leif recibe 8 de daño despues del combate
+Leif (12) : Robin (32)
+Player 1 selecciona una opción
+0: Celica
+1: Robin
+2: Sigurd
+INPUT: 2
+Player 2 selecciona una opción
+0: Hector
+1: Shez
+2: Leif
+INPUT: 0
+Round 3: Sigurd (Player 1) comienza
+Hector (Axe) tiene ventaja con respecto a Sigurd (Lance)
+Hector obtiene Atk+4
+Hector obtiene Spd+4
+Hector obtiene Def+4
+Hector obtiene Res+4
+Sigurd ataca a Hector con 0 de daño
+Hector ataca a Sigurd con 38 de daño
+Hector ataca a Sigurd con 38 de daño
+Hector recibe 8 de daño despues del combate
+Sigurd (0) : Hector (53)
+Player 2 selecciona una opción
+0: Hector
+1: Shez
+2: Leif
+INPUT: 0
+Player 1 selecciona una opción
+0: Celica
+1: Robin
+INPUT: 1
+Round 4: Hector (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Hector obtiene Atk+4
+Hector obtiene Spd+4
+Hector obtiene Def+4
+Hector obtiene Res+4
+Hector ataca a Robin con 31 de daño
+Robin ataca a Hector con 19 de daño
+Robin ataca a Hector con 19 de daño
+Hector recibe 8 de daño despues del combate
+Hector (7) : Robin (1)
+Player 1 selecciona una opción
+0: Celica
+1: Robin
+INPUT: 1
+Player 2 selecciona una opción
+0: Hector
+1: Shez
+2: Leif
+INPUT: 2
+Round 5: Robin (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Leif obtiene Atk+4
+Leif obtiene Spd+4
+Leif obtiene Def+4
+Leif obtiene Res+4
+Robin ataca a Leif con 17 de daño
+Robin (1) : Leif (0)
+Player 2 selecciona una opción
+0: Hector
+1: Shez
+INPUT: 0
+Player 1 selecciona una opción
+0: Celica
+1: Robin
+INPUT: 1
+Round 6: Hector (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Hector obtiene Atk+4
+Hector obtiene Spd+4
+Hector obtiene Def+4
+Hector obtiene Res+4
+Hector ataca a Robin con 31 de daño
+Hector recibe 8 de daño despues del combate
+Hector (1) : Robin (0)
+Player 1 selecciona una opción
+0: Celica
+INPUT: 0
+Player 2 selecciona una opción
+0: Hector
+1: Shez
+INPUT: 0
+Round 7: Celica (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Celica obtiene Atk+4
+Celica obtiene Spd+4
+Celica obtiene Def+4
+Celica obtiene Res+4
+Hector obtiene Atk+4
+Hector obtiene Spd+4
+Hector obtiene Def+4
+Hector obtiene Res+4
+Celica ataca a Hector con 27 de daño
+Celica recibe 8 de daño despues del combate
+Celica (11) : Hector (0)
+Player 2 selecciona una opción
+0: Shez
+INPUT: 0
+Player 1 selecciona una opción
+0: Celica
+INPUT: 0
+Round 8: Shez (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Celica obtiene Atk+4
+Celica obtiene Spd+4
+Celica obtiene Def+4
+Celica obtiene Res+4
+Shez ataca a Celica con 27 de daño
+Shez (16) : Celica (0)
+Player 2 ganó

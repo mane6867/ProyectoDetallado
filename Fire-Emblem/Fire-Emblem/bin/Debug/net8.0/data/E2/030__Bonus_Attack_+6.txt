@@ -1,0 +1,8 @@
+Player 1 Team
+Shez
+Marth
+Chrom (Attack +6)
+Player 2 Team
+Roy (Attack +6)
+Marth (Attack +6)
+Shez

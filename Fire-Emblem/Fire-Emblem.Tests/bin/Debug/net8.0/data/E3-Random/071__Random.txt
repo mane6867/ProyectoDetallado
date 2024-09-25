@@ -1,0 +1,6 @@
+Player 1 Team
+Roy
+Marth (Bravery,Aegis Shield)
+Player 2 Team
+Soren (Mirror Stance,Aegis Shield)
+Eliwood

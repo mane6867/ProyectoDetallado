@@ -1,0 +1,5 @@
+Player 1 Team
+Roy (Fire Boost)
+Hector (Atk/Def +5)
+Player 2 Team
+Tiki (Resonance,Resonance)

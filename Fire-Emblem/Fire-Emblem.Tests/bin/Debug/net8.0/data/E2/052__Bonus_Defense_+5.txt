@@ -1,0 +1,6 @@
+Player 1 Team
+Lucina
+Chrom (Defense +5)
+Ephraim
+Player 2 Team
+Roy

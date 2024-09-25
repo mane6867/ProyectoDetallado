@@ -1,0 +1,7 @@
+Player 1 Team
+Ike
+Sigurd
+Player 2 Team
+Alm
+Dimitri
+Veronica

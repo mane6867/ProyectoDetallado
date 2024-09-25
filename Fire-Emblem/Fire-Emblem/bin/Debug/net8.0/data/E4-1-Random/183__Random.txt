@@ -1,0 +1,5 @@
+Player 1 Team
+Alm (Mastermind,Atk/Spd Push)
+Lucina
+Player 2 Team
+Chrom (Def/Res Push)

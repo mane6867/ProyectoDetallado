@@ -1,0 +1,8 @@
+Player 1 Team
+Marth (Atk/Def Push)
+Chrom (Black Eagle Rule)
+Sigurd (Windsweep,Bracing Stance)
+Player 2 Team
+Byleth (Bracing Blow)
+Ephraim (Beorc's Blessing,Black Eagle Rule)
+Eliwood

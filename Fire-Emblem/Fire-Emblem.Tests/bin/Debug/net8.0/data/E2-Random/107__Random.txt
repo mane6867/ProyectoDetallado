@@ -1,0 +1,6 @@
+Player 1 Team
+Eliwood (Bracing Blow,HP +15)
+Tiki
+Marth (Bow Agility,Wind Boost)
+Player 2 Team
+Alear (Spd/Res +5,Swift Strike)

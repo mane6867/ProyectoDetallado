@@ -1,0 +1,7 @@
+Player 1 Team
+Tiki (Lull Atk/Def)
+Tiki (Vantage)
+Player 2 Team
+Eirika (Wary Fighter)
+Dimitri (Speed +5)
+Leif (Wily Fighter)

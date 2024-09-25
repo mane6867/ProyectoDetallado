@@ -1,0 +1,7 @@
+Player 1 Team
+Eliwood
+Chrom
+Player 2 Team
+Alear
+Roy
+Sigurd

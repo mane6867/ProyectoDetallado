@@ -1,0 +1,7 @@
+Player 1 Team
+Edelgard (Soulblade)
+Seliph (Wary Fighter)
+Player 2 Team
+Corrin (HP +15,HP +15)
+Byleth (Perceptive)
+Edelgard (Frenzy)

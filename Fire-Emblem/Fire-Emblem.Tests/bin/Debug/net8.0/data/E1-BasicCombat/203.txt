@@ -1,0 +1,8 @@
+Player 1 Team
+Celica
+Veronica
+Soren
+Player 2 Team
+Marth
+Lucina
+Robin

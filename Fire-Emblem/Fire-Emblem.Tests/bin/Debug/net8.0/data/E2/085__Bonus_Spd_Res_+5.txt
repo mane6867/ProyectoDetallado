@@ -1,0 +1,7 @@
+Player 1 Team
+Soren (Spd/Res +5)
+Chrom (Spd/Res +5)
+Player 2 Team
+Seliph
+Camilla (Spd/Res +5)
+Robin (Spd/Res +5)

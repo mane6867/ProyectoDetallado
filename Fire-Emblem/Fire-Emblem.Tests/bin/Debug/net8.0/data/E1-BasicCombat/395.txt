@@ -1,0 +1,6 @@
+Player 1 Team
+Edelgard
+Marth
+Player 2 Team
+Shez
+Celica

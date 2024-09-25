@@ -1,0 +1,6 @@
+Player 1 Team
+Lucina (Steady Posture)
+Chrom (Magic Guard)
+Player 2 Team
+Byleth (Sympathetic,Sturdy Stance)
+Sigurd (Magic Guard)

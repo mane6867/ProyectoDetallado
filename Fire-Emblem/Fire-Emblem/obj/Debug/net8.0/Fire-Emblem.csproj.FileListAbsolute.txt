@@ -1,0 +1,37 @@
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem.exe
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem.deps.json
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem.runtimeconfig.json
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem.dll
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem.pdb
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem-View.dll
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem-View.pdb
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.AssemblyInfo.cs
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emb.55254202.Up2Date
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.dll
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\refint\Fire-Emblem.dll
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.pdb
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.genruntimeconfig.cache
+C:\Users\Lenovo\Downloads\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\ref\Fire-Emblem.dll
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem.exe
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem.deps.json
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem.runtimeconfig.json
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem.dll
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem.pdb
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem-View.dll
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Fire-Emblem-View.pdb
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emb.55254202.Up2Date
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.dll
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\refint\Fire-Emblem.dll
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.pdb
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\Fire-Emblem.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\obj\Debug\net8.0\ref\Fire-Emblem.dll
+C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem\bin\Debug\net8.0\Newtonsoft.Json.dll

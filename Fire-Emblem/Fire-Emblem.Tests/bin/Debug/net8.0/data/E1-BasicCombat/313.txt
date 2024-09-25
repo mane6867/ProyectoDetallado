@@ -1,0 +1,7 @@
+Player 1 Team
+Seliph
+Eliwood
+Player 2 Team
+Eliwood
+Sigurd
+Corrin

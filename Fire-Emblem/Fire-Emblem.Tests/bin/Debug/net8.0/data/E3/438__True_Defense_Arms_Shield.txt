@@ -1,0 +1,8 @@
+Player 1 Team
+Ephraim (Arms Shield)
+Marth (Arms Shield)
+Camilla (Arms Shield)
+Player 2 Team
+Hector (Arms Shield)
+Sigurd (Arms Shield)
+Shez (Arms Shield)

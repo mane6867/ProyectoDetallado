@@ -1,0 +1,4 @@
+Player 1 Team
+Eliwood (Dragon's Ire,Range Breaker)
+Player 2 Team
+Sigurd (Melee Breaker,Phys. Null Follow)

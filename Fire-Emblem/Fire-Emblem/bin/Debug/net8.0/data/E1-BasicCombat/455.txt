@@ -1,0 +1,7 @@
+Player 1 Team
+Eliwood
+Marth
+Player 2 Team
+Alm
+Hector
+Tiki

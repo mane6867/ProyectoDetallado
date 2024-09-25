@@ -1,0 +1,6 @@
+Player 1 Team
+Leif
+Tiki
+Player 2 Team
+Marth
+Hector

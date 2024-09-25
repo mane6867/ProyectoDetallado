@@ -1,0 +1,5 @@
+Player 1 Team
+Edelgard
+Player 2 Team
+Celica
+Claude

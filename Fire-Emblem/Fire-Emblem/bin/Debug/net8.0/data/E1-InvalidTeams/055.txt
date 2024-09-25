@@ -1,0 +1,6 @@
+Player 1 Team
+Ike (Lance Agility)
+Ike (Chaos Style)
+Player 2 Team
+Edelgard (Lull Spd/Res)
+Seliph (Null Follow-Up)

@@ -1,0 +1,175 @@
+Elige un archivo para cargar los equipos
+0: 000__Hybrid_Atk_Def_Push.txt
+1: 001__Hybrid_Atk_Def_Push.txt
+2: 002__Hybrid_Atk_Res_Push.txt
+3: 003__Hybrid_Atk_Res_Push.txt
+4: 004__Hybrid_Atk_Spd_Push.txt
+5: 005__Hybrid_Atk_Spd_Push.txt
+6: 006__Hybrid_Bewitching_Tome.txt
+7: 007__Hybrid_Bewitching_Tome.txt
+8: 008__Hybrid_Bewitching_Tome.txt
+9: 009__Hybrid_Bewitching_Tome.txt
+10: 010__Hybrid_Bewitching_Tome.txt
+11: 011__Hybrid_Def_Res_Push.txt
+12: 012__Hybrid_Def_Res_Push.txt
+13: 013__Hybrid_Eclipse_Brace.txt
+14: 014__Hybrid_Flare.txt
+15: 015__Hybrid_Flare.txt
+16: 016__Hybrid_Fury.txt
+17: 017__Hybrid_Laws_of_Sacae.txt
+18: 018__Hybrid_Laws_of_Sacae.txt
+19: 019__Hybrid_Laws_of_Sacae.txt
+20: 020__Hybrid_Laws_of_Sacae.txt
+21: 021__Hybrid_Laws_of_Sacae.txt
+22: 022__Hybrid_Laws_of_Sacae.txt
+23: 023__Hybrid_Laws_of_Sacae.txt
+24: 024__Hybrid_Mastermind.txt
+25: 025__Hybrid_Mastermind.txt
+26: 026__Hybrid_Mystic_Boost.txt
+27: 027__Hybrid_Resonance.txt
+28: 028__Hybrid_Resonance.txt
+29: 029__Hybrid_Resonance.txt
+30: 030__Hybrid_Scendscale.txt
+31: 031__Hybrid_Spd_Def_Push.txt
+32: 032__Hybrid_Spd_Def_Push.txt
+33: 033__Hybrid_Spd_Def_Push.txt
+34: 034__Hybrid_Spd_Res_Push.txt
+35: 035__Hybrid_Spd_Res_Push.txt
+36: 036__Hybrid_Spd_Res_Push.txt
+37: 037__Hybrid_True_Dragon_Wall.txt
+38: 038__In_Combat_Healing_Nosferatu.txt
+39: 039__In_Combat_Healing_Nosferatu.txt
+40: 040__In_Combat_Healing_Sol.txt
+41: 041__In_Combat_Healing_Sol.txt
+42: 042__In_Combat_Healing_Solar_Brace.txt
+43: 123__Null_Counter_Hliðskjálf.txt
+44: 124__Null_Counter_Hliðskjálf.txt
+45: 125__Null_Counter_Hliðskjálf.txt
+46: 126__Null_Counter_Hliðskjálf.txt
+47: 127__Null_Counter_Hliðskjálf.txt
+48: 128__Null_Counter_Hliðskjálf.txt
+49: 129__Null_Counter_Surprise_Attack.txt
+50: 130__Null_Counter_Surprise_Attack.txt
+51: 131__Null_Counter_Surprise_Attack.txt
+52: 132__Null_Counter_Surprise_Attack.txt
+53: 133__Null_Counter_Surprise_Attack.txt
+54: 134__Null_Counter_Surprise_Attack.txt
+55: 135__Null_Counter_Windsweep.txt
+56: 136__Null_Counter_Windsweep.txt
+57: 137__Null_Counter_Windsweep.txt
+58: 138__Null_Counter_Windsweep.txt
+59: 139__Null_Counter_Windsweep.txt
+60: 140__Null_Counter_Windsweep.txt
+61: 141__Null_Counter_Disrupt_Null_C-Disrupt.txt
+62: 142__Null_Counter_Disrupt_Null_C-Disrupt.txt
+63: 143__Null_Counter_Disrupt_Null_C-Disrupt.txt
+64: 144__Null_Counter_Disrupt_Null_C-Disrupt.txt
+65: 145__Null_Counter_Disrupt_Null_C-Disrupt.txt
+INPUT: 6
+Player 1 selecciona una opción
+0: Camilla
+1: Ephraim
+2: Sigurd
+INPUT: 0
+Player 2 selecciona una opción
+0: Edelgard
+1: Shez
+2: Lyn
+INPUT: 0
+Round 1: Camilla (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Camilla obtiene Atk+8
+Camilla obtiene Spd+8
+Camilla obtiene Def+5
+Camilla obtiene Res+5
+Camilla reducirá el daño del primer ataque del rival en un 30%
+Edelgard recibe 14 de daño antes de iniciar el combate y queda con 45 HP
+Camilla ataca a Edelgard con 17 de daño
+Edelgard ataca a Camilla con 16 de daño
+Ninguna unidad puede hacer un follow up
+Camilla recupera 7 HP despues del combate
+Camilla (40) : Edelgard (28)
+Player 2 selecciona una opción
+0: Edelgard
+1: Shez
+2: Lyn
+INPUT: 0
+Player 1 selecciona una opción
+0: Camilla
+1: Ephraim
+2: Sigurd
+INPUT: 1
+Round 2: Edelgard (Player 2) comienza
+Edelgard (Axe) tiene ventaja con respecto a Ephraim (Lance)
+Edelgard obtiene Atk+10
+Edelgard obtiene Spd+10
+Edelgard obtiene Def+5
+Edelgard obtiene Res+5
+Edelgard reducirá el daño del primer ataque del rival en un 30%
+Ephraim recibe 26 de daño antes de iniciar el combate y queda con 31 HP
+Edelgard ataca a Ephraim con 54 de daño
+Edelgard recupera 7 HP despues del combate
+Edelgard (35) : Ephraim (0)
+Player 1 selecciona una opción
+0: Camilla
+1: Sigurd
+INPUT: 0
+Player 2 selecciona una opción
+0: Edelgard
+1: Shez
+2: Lyn
+INPUT: 1
+Round 3: Camilla (Player 1) comienza
+Shez (Sword) tiene ventaja con respecto a Camilla (Axe)
+Camilla obtiene Atk+8
+Camilla obtiene Spd+8
+Camilla obtiene Def+5
+Camilla obtiene Res+5
+Camilla reducirá el daño del primer ataque del rival en un 30%
+Shez recibe 11 de daño antes de iniciar el combate y queda con 40 HP
+Camilla ataca a Shez con 15 de daño
+Shez ataca a Camilla con 14 de daño
+Shez ataca a Camilla con 21 de daño
+Camilla recupera 7 HP despues del combate
+Camilla (12) : Shez (25)
+Player 2 selecciona una opción
+0: Edelgard
+1: Shez
+2: Lyn
+INPUT: 0
+Player 1 selecciona una opción
+0: Camilla
+1: Sigurd
+INPUT: 1
+Round 4: Edelgard (Player 2) comienza
+Edelgard (Axe) tiene ventaja con respecto a Sigurd (Lance)
+Edelgard obtiene Atk+10
+Edelgard obtiene Spd+10
+Edelgard obtiene Def+5
+Edelgard obtiene Res+5
+Edelgard reducirá el daño del primer ataque del rival en un 30%
+Sigurd recibe 26 de daño antes de iniciar el combate y queda con 28 HP
+Edelgard ataca a Sigurd con 51 de daño
+Edelgard recupera 7 HP despues del combate
+Edelgard (42) : Sigurd (0)
+Player 1 selecciona una opción
+0: Camilla
+INPUT: 0
+Player 2 selecciona una opción
+0: Edelgard
+1: Shez
+2: Lyn
+INPUT: 2
+Round 5: Camilla (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Camilla obtiene Atk+8
+Camilla obtiene Spd+8
+Camilla obtiene Def+5
+Camilla obtiene Res+5
+Camilla reducirá el daño del primer ataque del rival en un 30%
+Lyn recibe 11 de daño antes de iniciar el combate y queda con 40 HP
+Camilla ataca a Lyn con 35 de daño
+Lyn ataca a Camilla con 5 de daño
+Lyn ataca a Camilla con 8 de daño
+Camilla (0) : Lyn (5)
+Player 2 ganó

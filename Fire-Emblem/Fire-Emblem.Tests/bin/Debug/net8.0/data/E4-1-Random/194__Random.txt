@@ -1,0 +1,8 @@
+Player 1 Team
+Chrom
+Leif (Solar Brace)
+Tiki (Sol,Mastermind)
+Player 2 Team
+Alm (Nosferatu,Solar Brace)
+Camilla (Scendscale,Flare)
+Chrom (Scendscale)

@@ -1,0 +1,10 @@
+Player 1 Team
+Seliph (Daring Fighter)
+Dimitri (Guard Bearing)
+Claude (Wrath)
+Player 2 Team
+Corrin (Vantage)
+Seliph (Atk/Spd +5)
+Eliwood (Tome Precision)
+Roy (New Divinity)
+Veronica (Soulblade)

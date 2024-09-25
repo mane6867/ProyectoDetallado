@@ -1,0 +1,10 @@
+Player 1 Team
+Byleth (Warding Blow)
+Roy (Hold Out)
+Chrom (Wyvern Flight)
+Eirika (Atk/Res Push)
+Marth (Close Def)
+Player 2 Team
+Eliwood (Blue Skies)
+Eirika (Brazen Spd/Res)
+Marth (Fire Boost)

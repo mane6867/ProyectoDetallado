@@ -1,0 +1,8 @@
+Player 1 Team
+Ephraim (Fierce Stance)
+Roy (Steady Blow)
+Leif (Soul of Zofia)
+Player 2 Team
+Alear (New Divinity,Death Blow,HP +15,Def/Res Push)
+Ephraim (Swift Impact)
+Hector (Sword Focus,Bracing Stance)

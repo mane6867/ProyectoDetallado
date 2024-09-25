@@ -1,0 +1,10 @@
+Player 1 Team
+Roy (Steady Stance)
+Marth (Fierce Stance)
+Dimitri (Atk/Def +5)
+Player 2 Team
+Eirika (Luna)
+Lyn (Mirror Impact)
+Soren (Wrath)
+Lucina (Melee Breaker)
+Alear (Darting Stance)

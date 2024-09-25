@@ -1,0 +1,7 @@
+Player 1 Team
+Sigurd (Lance Agility)
+Edelgard (Lance Agility)
+Player 2 Team
+Leif (Lance Agility)
+Micaiah (Lance Agility)
+Ike (Lance Agility)

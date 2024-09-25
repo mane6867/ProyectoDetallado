@@ -1,0 +1,5 @@
+Player 1 Team
+Marth (Atk/Spd Push)
+Player 2 Team
+Leif (True Dragon Wall,Atk/Def Push)
+Micaiah (Windsweep,Mastermind)

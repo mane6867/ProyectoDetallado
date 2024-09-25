@@ -1,0 +1,8 @@
+Player 1 Team
+Corrin
+Seliph (Attack +6)
+Leif
+Player 2 Team
+Corrin
+Micaiah
+Chrom (Attack +6)

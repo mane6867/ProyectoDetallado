@@ -1,0 +1,6 @@
+Player 1 Team
+Leif (Resistance +5)
+Player 2 Team
+Chrom
+Tiki (Resistance +5)
+Ike (Resistance +5)

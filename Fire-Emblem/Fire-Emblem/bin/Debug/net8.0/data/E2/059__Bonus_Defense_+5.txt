@@ -1,0 +1,7 @@
+Player 1 Team
+Dimitri
+Leif (Defense +5)
+Player 2 Team
+Veronica
+Dimitri
+Shez (Defense +5)

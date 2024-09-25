@@ -1,0 +1,8 @@
+Player 1 Team
+Veronica (Sword Agility)
+Player 2 Team
+Ike (Close Def)
+Celica (Lunar Brace)
+Corrin (Swift Impact)
+Dimitri (Lull Atk/Spd)
+Byleth (Dodge)

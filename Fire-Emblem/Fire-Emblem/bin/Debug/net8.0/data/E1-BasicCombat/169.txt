@@ -1,0 +1,7 @@
+Player 1 Team
+Celica
+Seliph
+Player 2 Team
+Ike
+Leif
+Chrom

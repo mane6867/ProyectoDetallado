@@ -1,0 +1,8 @@
+Player 1 Team
+Marth (Perceptive)
+Celica (Atk/Res Push)
+Tiki (Magic Guard)
+Player 2 Team
+Tiki (Darting Stance,Defense +5,Lance Power,Dragon's Wrath)
+Chrom (Melee Breaker)
+Hector (Magic Guard)

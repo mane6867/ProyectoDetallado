@@ -1,0 +1,8 @@
+Player 1 Team
+Alear (Binding Shield)
+Chrom
+Celica
+Player 2 Team
+Shez (Binding Shield)
+Eirika (Binding Shield)
+Lucina

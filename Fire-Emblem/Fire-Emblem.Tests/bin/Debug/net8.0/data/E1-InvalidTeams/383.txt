@@ -1,0 +1,6 @@
+Player 1 Team
+Hector (HP +15)
+Shez (Mirror Impact)
+Player 2 Team
+Lucina (Hold Out)
+Lucina (Spd/Res +5)

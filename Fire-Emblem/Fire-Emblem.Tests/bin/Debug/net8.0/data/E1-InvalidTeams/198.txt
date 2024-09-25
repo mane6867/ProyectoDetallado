@@ -1,0 +1,6 @@
+Player 1 Team
+Corrin (Def/Res Push,Def/Res Push)
+Player 2 Team
+Eliwood (Atk/Spd Push)
+Corrin (Defense +5)
+Camilla (Bracing Stance)

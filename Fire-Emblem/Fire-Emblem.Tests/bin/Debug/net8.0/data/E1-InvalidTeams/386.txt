@@ -1,0 +1,8 @@
+Player 1 Team
+Robin (Brazen Atk/Res)
+Player 2 Team
+Sigurd (Lull Atk/Def)
+Chrom (Brazen Spd/Def)
+Camilla (Axe Power)
+Robin (Dragon Wall)
+Byleth (Follow-Up Ring)

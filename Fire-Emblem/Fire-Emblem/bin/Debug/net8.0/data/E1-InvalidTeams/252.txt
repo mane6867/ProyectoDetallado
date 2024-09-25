@@ -1,0 +1,5 @@
+Player 1 Team
+Player 2 Team
+Claude (Savvy Fighter)
+Seliph (Wily Fighter)
+Ike (Spd/Res Push)

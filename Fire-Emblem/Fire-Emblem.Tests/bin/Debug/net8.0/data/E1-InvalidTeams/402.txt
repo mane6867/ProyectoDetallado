@@ -1,0 +1,9 @@
+Player 1 Team
+Seliph (Wily Fighter)
+Byleth (Bracing Blow)
+Player 2 Team
+Tiki (Warding Stance)
+Claude (Back at You)
+Sigurd (Axe Power)
+Shez (Atk/Def Push)
+Leif (Binding Shield)

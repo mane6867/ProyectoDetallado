@@ -1,0 +1,7 @@
+Player 1 Team
+Ike (Bravery)
+Eliwood (Blinding Flash)
+Robin (Sword Agility)
+Player 2 Team
+Celica (Savvy Fighter)
+Celica (Null Follow-Up)

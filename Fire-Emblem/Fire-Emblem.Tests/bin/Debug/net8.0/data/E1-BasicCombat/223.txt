@@ -1,0 +1,8 @@
+Player 1 Team
+Roy
+Ike
+Corrin
+Player 2 Team
+Claude
+Dimitri
+Alm

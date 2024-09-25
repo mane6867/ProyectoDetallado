@@ -1,0 +1,6 @@
+Player 1 Team
+Ike (Dragon's Ire,Wary Fighter)
+Player 2 Team
+Seliph (Agnea's Arrow,Wary Fighter)
+Camilla (Wary Fighter,Melee Breaker)
+Hector (Wary Fighter,Melee Breaker)

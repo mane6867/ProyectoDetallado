@@ -1,0 +1,6 @@
+Player 1 Team
+Leif (Ignis)
+Soren (Lull Spd/Def)
+Edelgard (Dragon Wall)
+Player 2 Team
+Roy (Lull Atk/Def,Bow Agility,Spd/Def Push,Spd/Def +5)

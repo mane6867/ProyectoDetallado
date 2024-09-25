@@ -1,0 +1,6 @@
+Player 1 Team
+Marth
+Ike
+Player 2 Team
+Shez
+Hector

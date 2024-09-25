@@ -1,0 +1,6 @@
+Player 1 Team
+Eliwood
+Player 2 Team
+Lucina
+Shez
+Ephraim

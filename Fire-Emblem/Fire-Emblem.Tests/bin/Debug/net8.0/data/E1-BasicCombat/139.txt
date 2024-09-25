@@ -1,0 +1,7 @@
+Player 1 Team
+Lyn
+Ephraim
+Player 2 Team
+Soren
+Sigurd
+Lucina

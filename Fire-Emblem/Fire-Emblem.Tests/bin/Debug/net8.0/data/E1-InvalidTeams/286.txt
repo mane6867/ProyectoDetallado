@@ -1,0 +1,8 @@
+Player 1 Team
+Chrom (Flare)
+Veronica (Defense +5)
+Veronica (Bow Guard)
+Player 2 Team
+Ephraim (Fort. Def/Res)
+Lucina (Resonance)
+Ike (Golden Lotus)

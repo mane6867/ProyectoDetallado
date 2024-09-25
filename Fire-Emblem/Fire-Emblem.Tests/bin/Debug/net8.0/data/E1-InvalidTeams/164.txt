@@ -1,0 +1,7 @@
+Player 1 Team
+Lyn (Bow Agility,Solid Ground,Brazen Atk/Spd)
+Tiki (Bow Focus,Wary Fighter)
+Shez (Duality,Savvy Fighter)
+Player 2 Team
+Shez (Axe Guard)
+Veronica (Single-Minded)

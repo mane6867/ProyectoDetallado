@@ -1,0 +1,8 @@
+Player 1 Team
+Marth
+Robin
+Seliph
+Player 2 Team
+Lyn
+Soren
+Alear

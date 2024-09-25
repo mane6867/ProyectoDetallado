@@ -1,0 +1,6 @@
+Player 1 Team
+Marth (Brazen Atk/Spd)
+Player 2 Team
+Soren
+Hector (Bow Focus)
+Leif (Tome Precision)

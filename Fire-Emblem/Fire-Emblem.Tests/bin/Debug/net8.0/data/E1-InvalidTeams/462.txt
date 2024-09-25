@@ -1,0 +1,5 @@
+Player 1 Team
+Leif (Nosferatu,Nosferatu)
+Player 2 Team
+Hector (Dragon's Wrath)
+Alm (Brazen Atk/Def)

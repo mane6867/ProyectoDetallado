@@ -1,0 +1,6 @@
+Player 1 Team
+Marth
+Player 2 Team
+Byleth
+Sigurd
+Lyn

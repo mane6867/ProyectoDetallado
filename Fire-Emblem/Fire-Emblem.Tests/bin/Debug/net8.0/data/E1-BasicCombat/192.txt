@@ -1,0 +1,7 @@
+Player 1 Team
+Corrin
+Lucina
+Player 2 Team
+Veronica
+Camilla
+Alm

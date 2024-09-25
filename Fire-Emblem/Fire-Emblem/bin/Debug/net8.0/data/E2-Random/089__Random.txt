@@ -1,0 +1,6 @@
+Player 1 Team
+Byleth (Atk/Def +5)
+Player 2 Team
+Claude
+Hector
+Micaiah (Chaos Style,Swift Strike)

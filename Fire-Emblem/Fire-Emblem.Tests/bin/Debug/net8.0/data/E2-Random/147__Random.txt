@@ -1,0 +1,7 @@
+Player 1 Team
+Roy (Brazen Spd/Res)
+Chrom (Spd/Res +5)
+Edelgard (Distant Def)
+Player 2 Team
+Robin (Lull Atk/Spd,Stunning Smile)
+Alm

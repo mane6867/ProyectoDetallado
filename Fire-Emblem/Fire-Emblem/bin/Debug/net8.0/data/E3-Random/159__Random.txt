@@ -1,0 +1,5 @@
+Player 1 Team
+Robin (Lull Atk/Spd,Spd/Res +5)
+Player 2 Team
+Lucina (Chivalry)
+Ike (Mirror Strike,Lunar Brace)

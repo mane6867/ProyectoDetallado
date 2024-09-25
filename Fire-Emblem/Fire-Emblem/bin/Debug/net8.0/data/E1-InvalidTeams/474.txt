@@ -1,0 +1,9 @@
+Player 1 Team
+Claude (Soulblade)
+Hector (Daring Fighter)
+Celica (Range Breaker)
+Corrin (Magic Guard)
+Camilla (Single-Minded)
+Player 2 Team
+Chrom (Daring Fighter)
+Tiki (Earth Boost)

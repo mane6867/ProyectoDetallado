@@ -1,0 +1,6 @@
+Player 1 Team
+Chrom (Resistance +5,Def/Res Push)
+Player 2 Team
+Micaiah (Mirror Strike)
+Roy (Aegis Shield)
+Shez (Eclipse Brace)

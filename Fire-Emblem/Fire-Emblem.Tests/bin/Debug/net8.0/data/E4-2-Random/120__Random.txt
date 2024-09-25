@@ -1,0 +1,7 @@
+Player 1 Team
+Ephraim (Savvy Fighter,Wary Fighter)
+Ike (Slick Fighter,Wily Fighter)
+Lyn (Flow Feather,Flow Flight)
+Player 2 Team
+Ephraim (Pegasus Flight,Wyvern Flight)
+Hector (Atk/Spd Push,Atk/Def Push)

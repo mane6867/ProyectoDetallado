@@ -1,0 +1,5 @@
+Player 1 Team
+Eliwood (Tome Precision)
+Player 2 Team
+Dimitri (Sword Agility)
+Hector (Death Blow)

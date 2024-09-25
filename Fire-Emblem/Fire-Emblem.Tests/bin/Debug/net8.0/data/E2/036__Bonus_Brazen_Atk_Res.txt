@@ -1,0 +1,8 @@
+Player 1 Team
+Ike (Brazen Atk/Res)
+Eliwood
+Camilla (Brazen Atk/Res)
+Player 2 Team
+Marth
+Ike (Brazen Atk/Res)
+Robin

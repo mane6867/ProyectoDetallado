@@ -1,0 +1,7 @@
+Player 1 Team
+Roy (Wind Boost,Wind Boost)
+Ike (Savvy Fighter)
+Player 2 Team
+Byleth (Gentility)
+Leif (Surprise Attack)
+Tiki (Attack +6)

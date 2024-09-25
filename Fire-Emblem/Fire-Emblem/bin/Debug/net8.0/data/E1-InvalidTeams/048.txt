@@ -1,0 +1,8 @@
+Player 1 Team
+Alear (Poetic Justice,Eclipse Brace,Mirror Strike,Pegasus Flight)
+Marth (Bow Guard,Brazen Atk/Spd)
+Eliwood (Remote Mirror,Atk/Spd +5)
+Player 2 Team
+Alear (Fair Fight)
+Soren (Tome Precision)
+Sigurd (Water Boost)

@@ -1,0 +1,6 @@
+Player 1 Team
+Soren (Spd/Res +5)
+Player 2 Team
+Marth (Lull Atk/Res)
+Dimitri (Close Def)
+Ike (Disarming Sigh,Brazen Atk/Spd)

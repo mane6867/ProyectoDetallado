@@ -1,0 +1,9 @@
+Player 1 Team
+Lucina (Atk/Res +5)
+Roy (Fire Boost)
+Alm (Extra Chivalry)
+Marth (Hold Out)
+Eliwood (Soulblade)
+Player 2 Team
+Byleth (Mirror Stance)
+Lucina (Lull Atk/Spd)

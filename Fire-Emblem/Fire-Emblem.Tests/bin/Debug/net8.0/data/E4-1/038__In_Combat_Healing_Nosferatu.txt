@@ -1,0 +1,7 @@
+Player 1 Team
+Marth (Nosferatu)
+Sigurd (Nosferatu)
+Hector (Nosferatu)
+Player 2 Team
+Alm (Nosferatu)
+Tiki (Nosferatu)

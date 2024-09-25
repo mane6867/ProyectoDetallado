@@ -1,0 +1,9 @@
+Player 1 Team
+Alm (Steady Impact)
+Camilla (Atk/Spd +5)
+Veronica (Will to Win)
+Hector (Atk/Spd +5)
+Player 2 Team
+Eliwood (Single-Minded)
+Dimitri (Windsweep)
+Roy (New Divinity)

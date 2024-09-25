@@ -1,0 +1,8 @@
+Player 1 Team
+Lucina (Hliðskjálf)
+Alm (Hliðskjálf)
+Robin (Hliðskjálf)
+Player 2 Team
+Lucina (Hliðskjálf)
+Robin (Hliðskjálf)
+Celica (Hliðskjálf)

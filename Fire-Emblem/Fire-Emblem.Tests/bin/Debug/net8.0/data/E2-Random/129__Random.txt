@@ -1,0 +1,8 @@
+Player 1 Team
+Sigurd (Lull Spd/Res)
+Marth (Earth Boost)
+Byleth
+Player 2 Team
+Chrom (Atk/Res +5)
+Celica (Water Boost,Life and Death)
+Leif (Brazen Spd/Def)

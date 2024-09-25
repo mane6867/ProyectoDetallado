@@ -1,0 +1,6 @@
+Player 1 Team
+Hector (Spd/Res +5)
+Claude (Null Follow-Up)
+Player 2 Team
+Corrin (Melee Breaker,Spd/Def Push)
+Hector (Flow Force)

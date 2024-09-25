@@ -1,0 +1,9 @@
+Player 1 Team
+Hector (Alacrity)
+Shez (Swift Impact)
+Player 2 Team
+Chrom (Magic Guard)
+Leif (Holy War's End)
+Camilla (Sword Power)
+Tiki (Tome Precision)
+Eliwood (Remote Mirror)

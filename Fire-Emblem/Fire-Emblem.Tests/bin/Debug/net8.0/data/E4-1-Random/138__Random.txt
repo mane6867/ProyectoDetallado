@@ -1,0 +1,7 @@
+Player 1 Team
+Hector
+Chrom
+Claude (Solar Brace)
+Player 2 Team
+Robin (Atk/Spd Push,Atk/Res Push)
+Ike (Resonance,Sol)

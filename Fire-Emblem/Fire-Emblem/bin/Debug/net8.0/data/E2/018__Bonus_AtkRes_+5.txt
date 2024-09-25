@@ -1,0 +1,6 @@
+Player 1 Team
+Marth (Atk/Res +5)
+Byleth
+Sigurd
+Player 2 Team
+Alm

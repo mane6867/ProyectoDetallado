@@ -1,0 +1,10 @@
+Player 1 Team
+Claude (Phys. Null Follow)
+Veronica (Bracing Blow)
+Robin (Spd/Res +5)
+Player 2 Team
+Shez (Atk/Def +5)
+Soren (Sword Agility)
+Chrom (Extra Chivalry)
+Marth (Atk/Res Push)
+Lyn (Impenetrable)

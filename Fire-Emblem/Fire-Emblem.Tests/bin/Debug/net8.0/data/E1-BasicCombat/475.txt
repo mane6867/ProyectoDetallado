@@ -1,0 +1,6 @@
+Player 1 Team
+Leif
+Player 2 Team
+Alm
+Chrom
+Lyn

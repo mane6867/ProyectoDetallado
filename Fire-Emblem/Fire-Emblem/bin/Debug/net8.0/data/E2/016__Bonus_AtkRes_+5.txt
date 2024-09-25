@@ -1,0 +1,6 @@
+Player 1 Team
+Lucina
+Dimitri (Atk/Res +5)
+Soren
+Player 2 Team
+Dimitri (Atk/Res +5)

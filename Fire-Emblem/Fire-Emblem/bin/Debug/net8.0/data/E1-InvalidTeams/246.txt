@@ -1,0 +1,9 @@
+Player 1 Team
+Lyn (Fort. Def/Res)
+Seliph (Melee Breaker)
+Claude (Steady Stance)
+Player 2 Team
+Roy (Spd/Res +5)
+Celica (Sword Power)
+Sigurd (Dragon's Ire)
+Camilla (Solar Brace)

@@ -1,0 +1,8 @@
+Player 1 Team
+Eliwood
+Eirika (Resistance +5)
+Claude
+Player 2 Team
+Chrom
+Lucina (Resistance +5)
+Shez (Resistance +5)

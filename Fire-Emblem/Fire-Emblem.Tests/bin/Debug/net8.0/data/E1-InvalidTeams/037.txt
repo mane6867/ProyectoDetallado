@@ -1,0 +1,7 @@
+Player 1 Team
+Lucina (Wind Boost)
+Alear (Atk/Spd +5)
+Player 2 Team
+Eliwood (Axe Power)
+Seliph (Atk/Spd Push)
+Seliph (Lunar Brace)

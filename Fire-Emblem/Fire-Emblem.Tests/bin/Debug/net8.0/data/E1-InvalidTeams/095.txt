@@ -1,0 +1,7 @@
+Player 1 Team
+Marth (Spd/Def +5,Steady Blow,Swift Stance)
+Ike (Swift Impact)
+Player 2 Team
+Celica (Daring Fighter)
+Ike (Fort. Def/Res)
+Veronica (Arms Shield)

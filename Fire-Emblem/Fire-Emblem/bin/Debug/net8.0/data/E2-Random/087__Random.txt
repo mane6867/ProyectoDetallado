@@ -1,0 +1,8 @@
+Player 1 Team
+Dimitri (Speed +5)
+Lucina (Blinding Flash,Armored Blow)
+Marth (Beorc's Blessing)
+Player 2 Team
+Tiki (Atk/Def +5)
+Celica (Lull Spd/Def,Brazen Atk/Spd)
+Robin

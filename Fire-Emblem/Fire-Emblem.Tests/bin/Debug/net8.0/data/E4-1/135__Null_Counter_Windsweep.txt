@@ -1,0 +1,8 @@
+Player 1 Team
+Ephraim (Windsweep)
+Marth (Windsweep)
+Camilla (Windsweep)
+Player 2 Team
+Hector (Windsweep)
+Sigurd (Windsweep)
+Shez (Windsweep)

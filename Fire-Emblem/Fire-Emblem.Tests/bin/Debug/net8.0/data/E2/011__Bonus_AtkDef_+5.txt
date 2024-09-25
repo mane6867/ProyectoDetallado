@@ -1,0 +1,7 @@
+Player 1 Team
+Corrin (Atk/Def +5)
+Byleth (Atk/Def +5)
+Alm
+Player 2 Team
+Sigurd (Atk/Def +5)
+Alear

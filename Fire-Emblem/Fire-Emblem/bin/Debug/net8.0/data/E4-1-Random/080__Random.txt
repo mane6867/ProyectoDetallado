@@ -1,0 +1,6 @@
+Player 1 Team
+Ike (Bewitching Tome)
+Hector (Null C-Disrupt)
+Player 2 Team
+Seliph (Atk/Res Push,Spd/Def Push)
+Shez (Def/Res Push,Scendscale)

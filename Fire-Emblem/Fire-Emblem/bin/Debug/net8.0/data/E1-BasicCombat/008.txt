@@ -1,0 +1,7 @@
+Player 1 Team
+Chrom
+Sigurd
+Player 2 Team
+Lyn
+Alm
+Camilla

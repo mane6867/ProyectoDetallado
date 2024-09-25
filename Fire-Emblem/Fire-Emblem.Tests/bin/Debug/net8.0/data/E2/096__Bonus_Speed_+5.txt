@@ -1,0 +1,6 @@
+Player 1 Team
+Roy (Speed +5)
+Chrom
+Player 2 Team
+Eliwood (Speed +5)
+Lucina (Speed +5)

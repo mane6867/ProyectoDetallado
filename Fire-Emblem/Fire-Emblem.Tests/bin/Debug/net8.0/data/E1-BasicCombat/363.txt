@@ -1,0 +1,6 @@
+Player 1 Team
+Soren
+Player 2 Team
+Claude
+Veronica
+Sigurd

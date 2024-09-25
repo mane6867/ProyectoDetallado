@@ -1,0 +1,5 @@
+Player 1 Team
+Eliwood (Lance Guard,Steady Posture)
+Byleth (Mastermind,Swift Sparrow)
+Player 2 Team
+Marth (Soulblade,Swift Strike)

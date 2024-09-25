@@ -1,0 +1,5 @@
+Player 1 Team
+Hector (Speed +5)
+Eirika (Speed +5)
+Player 2 Team
+Eliwood (Speed +5)

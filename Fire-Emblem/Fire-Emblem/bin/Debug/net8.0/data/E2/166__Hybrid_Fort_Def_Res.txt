@@ -1,0 +1,7 @@
+Player 1 Team
+Byleth (Fort. Def/Res)
+Marth (Fort. Def/Res)
+Player 2 Team
+Ephraim (Fort. Def/Res)
+Sigurd (Fort. Def/Res)
+Soren

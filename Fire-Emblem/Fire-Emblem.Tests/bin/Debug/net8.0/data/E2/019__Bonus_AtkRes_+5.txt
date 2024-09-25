@@ -1,0 +1,7 @@
+Player 1 Team
+Sigurd (Atk/Res +5)
+Lyn
+Eliwood
+Player 2 Team
+Byleth (Atk/Res +5)
+Camilla

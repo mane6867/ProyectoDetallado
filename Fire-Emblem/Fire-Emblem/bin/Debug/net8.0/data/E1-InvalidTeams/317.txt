@@ -1,0 +1,6 @@
+Player 1 Team
+Eirika (Swift Strike)
+Corrin (Deadly Blade)
+Corrin (Melee Breaker)
+Player 2 Team
+Corrin (Spd/Def +5)

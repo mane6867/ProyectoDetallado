@@ -1,0 +1,5 @@
+Player 1 Team
+Ike (Swift Impact,Brash Assault)
+Player 2 Team
+Robin (Wary Fighter)
+Alear (Swift Impact,Mirror Impact)

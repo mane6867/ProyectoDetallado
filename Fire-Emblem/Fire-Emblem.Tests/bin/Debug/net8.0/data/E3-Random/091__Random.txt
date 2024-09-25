@@ -1,0 +1,8 @@
+Player 1 Team
+Corrin (Chivalry,Sturdy Stance)
+Eirika (Arms Shield,Divine Recreation)
+Camilla (Arms Shield,Magic Guard)
+Player 2 Team
+Dimitri (Bravery)
+Seliph (Extra Chivalry,Bravery)
+Hector (Poetic Justice)

@@ -1,0 +1,8 @@
+Player 1 Team
+Dimitri
+Claude
+Robin
+Player 2 Team
+Robin
+Claude
+Tiki

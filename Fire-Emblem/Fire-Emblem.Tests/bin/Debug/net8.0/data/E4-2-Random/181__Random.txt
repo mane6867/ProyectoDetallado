@@ -1,0 +1,7 @@
+Player 1 Team
+Marth (Range Breaker,Binding Shield)
+Ike (Pegasus Flight,Phys. Null Follow)
+Player 2 Team
+Sigurd (Flow Force)
+Chrom
+Hector (Flow Refresh)

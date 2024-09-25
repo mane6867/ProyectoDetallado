@@ -1,0 +1,6 @@
+Player 1 Team
+Eliwood
+Lyn
+Player 2 Team
+Seliph
+Hector

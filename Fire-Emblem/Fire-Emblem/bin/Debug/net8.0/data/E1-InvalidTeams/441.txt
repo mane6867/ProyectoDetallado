@@ -1,0 +1,6 @@
+Player 1 Team
+Tiki (Steady Blow,Atk/Res +5,Swift Impact,Null Follow-Up)
+Byleth (Disarming Sigh)
+Sigurd (Slick Fighter)
+Player 2 Team
+Alm (Lull Spd/Res)

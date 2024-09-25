@@ -1,0 +1,5 @@
+Player 1 Team
+Roy (Attack +6)
+Player 2 Team
+Micaiah
+Ike (Attack +6)

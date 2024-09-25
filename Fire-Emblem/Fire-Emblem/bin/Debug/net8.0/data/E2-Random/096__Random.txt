@@ -1,0 +1,6 @@
+Player 1 Team
+Roy
+Eirika
+Player 2 Team
+Soren (Lull Atk/Res)
+Byleth (Warding Blow)

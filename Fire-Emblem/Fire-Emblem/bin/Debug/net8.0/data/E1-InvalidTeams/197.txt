@@ -1,0 +1,5 @@
+Player 1 Team
+Marth (Spd Preempt)
+Marth (Dragonskin)
+Player 2 Team
+Eliwood (Ignis)

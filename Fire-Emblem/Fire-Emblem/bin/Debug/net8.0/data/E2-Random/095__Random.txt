@@ -1,0 +1,6 @@
+Player 1 Team
+Edelgard (Spd/Res +5,Atk/Res +5)
+Byleth (Lull Atk/Res)
+Player 2 Team
+Eirika (Swift Sparrow)
+Micaiah (Armored Blow,Close Def)

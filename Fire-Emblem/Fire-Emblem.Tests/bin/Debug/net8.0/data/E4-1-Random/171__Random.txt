@@ -1,0 +1,7 @@
+Player 1 Team
+Leif (Nosferatu)
+Corrin (Def/Res Push)
+Player 2 Team
+Leif (Atk/Spd Push,Null C-Disrupt)
+Alm (Atk/Def Push,Eclipse Brace)
+Micaiah (Mastermind,Fury)

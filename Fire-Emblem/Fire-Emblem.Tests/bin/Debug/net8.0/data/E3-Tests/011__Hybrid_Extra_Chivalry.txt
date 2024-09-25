@@ -1,0 +1,185 @@
+Elige un archivo para cargar los equipos
+0: 000__Damage_Reduction_Dodge.txt
+1: 001__Damage_Reduction_Dragon_Wall.txt
+2: 002__Damage_Reduction_Golden_Lotus.txt
+3: 003__Hybrid_Aegis_Shield.txt
+4: 004__Hybrid_Blue_Skies.txt
+5: 005__Hybrid_Bracing_Stance.txt
+6: 006__Hybrid_Bushido.txt
+7: 007__Hybrid_Chivalry.txt
+8: 008__Hybrid_Darting_Stance.txt
+9: 009__Hybrid_Divine_Recreation.txt
+10: 010__Hybrid_Dragons_Wrath.txt
+11: 011__Hybrid_Extra_Chivalry.txt
+12: 012__Hybrid_Extra_Chivalry.txt
+13: 013__Hybrid_Fierce_Stance.txt
+14: 014__Hybrid_Guard_Bearing.txt
+15: 015__Hybrid_Guard_Bearing.txt
+16: 016__Hybrid_Kestrel_Stance.txt
+17: 017__Hybrid_Laguz_Friend.txt
+18: 018__Hybrid_Mirror_Stance.txt
+19: 019__Hybrid_Moon-Twin_wing.txt
+20: 020__Hybrid_Moon-Twin_wing.txt
+21: 021__Hybrid_Poetic_Justice.txt
+22: 022__Hybrid_Prescience.txt
+23: 023__Hybrid_Prescience.txt
+24: 024__Hybrid_Remote_Mirror.txt
+25: 025__Hybrid_Remote_Sparrow.txt
+26: 026__Hybrid_Remote_Sturdy.txt
+27: 027__Hybrid_Steady_Posture.txt
+28: 028__Hybrid_Steady_Stance.txt
+29: 029__Hybrid_SturdyStance.txt
+30: 030__Hybrid_Swift_Stance.txt
+31: 031__Hybrid_Warding_Stance.txt
+32: 433__True_Damage_Back_at_You.txt
+33: 434__True_Damage_Back_at_You.txt
+34: 435__True_Damage_Bravery.txt
+35: 436__True_Damage_Lunar_Brace.txt
+36: 437__True_Damage_Lunar_Brace.txt
+37: 438__True_Defense_Arms_Shield.txt
+38: 439__True_Defense_Arms_Shield.txt
+39: 440__True_Defense_Axe_Guard.txt
+40: 441__True_Defense_Bow_Guard.txt
+41: 442__True_Defense_Gentility.txt
+42: 443__True_Defense_Lance_Guard.txt
+43: 444__True_Defense_Magic_Guard.txt
+44: 445__True_Defense_Sympathetic.txt
+INPUT: 11
+Player 1 selecciona una opción
+0: Claude
+1: Byleth
+2: Dimitri
+INPUT: 0
+Player 2 selecciona una opción
+0: Camilla
+1: Eirika
+2: Lucina
+INPUT: 0
+Round 1: Claude (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Claude ataca a Camilla con 17 de daño
+Camilla ataca a Claude con 27 de daño
+Claude ataca a Camilla con 17 de daño
+Claude (27) : Camilla (15)
+Player 2 selecciona una opción
+0: Camilla
+1: Eirika
+2: Lucina
+INPUT: 0
+Player 1 selecciona una opción
+0: Claude
+1: Byleth
+2: Dimitri
+INPUT: 1
+Round 2: Camilla (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Byleth reducirá el daño de los ataques del rival en un 15%
+Camilla ataca a Byleth con 21 de daño
+Byleth ataca a Camilla con 10 de daño
+Byleth ataca a Camilla con 10 de daño
+Camilla (0) : Byleth (32)
+Player 1 selecciona una opción
+0: Claude
+1: Byleth
+2: Dimitri
+INPUT: 0
+Player 2 selecciona una opción
+0: Eirika
+1: Lucina
+INPUT: 0
+Round 3: Claude (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Claude obtiene Atk-5
+Claude obtiene Spd-5
+Claude obtiene Def-5
+Eirika reducirá el daño de los ataques del rival en un 25%
+Claude ataca a Eirika con 13 de daño
+Eirika ataca a Claude con 33 de daño
+Claude (0) : Eirika (39)
+Player 2 selecciona una opción
+0: Eirika
+1: Lucina
+INPUT: 0
+Player 1 selecciona una opción
+0: Byleth
+1: Dimitri
+INPUT: 0
+Round 4: Eirika (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Eirika obtiene Atk-5
+Eirika obtiene Spd-5
+Eirika obtiene Def-5
+Eirika reducirá el daño de los ataques del rival en un 30%
+Byleth obtiene Atk-5
+Byleth obtiene Spd-5
+Byleth obtiene Def-5
+Byleth reducirá el daño de los ataques del rival en un 37%
+Eirika ataca a Byleth con 16 de daño
+Byleth ataca a Eirika con 18 de daño
+Ninguna unidad puede hacer un follow up
+Eirika (21) : Byleth (16)
+Player 1 selecciona una opción
+0: Byleth
+1: Dimitri
+INPUT: 1
+Player 2 selecciona una opción
+0: Eirika
+1: Lucina
+INPUT: 1
+Round 5: Dimitri (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Dimitri reducirá el daño de los ataques del rival en un 50%
+Lucina obtiene Atk-5
+Lucina obtiene Spd-5
+Lucina obtiene Def-5
+Dimitri ataca a Lucina con 36 de daño
+Lucina ataca a Dimitri con 4 de daño
+Dimitri ataca a Lucina con 36 de daño
+Dimitri (49) : Lucina (0)
+Player 2 selecciona una opción
+0: Eirika
+INPUT: 0
+Player 1 selecciona una opción
+0: Byleth
+1: Dimitri
+INPUT: 0
+Round 6: Eirika (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Eirika reducirá el daño de los ataques del rival en un 15%
+Byleth reducirá el daño de los ataques del rival en un 20%
+Eirika ataca a Byleth con 20 de daño
+Eirika (21) : Byleth (0)
+Player 1 selecciona una opción
+0: Dimitri
+INPUT: 0
+Player 2 selecciona una opción
+0: Eirika
+INPUT: 0
+Round 7: Dimitri (Player 1) comienza
+Dimitri (Lance) tiene ventaja con respecto a Eirika (Sword)
+Dimitri obtiene Atk-5
+Dimitri obtiene Spd-5
+Dimitri obtiene Def-5
+Dimitri reducirá el daño de los ataques del rival en un 20%
+Eirika reducirá el daño de los ataques del rival en un 46%
+Dimitri ataca a Eirika con 19 de daño
+Eirika ataca a Dimitri con 4 de daño
+Eirika ataca a Dimitri con 4 de daño
+Dimitri (41) : Eirika (2)
+Player 2 selecciona una opción
+0: Eirika
+INPUT: 0
+Player 1 selecciona una opción
+0: Dimitri
+INPUT: 0
+Round 8: Eirika (Player 2) comienza
+Dimitri (Lance) tiene ventaja con respecto a Eirika (Sword)
+Eirika reducirá el daño de los ataques del rival en un 38%
+Dimitri obtiene Atk-5
+Dimitri obtiene Spd-5
+Dimitri obtiene Def-5
+Dimitri reducirá el daño de los ataques del rival en un 1%
+Eirika ataca a Dimitri con 5 de daño
+Dimitri ataca a Eirika con 22 de daño
+Eirika (0) : Dimitri (36)
+Player 1 ganó

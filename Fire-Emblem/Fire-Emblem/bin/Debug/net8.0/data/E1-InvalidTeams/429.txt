@@ -1,0 +1,7 @@
+Player 1 Team
+Robin (Wind Boost)
+Celica (Axe Power)
+Shez (Spd/Res +5)
+Player 2 Team
+Eliwood (Spd/Def +5,Range Breaker,New Divinity)
+Alm (Atk/Res +5,Distant Def)

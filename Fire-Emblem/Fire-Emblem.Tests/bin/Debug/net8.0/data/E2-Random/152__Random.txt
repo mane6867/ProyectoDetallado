@@ -1,0 +1,5 @@
+Player 1 Team
+Hector (Lull Spd/Def)
+Player 2 Team
+Hector (Lull Def/Res,Sword Agility)
+Seliph (Sword Focus)

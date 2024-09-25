@@ -1,0 +1,8 @@
+Player 1 Team
+Ike (Flare)
+Camilla
+Robin (Atk/Res Push)
+Player 2 Team
+Marth (Mastermind)
+Corrin (Laws of Sacae)
+Robin (Spd/Def Push)

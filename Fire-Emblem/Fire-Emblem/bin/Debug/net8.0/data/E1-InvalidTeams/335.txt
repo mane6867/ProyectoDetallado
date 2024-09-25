@@ -1,0 +1,9 @@
+Player 1 Team
+Corrin (Duality)
+Ike (Armored Blow)
+Edelgard (Defense +5)
+Player 2 Team
+Tiki (Alacrity)
+Claude (Pegasus Flight)
+Roy (Solar Brace)
+Robin (Luna)

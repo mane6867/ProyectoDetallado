@@ -1,0 +1,7 @@
+Player 1 Team
+Hector
+Marth
+Soren
+Player 2 Team
+Camilla
+Sigurd

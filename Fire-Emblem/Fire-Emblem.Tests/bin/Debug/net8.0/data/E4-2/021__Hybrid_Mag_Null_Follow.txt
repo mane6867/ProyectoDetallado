@@ -1,0 +1,8 @@
+Player 1 Team
+Tiki (Mag. Null Follow)
+Marth (Mag. Null Follow)
+Camilla (Mag. Null Follow)
+Player 2 Team
+Edelgard
+Celica
+Veronica

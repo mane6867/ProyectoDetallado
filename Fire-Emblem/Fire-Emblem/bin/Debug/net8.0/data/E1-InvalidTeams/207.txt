@@ -1,0 +1,6 @@
+Player 1 Team
+Chrom (Chaos Style,Lightsphere,Mirror Impact,Reprisal)
+Tiki (Darting Stance,Magic Guard)
+Player 2 Team
+Alm (Solar Brace)
+Alear (Tome Precision)

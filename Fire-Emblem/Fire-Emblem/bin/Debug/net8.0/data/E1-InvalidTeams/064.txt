@@ -1,0 +1,4 @@
+Player 1 Team
+Tiki (Brazen Atk/Spd,Brazen Atk/Spd)
+Player 2 Team
+Alm (Lance Power)

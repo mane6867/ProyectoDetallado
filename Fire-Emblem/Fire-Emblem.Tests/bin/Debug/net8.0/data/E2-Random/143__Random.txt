@@ -1,0 +1,7 @@
+Player 1 Team
+Marth (Armored Blow)
+Lyn (Lull Def/Res,Attack +6)
+Player 2 Team
+Ephraim (Darting Blow)
+Leif
+Edelgard

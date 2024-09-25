@@ -1,0 +1,213 @@
+Elige un archivo para cargar los equipos
+0: 000__Mix.txt
+1: 001__Mix.txt
+2: 002__Mix.txt
+3: 003__Mix.txt
+4: 004__Mix.txt
+5: 005__Mix.txt
+6: 006__Mix.txt
+7: 007__Mix.txt
+8: 008__Mix.txt
+9: 009__Mix.txt
+10: 010__Mix.txt
+11: 011__Mix.txt
+12: 012__Mix.txt
+13: 013__Mix.txt
+14: 014__Mix.txt
+15: 015__Mix.txt
+16: 016__Mix.txt
+17: 017__Mix.txt
+18: 018__Mix.txt
+19: 019__Mix.txt
+20: 020__Mix.txt
+21: 021__Mix.txt
+22: 022__Mix.txt
+23: 023__Mix.txt
+24: 024__Mix.txt
+25: 025__Mix.txt
+26: 026__Mix.txt
+27: 027__Mix.txt
+28: 028__Mix.txt
+29: 029__Mix.txt
+30: 030__Mix.txt
+31: 031__Mix.txt
+32: 032__Mix.txt
+33: 033__Mix.txt
+34: 034__Mix.txt
+35: 035__Mix.txt
+36: 036__Mix.txt
+37: 037__Mix.txt
+38: 038__Mix.txt
+39: 039__Mix.txt
+40: 040__Mix.txt
+41: 041__Mix.txt
+42: 042__Mix.txt
+43: 043__Mix.txt
+44: 044__Mix.txt
+45: 045__Mix.txt
+46: 046__Mix.txt
+47: 047__Mix.txt
+48: 048__Mix.txt
+49: 049__Mix.txt
+50: 050__Mix.txt
+51: 051__Mix.txt
+52: 052__Mix.txt
+53: 053__Mix.txt
+54: 054__Mix.txt
+55: 055__Mix.txt
+56: 056__Mix.txt
+57: 057__Mix.txt
+58: 058__Mix.txt
+59: 059__Mix.txt
+60: 060__Mix.txt
+61: 061__Mix.txt
+62: 062__Mix.txt
+63: 063__Mix.txt
+64: 064__Mix.txt
+65: 065__Mix.txt
+66: 066__Mix.txt
+67: 067__Mix.txt
+68: 068__Mix.txt
+69: 069__Mix.txt
+70: 070__Mix.txt
+71: 071__Mix.txt
+72: 072__Mix.txt
+73: 073__Mix.txt
+74: 074__Mix.txt
+75: 075__Mix.txt
+76: 076__Mix.txt
+77: 077__Mix.txt
+78: 078__Mix.txt
+79: 079__Mix.txt
+80: 080__Mix.txt
+81: 081__Mix.txt
+82: 082__Mix.txt
+83: 083__Mix.txt
+84: 084__Mix.txt
+85: 085__Mix.txt
+86: 086__Mix.txt
+87: 087__Mix.txt
+88: 088__Mix.txt
+89: 089__Mix.txt
+90: 090__Mix.txt
+91: 091__Mix.txt
+92: 092__Mix.txt
+93: 093__Mix.txt
+94: 094__Mix.txt
+95: 095__Mix.txt
+96: 096__Mix.txt
+97: 097__Mix.txt
+98: 098__Mix.txt
+99: 099__Mix.txt
+100: 100__Mix.txt
+101: 101__Mix.txt
+102: 102__Mix.txt
+103: 103__Mix.txt
+104: 104__Mix.txt
+105: 105__Mix.txt
+106: 106__Mix.txt
+107: 107__Mix.txt
+108: 108__Mix.txt
+109: 109__Mix.txt
+110: 110__Mix.txt
+111: 111__Mix.txt
+112: 112__Mix.txt
+113: 113__Mix.txt
+114: 114__Mix.txt
+115: 115__Mix.txt
+116: 116__Mix.txt
+117: 117__Mix.txt
+118: 118__Mix.txt
+119: 119__Mix.txt
+120: 120__Mix.txt
+121: 121__Mix.txt
+122: 122__Mix.txt
+123: 123__Mix.txt
+124: 124__Mix.txt
+125: 125__Mix.txt
+126: 126__Mix.txt
+127: 127__Mix.txt
+128: 128__Mix.txt
+129: 129__Mix.txt
+130: 130__Mix.txt
+131: 131__Mix.txt
+132: 132__Mix.txt
+133: 133__Mix.txt
+134: 134__Mix.txt
+135: 135__Mix.txt
+136: 136__Mix.txt
+137: 137__Mix.txt
+138: 138__Mix.txt
+139: 139__Mix.txt
+140: 140__Mix.txt
+141: 141__Mix.txt
+142: 142__Mix.txt
+143: 143__Mix.txt
+144: 144__Mix.txt
+145: 145__Mix.txt
+146: 146__Mix.txt
+147: 147__Mix.txt
+148: 148__Mix.txt
+149: 149__Mix.txt
+150: 150__Mix.txt
+151: 151__Mix.txt
+152: 152__Mix.txt
+153: 153__Mix.txt
+154: 154__Mix.txt
+155: 155__Mix.txt
+156: 156__Mix.txt
+157: 157__Mix.txt
+158: 158__Mix.txt
+159: 159__Mix.txt
+160: 160__Mix.txt
+161: 161__Mix.txt
+162: 162__Mix.txt
+163: 163__Mix.txt
+164: 164__Mix.txt
+165: 165__Mix.txt
+166: 166__Mix.txt
+167: 167__Mix.txt
+168: 168__Mix.txt
+169: 169__Mix.txt
+170: 170__Mix.txt
+171: 171__Mix.txt
+172: 172__Mix.txt
+173: 173__Mix.txt
+174: 174__Mix.txt
+175: 175__Mix.txt
+176: 176__Mix.txt
+177: 177__Mix.txt
+178: 178__Mix.txt
+179: 179__Mix.txt
+180: 180__Mix.txt
+INPUT: 118
+Player 1 selecciona una opción
+0: Veronica
+INPUT: 0
+Player 2 selecciona una opción
+0: Edelgard
+INPUT: 0
+Round 1: Veronica (Player 1) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Los penalty de Atk de Edelgard fueron neutralizados
+Los penalty de Spd de Edelgard fueron neutralizados
+Los penalty de Def de Edelgard fueron neutralizados
+Los penalty de Res de Edelgard fueron neutralizados
+Edelgard tiene 1 efecto(s) que garantiza(n) su follow up activo(s)
+Edelgard es inmune a los efectos que garantizan su follow up
+Veronica ataca a Edelgard con 18 de daño
+Edelgard ataca a Veronica con 46 de daño
+Veronica ataca a Edelgard con 18 de daño
+Veronica (3) : Edelgard (23)
+Player 2 selecciona una opción
+0: Edelgard
+INPUT: 0
+Player 1 selecciona una opción
+0: Veronica
+INPUT: 0
+Round 2: Edelgard (Player 2) comienza
+Ninguna unidad tiene ventaja con respecto a la otra
+Edelgard es inmune a los efectos que garantizan su follow up
+Edelgard ataca a Veronica con 46 de daño
+Edelgard (23) : Veronica (0)
+Player 2 ganó

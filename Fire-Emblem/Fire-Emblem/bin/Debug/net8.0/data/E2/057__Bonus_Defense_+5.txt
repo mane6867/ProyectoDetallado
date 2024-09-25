@@ -1,0 +1,7 @@
+Player 1 Team
+Celica
+Alear (Defense +5)
+Alm
+Player 2 Team
+Roy (Defense +5)
+Claude (Defense +5)

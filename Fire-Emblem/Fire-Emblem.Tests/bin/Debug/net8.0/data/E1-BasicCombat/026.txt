@@ -1,0 +1,6 @@
+Player 1 Team
+Edelgard
+Lucina
+Player 2 Team
+Camilla
+Corrin

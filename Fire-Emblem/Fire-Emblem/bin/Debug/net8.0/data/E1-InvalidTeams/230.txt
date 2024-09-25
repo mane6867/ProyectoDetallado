@@ -1,0 +1,10 @@
+Player 1 Team
+Alear (Slick Fighter)
+Celica (Mirror Strike)
+Lucina (Flow Force)
+Camilla (Bow Agility)
+Alm (Blinding Flash)
+Player 2 Team
+Ephraim (Spd/Def +5)
+Tiki (Dodge)
+Edelgard (Agnea's Arrow)

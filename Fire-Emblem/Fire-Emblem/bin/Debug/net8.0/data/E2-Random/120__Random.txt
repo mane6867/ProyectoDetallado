@@ -1,0 +1,8 @@
+Player 1 Team
+Tiki (HP +15,Lance Power)
+Seliph
+Eliwood (Water Boost,Brazen Spd/Def)
+Player 2 Team
+Soren (Fire Boost,Light and Dark)
+Marth (Fire Boost,Dragonskin)
+Lucina (Perceptive,Lance Power)

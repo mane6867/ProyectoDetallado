@@ -1,0 +1,10 @@
+Player 1 Team
+Eliwood (Wind Boost)
+Marth (Lance Power)
+Lucina (Warding Stance)
+Player 2 Team
+Dimitri (Bracing Stance)
+Seliph (Fair Fight)
+Lyn (Spd/Def Push)
+Eliwood (Spd/Res Push)
+Eirika (Atk/Res +5)

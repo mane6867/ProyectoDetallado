@@ -1,0 +1,8 @@
+Player 1 Team
+Leif
+Soren (Close Def)
+Hector (Brazen Atk/Spd)
+Player 2 Team
+Marth
+Edelgard (Lull Spd/Res)
+Shez (Stunning Smile)

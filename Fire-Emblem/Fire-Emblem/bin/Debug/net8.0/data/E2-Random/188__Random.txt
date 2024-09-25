@@ -1,0 +1,7 @@
+Player 1 Team
+Chrom (Lull Atk/Def)
+Eliwood (Lance Power)
+Player 2 Team
+Marth
+Ike
+Leif

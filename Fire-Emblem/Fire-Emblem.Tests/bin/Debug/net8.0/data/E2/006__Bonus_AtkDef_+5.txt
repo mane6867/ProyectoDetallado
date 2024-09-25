@@ -1,0 +1,6 @@
+Player 1 Team
+Eirika (Atk/Def +5)
+Tiki (Atk/Def +5)
+Player 2 Team
+Byleth (Atk/Def +5)
+Lucina (Atk/Def +5)

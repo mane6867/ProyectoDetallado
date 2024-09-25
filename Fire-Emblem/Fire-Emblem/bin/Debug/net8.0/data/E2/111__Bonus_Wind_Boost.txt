@@ -1,0 +1,7 @@
+Player 1 Team
+Marth (Wind Boost)
+Sigurd
+Player 2 Team
+Lyn (Wind Boost)
+Soren (Wind Boost)
+Hector (Wind Boost)

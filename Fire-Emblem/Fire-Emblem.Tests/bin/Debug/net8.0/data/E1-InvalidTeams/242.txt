@@ -1,0 +1,5 @@
+Player 1 Team
+Player 2 Team
+Tiki (Spd/Def Push)
+Chrom (Resonance)
+Lucina (Resonance)

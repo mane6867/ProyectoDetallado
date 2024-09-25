@@ -1,0 +1,6 @@
+Player 1 Team
+Roy
+Player 2 Team
+Ike
+Chrom
+Eliwood

@@ -1,0 +1,7 @@
+Player 1 Team
+Eirika (Magic Guard)
+Chrom (Magic Guard)
+Hector (Magic Guard)
+Player 2 Team
+Ephraim (Magic Guard)
+Veronica (Magic Guard)

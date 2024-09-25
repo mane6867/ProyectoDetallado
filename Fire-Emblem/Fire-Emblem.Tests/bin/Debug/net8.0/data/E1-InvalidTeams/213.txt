@@ -1,0 +1,7 @@
+Player 1 Team
+Chrom (Mirror Strike)
+Chrom (Death Blow)
+Player 2 Team
+Corrin (Impenetrable)
+Roy (Armored Blow)
+Tiki (Sympathetic)
