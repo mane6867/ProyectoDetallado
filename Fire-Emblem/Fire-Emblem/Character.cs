@@ -216,11 +216,9 @@ public class Character
         return (int)Math.Max(0, Math.Floor(rawDamage));
     }
     
-    public void ApplyDamage(int dano, Character target) 
+    public void ApplyDamage(int damage, Character target) 
     {
-        //Console.WriteLine("La antigua Hp ES" + target.Stats.Hp + target.Name);
-        target.Stats.Hp = Convert.ToInt32(target.Stats.Hp) - dano;
-        //Console.WriteLine("La nueva Hp ES" + target.Stats.Hp + target.Name);
+        target.Stats.Hp = Convert.ToInt32(target.Stats.Hp) - damage;
     }
 
     public void SetLastOpponent(Character character)
@@ -241,14 +239,12 @@ public class Character
     public void IsInitiator()
     {
         BattleContext.isInitiator = true;
-        Console.WriteLine("inició el duelo por parte de " + Name);
         
     }
     
     public void IsNotInitiator()
     {
         BattleContext.isInitiator = false;
-        Console.WriteLine("se coloca que es falso que se inició el duelo por parte de " + Name);
     }
     public void SetWeaponBattle()
     {
@@ -257,41 +253,18 @@ public class Character
 
     public void SetAttackType()
     {
-        if (Weapon == WeaponType.Magic)
-        {
-            BattleContext.attackType = AttackType.Magical;
-        }
-        else
-        {
-            BattleContext.attackType = AttackType.Physical;
-        }
+        if (Weapon == WeaponType.Magic) BattleContext.attackType = AttackType.Magical;
+        else BattleContext.attackType = AttackType.Physical;
     }
 
     public void AddSkills(List<string> namesSkills)
     {
-        Console.WriteLine("SE ESTÁ EN ADD SKILLS");
-        //Console.WriteLine("El primer nombre a  AGREGAR es " +namesSkills[0]);
         foreach (string nameSkill in namesSkills)
         {
-            //Console.WriteLine(nameSkill);
             Skill skill = _skillFactory.Create(nameSkill);
             EffectType effectType = skill.Effect.EffectType;
             _skills[effectType].Add(skill);
-            Console.WriteLine("al señor " + Name + "se le ha agregado la skill de efecto " + effectType.ToString() );
-            
-
         }
-    }
-    public IReadOnlyList<Skill> GetSkills()
-    {
-        var allSkills = new List<Skill>();
-
-        foreach (var skillList in _skills.Values)
-        {
-            allSkills.AddRange(skillList); // Agrega todas las habilidades de la lista actual
-        }
-
-        return allSkills.AsReadOnly();
     }
 
     public void RestoreAllStats()
@@ -299,7 +272,6 @@ public class Character
         SetStatsToOriginalStats();
         StatsBonus.SetDefault();
     }
-
     public void SetStatsToOriginalStats()
     {
         Stats.Atk = _originalStats.Atk;
@@ -307,14 +279,8 @@ public class Character
         Stats.Def = _originalStats.Def;
         Stats.Res = _originalStats.Res;
     }
-    
-    
-
     public void PrintSkillsEffects(View view)
     {
-        
-        //Console.WriteLine("se está en el lugar para ver si se imprimen las skills");
-        //Console.WriteLine("el valor de bonus def es" + StatsBonus.Def);
         if (StatsBonus.Atk > 0)
         {
             view.WriteLine(Name + " obtiene Atk+" + StatsBonus.Atk);
@@ -338,7 +304,6 @@ public class Character
         {
             view.WriteLine(Name + " obtiene Atk-" + StatsPenalties.Atk);
             StatsPenalties.Atk = 0;
-            Console.WriteLine("se setea a 0 las penaltys de atk-------------------");
         }
         if (StatsPenalties.Spd > 0)
         {
