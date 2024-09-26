@@ -30,42 +30,34 @@ public class Battle
         return (attackerIndex, defenderIndex);
     }
 
-    public void PrintCaseOfAdvantage()
+    private void PrintCaseOfAdvantage()
     {
-        if (_attackerCharacter.HasAdvantage(_defenderCharacter))
-        {
-            //Console.WriteLine("el atacante tiene ventaja con" + _attackerCharacter.Weapon+ "sobre" + _defenderCharacter.Weapon);
-            _view.WriteLine(_attackerCharacter.Name + " (" + _attackerCharacter.Weapon + ") tiene ventaja con respecto a " + _defenderCharacter.Name + " (" + _defenderCharacter.Weapon + ")");
-        }
+        if (_attackerCharacter.HasAdvantage(_defenderCharacter)) _view.WriteLine(_attackerCharacter.Name + 
+            " (" + _attackerCharacter.Weapon + ") tiene ventaja con respecto a " + _defenderCharacter.Name +
+            " (" + _defenderCharacter.Weapon + ")");
         
-        else if (_defenderCharacter.HasAdvantage(_attackerCharacter))
-        {
-            //Console.WriteLine("el defensor tiene ventaja con" + _defenderCharacter.Weapon+ "sobre" + _attackerCharacter.Weapon);
-            _view.WriteLine(_defenderCharacter.Name + " (" + _defenderCharacter.Weapon + ") tiene ventaja con respecto a " + _attackerCharacter.Name + " (" + _attackerCharacter.Weapon + ")");
-        }
-        else
-        {
-            _view.WriteLine("Ninguna unidad tiene ventaja con respecto a la otra");
-        }
+        else if (_defenderCharacter.HasAdvantage(_attackerCharacter)) _view.WriteLine(_defenderCharacter.Name +
+            " (" + _defenderCharacter.Weapon + ") tiene ventaja con respecto a " + _attackerCharacter.Name + 
+            " (" + _attackerCharacter.Weapon + ")");
+        else _view.WriteLine("Ninguna unidad tiene ventaja con respecto a la otra");
     }
 
-    public void HandleDamageFight()
+    private void PrintDamage(int damage)
     {
-        //Console.WriteLine("Estoy en HandleDamage Fight");
-        int damage = _attackerCharacter.CalculateDamage(_defenderCharacter);
-        
-        //Console.WriteLine("Las stats originales son:");
-        //Console.WriteLine(_attackerCharacter._originalStats.Atk);
-        //Console.WriteLine(_attackerCharacter._originalStats.Def);
-        //Console.WriteLine(_attackerCharacter._originalStats.Res);
-        //Console.WriteLine(_attackerCharacter._originalStats.Spd);
-        //Console.WriteLine("Las stats actuales son:");
-        //Console.WriteLine(_attackerCharacter.Stats.Atk);
-        //Console.WriteLine(_attackerCharacter.Stats.Def);
-        //Console.WriteLine(_attackerCharacter.Stats.Res);
-        //Console.WriteLine(_attackerCharacter.Stats.Spd);
-        _view.WriteLine(_attackerCharacter.Name + " ataca a "+ _defenderCharacter.Name + " con " + damage + " de daño");
+        _view.WriteLine(_attackerCharacter.Name + " ataca a "+ _defenderCharacter.Name + " con " + damage +
+                        " de daño");
+    }
+
+    private void ApplyDamageToCharacter(int damage)
+    {
         _attackerCharacter.ApplyDamage(damage, _defenderCharacter);
+    }
+
+    private void HandleDamageFight()
+    {
+        int damage = _attackerCharacter.CalculateDamage(_defenderCharacter);
+        PrintDamage(damage);
+        ApplyDamageToCharacter(damage);
     }
 
     public bool IsDuelOver()
@@ -219,8 +211,8 @@ public class Battle
     {
         (int attackerIndex, int defenderIndex) = GetIndexAttackerDefender(round);
         
-        _attackerCharacter = AskUserToSelectUnidad(attackerIndex);
-        _defenderCharacter = AskUserToSelectUnidad(defenderIndex);
+        _attackerCharacter = AskUserToSelectUnit(attackerIndex);
+        _defenderCharacter = AskUserToSelectUnit(defenderIndex);
         
         Character attacker = _attackerCharacter;
         Character defender = _defenderCharacter;
@@ -264,7 +256,7 @@ public class Battle
     }
 
     
-    public Character AskUserToSelectUnidad(int int_player)
+    public Character AskUserToSelectUnit(int int_player)
     {
         _view.WriteLine("Player "+int_player+" selecciona una opción");
 

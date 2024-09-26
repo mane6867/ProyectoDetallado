@@ -259,10 +259,10 @@ public class Character
 
     public void AddSkills(List<string> namesSkills)
     {
-        foreach (string nameSkill in namesSkills)
+        foreach (var nameSkill in namesSkills)
         {
-            Skill skill = _skillFactory.Create(nameSkill);
-            EffectType effectType = skill.Effect.EffectType;
+            var skill = _skillFactory.Create(nameSkill);
+            var effectType = skill.Effect.EffectType;
             _skills[effectType].Add(skill);
         }
     }
