@@ -349,7 +349,7 @@ public class SkillFactory
         }
 
         if (name == "Beorc's Blessing")
-            return new Skill(new TrueCondition(), new NeutralizeBonusesEffect());
+            return new Skill(new TrueCondition(), new NeutralizeBonusEffect());
         if (name == "Sword Agility")
             return new Skill(
                 new UsesWeaponCondition(WeaponType.Sword),
@@ -443,12 +443,12 @@ public class SkillFactory
         {
             return new Skill(
                 new AndCondition(
-                    new NotCond(new UsesMagicCondition()),
-                    new NotCond(new UsesWeaponCondition(WeaponType.Bow))),
+                    new NotCond(new RivalUsesWeaponCondition(WeaponType.Magic)),
+                    new NotCond(new RivalUsesWeaponCondition(WeaponType.Bow))),
                 new CompositeEffect(
                     new BonusEffect(StatType.Def, 8),
                     new BonusEffect(StatType.Res, 8),
-                    new NeutralizeBonusesEffect()));
+                    new NeutralizeBonusEffect()));
         }
         
         

@@ -11,6 +11,6 @@ public class GreaterOrEqualNumberCondition:Condition
         _threshold = threshold;
         _constant = constant;
     }
-    public override bool DoesHold(Character character)
+    public override bool DoesHold(Character character, Character defender)
         => character.Stats.GetStat(_targetStat) >= character.BattleContext.actualOpponent.Stats.GetStat(_threshold) + _constant ;
 }

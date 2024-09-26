@@ -12,7 +12,7 @@ public class LessOrEqualPercentageCondition:Condition
         _percentage = percentage;
     }
 
-    public override bool DoesHold(Character character)
+    public override bool DoesHold(Character character, Character defender)
     {
         Console.WriteLine("en la condición se tiene que el actual es " + character.Stats.GetStat(_targetStat));
         Console.WriteLine("en la condición se tiene que el original es " + character.Stats.HpMax);

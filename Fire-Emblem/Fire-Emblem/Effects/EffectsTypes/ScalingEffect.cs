@@ -21,26 +21,26 @@ public class ScalingEffect : Effect
         {
             int baseSpeed = character.GetOriginalStat(StatType.Atk);
             additionalBonus = (baseSpeed / _scalingFactor) * _bonusPerFactor;
-            character.Stats.Atk += additionalBonus;
+            character.StatsBonus.Atk += additionalBonus;
             
         }
         if (_targetStat == StatType.Def)
         {
             int baseSpeed = character.GetOriginalStat(StatType.Def);
             additionalBonus = (baseSpeed / _scalingFactor) * _bonusPerFactor;
-            character.Stats.Def += additionalBonus;
+            character.StatsBonus.Def += additionalBonus;
         }
         if (_targetStat == StatType.Spd)
         {
             int baseSpeed = character.GetOriginalStat(StatType.Spd);
             additionalBonus = (baseSpeed / _scalingFactor) * _bonusPerFactor;
-            character.Stats.Spd += additionalBonus;
+            character.StatsBonus.Spd += additionalBonus;
         }
         if (_targetStat == StatType.Res)
         {
             int baseSpeed = character.GetOriginalStat(StatType.Res);
             additionalBonus = (baseSpeed / _scalingFactor) * _bonusPerFactor;
-            character.Stats.Res += additionalBonus;
+            character.StatsBonus.Res += additionalBonus;
         }
 
         SetBonus(additionalBonus);

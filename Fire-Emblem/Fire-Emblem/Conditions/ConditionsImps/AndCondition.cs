@@ -11,6 +11,6 @@ public class AndCondition : Condition
         _secondCond = secondCond;
     }
 
-    public override bool DoesHold(Character character)
-        => _firstCond.DoesHold(character) && _secondCond.DoesHold(character);
+    public override bool DoesHold(Character character, Character defender)
+        => _firstCond.DoesHold(character, defender) && _secondCond.DoesHold(character, defender);
 }

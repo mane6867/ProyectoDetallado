@@ -18,16 +18,16 @@ public override void Apply ( Character character , Character defender) {
 
     if (TargetStat == StatType.Atk)
     {
-        character.Stats.Atk += _bonus; ;
+        character.StatsBonus.Atk += _bonus; ;
     }
 
     if (TargetStat == StatType.Def)
     {
-        character.Stats.Def += _bonus ;
+        character.StatsBonus.Def += _bonus ;
         
     }
 
-    if ( TargetStat == StatType.Res ) character.Stats.Res += _bonus ;
+    if ( TargetStat == StatType.Res ) character.StatsBonus.Res += _bonus ;
 
-    if ( TargetStat == StatType.Spd ) character.Stats.Spd += _bonus ; 
+    if ( TargetStat == StatType.Spd ) character.StatsBonus.Spd += _bonus ; 
 } }

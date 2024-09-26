@@ -113,7 +113,7 @@ public class Character
             _ => _originalStats.Def 
         };
     }
-    private void ApplySkillsOfType(EffectType type, Character defender)
+    private void SimulateApplySkillsOfType(EffectType type, Character defender)
     {
         foreach (var skill in _skills[type])
         {
@@ -121,11 +121,23 @@ public class Character
         }
     }
 
-    public void ApplySkills(Character defender)
+    public void SimulateApplySkills(Character defender)
     {
         
-        ApplySkillsOfType(EffectType.Bonus, defender);
-        ApplySkillsOfType(EffectType.PenaltyOwn, defender);
+        SimulateApplySkillsOfType(EffectType.Bonus, defender);
+        SimulateApplySkillsOfType(EffectType.PenaltyOwn, defender);
+        
+    }
+
+    public void ApplyDefinitiveSkills()
+    {
+        if (!AreBonusSkillsNeutralized && !ArePenaltiesSkillsNeutralized)
+        {
+            Stats.Atk += StatsBonus.Atk - StatsPenalties.Atk;
+            Stats.Spd += StatsBonus.Spd - StatsPenalties.Spd;
+            Stats.Res += StatsBonus.Res - StatsPenalties.Res;
+            Stats.Def += StatsBonus.Def - StatsPenalties.Def;
+        }
         
     }
 

@@ -15,8 +15,8 @@ public class BonusRivalEffect : Effect {
 
     public override void Apply ( Character character , Character defender) {
 
-        if ( _targetStat == StatType.Atk ) defender.Stats.Atk += _bonus ;
-        if ( _targetStat == StatType.Def ) defender.Stats.Def += _bonus ;
-        if ( _targetStat == StatType.Res ) defender.Stats.Res += _bonus ;
-        if ( _targetStat == StatType.Spd ) defender.Stats.Spd += _bonus ; 
+        if ( _targetStat == StatType.Atk ) defender.StatsBonus.Atk += _bonus ;
+        if ( _targetStat == StatType.Def ) defender.StatsBonus.Def += _bonus ;
+        if ( _targetStat == StatType.Res ) defender.StatsBonus.Res += _bonus ;
+        if ( _targetStat == StatType.Spd ) defender.StatsBonus.Spd += _bonus ; 
     } }

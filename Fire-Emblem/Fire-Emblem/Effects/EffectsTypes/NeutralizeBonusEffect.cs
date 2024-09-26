@@ -1,9 +1,9 @@
 
 namespace Fire_Emblem.Effects
 {
-    public class NeutralizeBonusesEffect : Effect
+    public class NeutralizeBonusEffect : Effect
     {
-        public NeutralizeBonusesEffect() : base(StatType.Atk, 0) // No afecta un stat específico, neutraliza todos
+        public NeutralizeBonusEffect() : base(StatType.Atk, 0) // No afecta un stat específico, neutraliza todos
         {
             EffectType = EffectType.Bonus;  // Esto es un tipo de efecto de combate
             EffectDuration = EffectDuration.WholeBattle;  // Solo durante el combate

@@ -11,6 +11,6 @@ public class GreaterOrEqualPercentageCondition:Condition
         _threshold = threshold;
         _percentage = percentage;
     }
-    public override bool DoesHold(Character character)
+    public override bool DoesHold(Character character, Character defender)
         => character.Stats.GetStat(_targetStat) >= character.Stats.GetStat(_threshold) * _percentage ;
 }

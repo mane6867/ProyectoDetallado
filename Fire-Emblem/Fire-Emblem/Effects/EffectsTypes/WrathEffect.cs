@@ -21,7 +21,7 @@ public class WrathEffect : Effect
         _bonus = bonus;
 
         // Aplicar el bono a Atk y Spd
-        character.Stats.Atk += bonus;
-        character.Stats.Spd += bonus;
+        character.StatsBonus.Atk += bonus;
+        character.StatsBonus.Spd += bonus;
     }
 }

@@ -1,14 +1,15 @@
 namespace Fire_Emblem.Conditions.ConditionsImps;
 
-public class UsesWeaponCondition: Condition
+public class RivalUsesWeaponCondition: Condition
 {
     private WeaponType _weaponType;
-    public UsesWeaponCondition(WeaponType weaponType)
+    
+    public RivalUsesWeaponCondition(WeaponType weaponType)
     {
         _weaponType = weaponType;
     }
     public override bool DoesHold(Character character, Character defender)
     {
-        return character.Weapon == _weaponType;
+        return character.BattleContext.actualOpponent.Weapon == _weaponType;
     }
 }

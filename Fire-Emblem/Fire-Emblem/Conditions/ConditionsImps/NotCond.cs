@@ -7,6 +7,6 @@ public class NotCond: Condition
     public NotCond(Condition condition)
         => _condition = condition;
 
-    public override bool DoesHold(Character character)
-        => !_condition.DoesHold(character);
+    public override bool DoesHold(Character character, Character defender)
+        => !_condition.DoesHold(character, defender);
 }

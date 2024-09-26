@@ -18,25 +18,25 @@ public class PercentageBonusEffect: Effect
 
         if (_targetStat == StatType.Atk)
         {
-            character.Stats.Atk += Convert.ToInt32(Math.Floor(character.Stats.Atk * _percentageBonus)) ;
+            character.StatsBonus.Atk += Convert.ToInt32(Math.Floor(character.Stats.Atk * _percentageBonus)) ;
             bonus = Convert.ToInt32(Math.Floor(character.Stats.Atk * _percentageBonus));
         }
 
         if (_targetStat == StatType.Def)
         {
-            character.Stats.Def += Convert.ToInt32(Math.Floor(character.Stats.Def * _percentageBonus)) ;
+            character.StatsBonus.Def += Convert.ToInt32(Math.Floor(character.Stats.Def * _percentageBonus)) ;
             bonus = Convert.ToInt32(Math.Floor(character.Stats.Def * _percentageBonus));
         }
 
         if (_targetStat == StatType.Res)
         {
-            character.Stats.Res += Convert.ToInt32(Math.Floor(character.Stats.Res * _percentageBonus));
+            character.StatsBonus.Res += Convert.ToInt32(Math.Floor(character.Stats.Res * _percentageBonus));
             bonus = Convert.ToInt32(Math.Floor(character.Stats.Res * _percentageBonus));
         }
 
         if (_targetStat == StatType.Spd)
         {
-            character.Stats.Spd += Convert.ToInt32(Math.Floor(character.Stats.Spd * _percentageBonus));
+            character.StatsBonus.Spd += Convert.ToInt32(Math.Floor(character.Stats.Spd * _percentageBonus));
             bonus = Convert.ToInt32(Math.Floor(character.Stats.Spd * _percentageBonus));
         }
 

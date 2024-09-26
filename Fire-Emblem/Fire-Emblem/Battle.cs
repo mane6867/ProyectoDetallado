@@ -101,12 +101,12 @@ public class Battle
 
     public void StartDuel()
     {
-        _attackerCharacter.ApplySkills(_defenderCharacter);
-        _defenderCharacter.ApplySkills(_attackerCharacter);
+        _attackerCharacter.SimulateApplySkills(_defenderCharacter);
+        _defenderCharacter.SimulateApplySkills(_attackerCharacter);
 
         
-        bool attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
-        bool defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
+        //bool attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
+        //bool defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
         
         PrintCaseOfAdvantage();
         
@@ -116,6 +116,12 @@ public class Battle
         _defenderCharacter.PrintSkillsNeutralized(_view);
         _attackerCharacter.ResetStatsIfNeutralized();
         _defenderCharacter.ResetStatsIfNeutralized();
+        
+        _attackerCharacter.ApplyDefinitiveSkills();
+        _defenderCharacter.ApplyDefinitiveSkills();
+        
+        bool attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
+        bool defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
         if (_attackerCharacter.AreBonusSkillsNeutralized)
         {
             Console.WriteLine("se está en el if así que se va a ver si puede hacer follow up otra vez");

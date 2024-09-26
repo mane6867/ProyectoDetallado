@@ -15,12 +15,12 @@ public class PenaltyRivalEffect : Effect {
 
         if (_targetStat == StatType.Atk)
         {
-            defender.Stats.Atk -= _bonus;
+            defender.StatsPenalties.Atk += _bonus;
             Console.WriteLine("SE LE baja el atk DE  PENALTY " + _bonus + " A " + defender.Name);
         }
-        if ( _targetStat == StatType.Def ) defender.Stats.Def -= _bonus ;
-        if ( _targetStat == StatType.Res ) defender.Stats.Res -= _bonus ;
-        if ( _targetStat == StatType.Spd ) defender.Stats.Spd -= _bonus ; 
+        if ( _targetStat == StatType.Def ) defender.StatsPenalties.Def += _bonus ;
+        if ( _targetStat == StatType.Res ) defender.StatsPenalties.Res += _bonus ;
+        if ( _targetStat == StatType.Spd ) defender.StatsPenalties.Spd += _bonus ; 
     }
     
 }
