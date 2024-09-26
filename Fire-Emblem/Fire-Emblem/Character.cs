@@ -175,8 +175,6 @@ public class Character
     
     public bool IsAbleToFollowUp(Character target)
     {
-        Console.WriteLine("se está viendo si"+ Name+ "puede hacer follow up con " + Stats.Spd + " spd por sobre la del rival que es" + target.Stats.Spd);
-        Console.WriteLine(Convert.ToInt32(Stats.Spd) > Convert.ToInt32(target.Stats.Spd) + 4);
         return Convert.ToInt32(Stats.Spd) > Convert.ToInt32(target.Stats.Spd) + 4;
     }
     
@@ -194,22 +192,17 @@ public class Character
                (Weapon == WeaponType.Lance && target.Weapon == WeaponType.Axe);
     }
 
+    private double CalculateWtbDamage(Character target)
+    {
+
+        if (HasDisadvantage(target)) return 0.8;
+        else if (HasAdvantage(target)) return 1.2;
+        else return 1;
+    }
     public int CalculateDamage(Character target)
     {
-        double WTB;
-        if (HasDisadvantage(target))
-        {
-            WTB = 0.8;
-        }
         
-        else if (HasAdvantage(target) )
-        {
-            WTB = 1.2;
-        }
-        else
-        {
-            WTB = 1;
-        }
+        double wtb = CalculateWtbDamage(target);
         
         int valor_resta = 1000;
         // si atacante tiene arma física
@@ -223,7 +216,7 @@ public class Character
         }
         
         // se calcula el daño
-        double daño_double = Convert.ToInt32(Stats.Atk) * WTB - valor_resta;
+        double daño_double = Convert.ToInt32(Stats.Atk) * wtb - valor_resta;
         
         // si es negativo es 0
         if (daño_double < 0)
