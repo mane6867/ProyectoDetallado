@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 7\\DDS\\Proyecto\\Fire-Emblem (2)\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 8\\ProyectoDetallado\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 7\\DDS\\Proyecto\\Fire-Emblem (2)\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem-View\\Fire-Emblem-View.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 8\\ProyectoDetallado\\Fire-Emblem\\Fire-Emblem-View\\Fire-Emblem-View.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 7\\DDS\\Proyecto\\Fire-Emblem (2)\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem-View\\Fire-Emblem-View.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 8\\ProyectoDetallado\\Fire-Emblem\\Fire-Emblem-View\\Fire-Emblem-View.csproj",
         "projectName": "Fire-Emblem-View",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 7\\DDS\\Proyecto\\Fire-Emblem (2)\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem-View\\Fire-Emblem-View.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 8\\ProyectoDetallado\\Fire-Emblem\\Fire-Emblem-View\\Fire-Emblem-View.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 7\\DDS\\Proyecto\\Fire-Emblem (2)\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem-View\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 8\\ProyectoDetallado\\Fire-Emblem\\Fire-Emblem-View\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 7\\DDS\\Proyecto\\Fire-Emblem (2)\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 8\\ProyectoDetallado\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 7\\DDS\\Proyecto\\Fire-Emblem (2)\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 8\\ProyectoDetallado\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem.csproj",
         "projectName": "Fire-Emblem",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 7\\DDS\\Proyecto\\Fire-Emblem (2)\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 8\\ProyectoDetallado\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 7\\DDS\\Proyecto\\Fire-Emblem (2)\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 8\\ProyectoDetallado\\Fire-Emblem\\Fire-Emblem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -79,8 +79,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 7\\DDS\\Proyecto\\Fire-Emblem (2)\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem-View\\Fire-Emblem-View.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 7\\DDS\\Proyecto\\Fire-Emblem (2)\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem-View\\Fire-Emblem-View.csproj"
+              "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 8\\ProyectoDetallado\\Fire-Emblem\\Fire-Emblem-View\\Fire-Emblem-View.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 8\\ProyectoDetallado\\Fire-Emblem\\Fire-Emblem-View\\Fire-Emblem-View.csproj"
               }
             }
           }

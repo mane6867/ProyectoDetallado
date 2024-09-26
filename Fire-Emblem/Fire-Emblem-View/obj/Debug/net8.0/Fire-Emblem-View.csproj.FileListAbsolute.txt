@@ -20,3 +20,15 @@ C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire
 C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem-View\obj\Debug\net8.0\refint\Fire-Emblem-View.dll
 C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem-View\obj\Debug\net8.0\Fire-Emblem-View.pdb
 C:\Users\Lenovo\Desktop\Universidad\Semestre 7\DDS\Proyecto\Fire-Emblem (2)\Fire-Emblem\Fire-Emblem\Fire-Emblem-View\obj\Debug\net8.0\ref\Fire-Emblem-View.dll
+C:\Users\Lenovo\Desktop\Universidad\Semestre 8\ProyectoDetallado\Fire-Emblem\Fire-Emblem-View\bin\Debug\net8.0\Fire-Emblem-View.deps.json
+C:\Users\Lenovo\Desktop\Universidad\Semestre 8\ProyectoDetallado\Fire-Emblem\Fire-Emblem-View\bin\Debug\net8.0\Fire-Emblem-View.dll
+C:\Users\Lenovo\Desktop\Universidad\Semestre 8\ProyectoDetallado\Fire-Emblem\Fire-Emblem-View\bin\Debug\net8.0\Fire-Emblem-View.pdb
+C:\Users\Lenovo\Desktop\Universidad\Semestre 8\ProyectoDetallado\Fire-Emblem\Fire-Emblem-View\obj\Debug\net8.0\Fire-Emblem-View.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\Universidad\Semestre 8\ProyectoDetallado\Fire-Emblem\Fire-Emblem-View\obj\Debug\net8.0\Fire-Emblem-View.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\Universidad\Semestre 8\ProyectoDetallado\Fire-Emblem\Fire-Emblem-View\obj\Debug\net8.0\Fire-Emblem-View.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\Universidad\Semestre 8\ProyectoDetallado\Fire-Emblem\Fire-Emblem-View\obj\Debug\net8.0\Fire-Emblem-View.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Universidad\Semestre 8\ProyectoDetallado\Fire-Emblem\Fire-Emblem-View\obj\Debug\net8.0\Fire-Emblem-View.sourcelink.json
+C:\Users\Lenovo\Desktop\Universidad\Semestre 8\ProyectoDetallado\Fire-Emblem\Fire-Emblem-View\obj\Debug\net8.0\Fire-Emblem-View.dll
+C:\Users\Lenovo\Desktop\Universidad\Semestre 8\ProyectoDetallado\Fire-Emblem\Fire-Emblem-View\obj\Debug\net8.0\refint\Fire-Emblem-View.dll
+C:\Users\Lenovo\Desktop\Universidad\Semestre 8\ProyectoDetallado\Fire-Emblem\Fire-Emblem-View\obj\Debug\net8.0\Fire-Emblem-View.pdb
+C:\Users\Lenovo\Desktop\Universidad\Semestre 8\ProyectoDetallado\Fire-Emblem\Fire-Emblem-View\obj\Debug\net8.0\ref\Fire-Emblem-View.dll

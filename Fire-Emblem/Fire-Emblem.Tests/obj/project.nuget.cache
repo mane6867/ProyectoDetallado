@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "94ZSvqfEnCATDfDjY3oMenO4jvM2FGPKdg0giuigfG0rT7ieIUKmhNAU83lgal6IqrZq0lv/hcn9pUxh2qIsYg==",
+  "dgSpecHash": "y5aKXdT8Zfvwbc6NAFYbAJUxxHvg3Zbqqv0IzKoDBuPGZ8+3R+p4GUuYgIinNvkMApzylJrAi6I4zNjW1i9Hwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 7\\DDS\\Proyecto\\Fire-Emblem (2)\\Fire-Emblem\\Fire-Emblem\\Fire-Emblem.Tests\\Fire-Emblem.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\Semestre 8\\ProyectoDetallado\\Fire-Emblem\\Fire-Emblem.Tests\\Fire-Emblem.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

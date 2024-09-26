@@ -111,22 +111,18 @@ public class Character
             _ => _originalStats.Def 
         };
     }
+    private void ApplySkillsOfType(EffectType type, Character defender)
+    {
+        foreach (var skill in _skills[type])
+        {
+            skill.ApplyIfApplicable(this, defender);
+        }
+    }
 
     public void ApplySkills(Character defender)
     {
-        //Console.WriteLine("ESTOY EN APPLY SKILLS, LOS BONUS DE " + Name + " ESTÁN NEUTRALIZADOS? "+ AreBonusSkillsNeutralized);
-
-            foreach (var skill in _skills[EffectType.Bonus])
-            {
-                skill.ApplyIfApplicable(this, defender);
-                //Console.WriteLine("Se está revisando las skills de "+ Name);
-            }
-        
-
-            foreach (var skill in _skills[EffectType.PenaltyOwn])
-            {
-                skill.ApplyIfApplicable(this, defender);
-            }
+        ApplySkillsOfType(EffectType.Bonus, defender);
+        ApplySkillsOfType(EffectType.PenaltyOwn, defender);
         
     }
 
