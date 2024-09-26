@@ -133,34 +133,26 @@ public class Character
             SetStatsToOriginalStats();
         }
     }
+    private void PrintNeutralizedStats(View view, string skillType)
+    {
+        view.WriteLine($"Los {skillType}s de Atk de {Name} fueron neutralizados");
+        view.WriteLine($"Los {skillType}s de Spd de {Name} fueron neutralizados");
+        view.WriteLine($"Los {skillType}s de Def de {Name} fueron neutralizados");
+        view.WriteLine($"Los {skillType}s de Res de {Name} fueron neutralizados");
+    }
 
     public void PrintSkillsNeutralized(View view)
     {
-        Console.WriteLine("se está en el print de neutralized");
-        Console.WriteLine("los bonus están neutralizados "+ AreBonusSkillsNeutralized + " de " + Name);
-        foreach (var entry in _skills)
-        {
-            Console.WriteLine($"Tipo de efecto: {entry.Key}, Número de habilidades: {entry.Value.Count}");
-            foreach (var s in entry.Value)
-            {
-                Console.WriteLine($"  - Habilidad: {s}");
-            }
-        }
         if (AreBonusSkillsNeutralized)
         {
-            view.WriteLine("Los bonus de Atk de " + Name + " fueron neutralizados");
-            view.WriteLine("Los bonus de Spd de " + Name + " fueron neutralizados");
-            view.WriteLine("Los bonus de Def de " + Name + " fueron neutralizados");
-            view.WriteLine("Los bonus de Res de " + Name + " fueron neutralizados");
-
+            PrintNeutralizedStats(view, "bonu");
         }
+
         if (ArePenaltiesSkillsNeutralized)
         {
-            view.WriteLine("Los penaltys de Atk de " + Name + " fueron neutralizados");
-            view.WriteLine("Los penaltys de Spd de " + Name + " fueron neutralizados");
-            view.WriteLine("Los penaltys de Def de " + Name + " fueron neutralizados");
-            view.WriteLine("Los penaltys de Res de " + Name + " fueron neutralizados");
+            PrintNeutralizedStats(view, "penalty");
         }
+        
     }
     public void NeutralizeBonusSkills()
     {
@@ -340,6 +332,7 @@ public class Character
 
     public void PrintSkillsEffects(View view)
     {
+        
         //Console.WriteLine("se está en el lugar para ver si se imprimen las skills");
         //Console.WriteLine("el valor de bonus def es" + StatsBonus.Def);
         if (StatsBonus.Atk > 0)
