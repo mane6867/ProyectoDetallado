@@ -204,11 +204,7 @@ public class Character
 
     private int CalculateReductionDamage(Character target)
     {
-        // si atacante tiene arma física
-        if (Weapon != WeaponType.Magic)
-        {
-            return Convert.ToInt32(target.Stats.Def);
-        }
+        if (Weapon != WeaponType.Magic) return Convert.ToInt32(target.Stats.Def);
         return Convert.ToInt32(target.Stats.Res);
     }
     public int CalculateDamage(Character target)
@@ -216,20 +212,8 @@ public class Character
         
         double wtb = CalculateWtbDamage(target);
         int reduction = CalculateReductionDamage(target);
-        
-        
-        // se calcula el daño
-        double daño_double = Convert.ToInt32(Stats.Atk) * wtb - reduction;
-        
-        // si es negativo es 0
-        if (daño_double < 0)
-        {
-            daño_double = 0;
-        }
-
-        int daño = Convert.ToInt32(Math.Floor(daño_double));
-        
-        return daño;
+        double rawDamage = Convert.ToInt32(Stats.Atk) * wtb - reduction;
+        return (int)Math.Max(0, Math.Floor(rawDamage));
     }
     
     public void ApplyDamage(int dano, Character target) 
