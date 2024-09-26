@@ -179,6 +179,17 @@ public class Character
         AreBonusSkillsNeutralized = false;
         //Console.WriteLine(" SE CAMBIA A FALSE LOS BONUS NEUTRALIZADORES DE "+ Name);
     }
+    
+    public void NeutralizePenaltiesSkills()
+    {
+        ArePenaltiesSkillsNeutralized = true;
+        //Console.WriteLine(" SE CAMBIA A TRUE LOS BONUS NEUTRALIZADORES DE "+ Name);
+    }
+    public void UnNeutralizePenaltiesSkills()
+    {
+        ArePenaltiesSkillsNeutralized = false;
+        //Console.WriteLine(" SE CAMBIA A FALSE LOS BONUS NEUTRALIZADORES DE "+ Name);
+    }
     public void SetTrueArePenaltysSkillsNeutralized()
     {
         ArePenaltiesSkillsNeutralized = true;

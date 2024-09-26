@@ -15,7 +15,8 @@ public class SkillFactory
         {
             return new Skill(
                 new InitiateAttackCondition(), // No necesita parámetros
-                new BonusEffect(StatType.Atk, 6));
+                new CompositeEffect(new BonusEffect(StatType.Atk, 6),
+                    new BonusRivalEffect(StatType.Atk, 6)));
         }
         if (name == "Will to Win")
         {
@@ -442,19 +443,34 @@ public class SkillFactory
         if (name == "Close Def")
         {
             return new Skill(
-                new AndCondition(
-                    new NotCond(new RivalUsesWeaponCondition(WeaponType.Magic)),
-                    new NotCond(new RivalUsesWeaponCondition(WeaponType.Bow))),
+                new CloseDefCondition(),
                 new CompositeEffect(
                     new BonusEffect(StatType.Def, 8),
                     new BonusEffect(StatType.Res, 8),
                     new NeutralizeBonusEffect()));
         }
-        
-        
-        
-        
-        
+        if (name == "Distant Def")
+        {
+            return new Skill(
+                new DistantDefCondition(),
+                new CompositeEffect(
+                    new BonusEffect(StatType.Def, 8),
+                    new BonusEffect(StatType.Res, 8),
+                    new NeutralizeBonusEffect()));
+        }
+
+        if (name == "Light and Dark")
+        {
+            return new Skill(
+                new TrueCondition(), new CompositeEffect(
+                    new PenaltyEffect(StatType.Atk, 5),
+                    new PenaltyEffect(StatType.Spd, 5),
+                    new PenaltyEffect(StatType.Def, 5),
+                    new PenaltyEffect(StatType.Res, 5),
+                    new NeutralizePenaltiesEffect(),
+                    new NeutralizeBonusEffect()
+                ));
+        }
         throw new ApplicationException () ;
 
     }
