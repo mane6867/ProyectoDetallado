@@ -23,7 +23,7 @@ public class Battle
 
     }
 
-    public (int attackerIndex, int defenderIndex) GetIndexAttackerDefender(int round)
+    private (int attackerIndex, int defenderIndex) GetIndexAttackerDefender(int round)
     {
         int attackerIndex = round % 2 == 0 ? 2 : 1;
         int defenderIndex = 3 - attackerIndex;
@@ -55,19 +55,28 @@ public class Battle
 
     private void HandleDamageFight()
     {
+        Console.WriteLine("Las stats originales son:");
+        Console.WriteLine(_attackerCharacter._originalStats.Atk);
+        Console.WriteLine(_attackerCharacter._originalStats.Def);
+        Console.WriteLine(_attackerCharacter._originalStats.Res);
+        Console.WriteLine(_attackerCharacter._originalStats.Spd);
+        Console.WriteLine("Las stats actuales son:");
+        Console.WriteLine(_attackerCharacter.Stats.Atk);
+        Console.WriteLine(_attackerCharacter.Stats.Def);
+        Console.WriteLine(_attackerCharacter.Stats.Res);
+        Console.WriteLine(_attackerCharacter.Stats.Spd);
         int damage = _attackerCharacter.CalculateDamage(_defenderCharacter);
         PrintDamage(damage);
         ApplyDamageToCharacter(damage);
     }
 
-    public bool IsDuelOver()
+    private bool IsDuelOver()
     {
         return _teams.Any(team => team.Any(character => character.Stats.Hp == 0));
     }
 
-    public void DeleteCharactersFromTeams()
+    private void DeleteCharactersFromTeams()
     {
-        //Console.WriteLine("Estoy en eliminar caracter");
         foreach (var team in _teams)
         {
             team.RemoveAll(character => character.Stats.Hp == 0);
@@ -77,32 +86,17 @@ public class Battle
     {
         (_attackerCharacter, _defenderCharacter) = (_defenderCharacter, _attackerCharacter);
     }
-
     
-
-    //public void HandleSkills(Character character)
-    //{
-    //    var listOfSkills = character.GetSkills();
-    //    foreach (var skill in listOfSkills)
-    //    {
-    //        skill.ApplyIfApplicable(character);
-    //    }
-    //    
-    //}
-    public void HandleDuelSequence()
+    private void HandleDuelSequence()
     {
-        //Console.WriteLine("Estoy en handel duel sequence");
-        _attackerCharacter.SetIsNotFirstAttack();  //    REVISAR SI VA ACÁ
+        _attackerCharacter.SetIsNotFirstAttack(); 
         HandleDamageFight();
-        //Console.WriteLine("El duelo se acabó?" + IsDuelOver());
         if (!IsDuelOver())
         {   
-            //Console.WriteLine("se esta cambiando acá");
             SwapCharacters();
             _attackerCharacter.SetIsNotFirstAttack();
             HandleDamageFight();
         }
-        
     }
 
     public void StartDuel()
@@ -124,17 +118,14 @@ public class Battle
         _defenderCharacter.ResetStatsIfNeutralized();
         if (_attackerCharacter.AreBonusSkillsNeutralized)
         {
-            Console.WriteLine("dentro del if que se debe restaurar el is able to follow up");
+            Console.WriteLine("se está en el if así que se va a ver si puede hacer follow up otra vez");
             attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
         }
         if (_defenderCharacter.AreBonusSkillsNeutralized)
-        {
+        {   Console.WriteLine("se está en el if así que se va a ver si puede hacer follow up otra vez");
             defenderIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_attackerCharacter);
         }
         HandleDuelSequence();
-        //Console.WriteLine("el duelo se acabó?" + IsDuelOver());
-        //Console.WriteLine("el attack puede "+ attackerIsAbleToFollowUp);
-        //Console.WriteLine("el defensor puede " + defenderIsAbleToFollowUp);
         
         if (!IsDuelOver())
         {
@@ -147,11 +138,6 @@ public class Battle
 
             else if (defenderIsAbleToFollowUp)
             {
-                //Console.WriteLine("atacará  antes" + _attackerCharacter.Name);
-                //Console.WriteLine("defenderá  antes" + _defenderCharacter.Name);
-                //Console.WriteLine("se está cambiando aqui");
-                //Console.WriteLine("atacará " + _attackerCharacter.Name);
-                //Console.WriteLine("defenderá " + _defenderCharacter.Name);
                 HandleDamageFight();
             }
             else
@@ -161,48 +147,37 @@ public class Battle
         }
     }
 
-    public bool isRoundOver()
+    public bool IsRoundOver()
     {
         //Console.WriteLine("Estoy en isRound Over");
         return IsTeam1Empty() || IsTeam2Empty();
     }
 
-    public bool IsTeam1Empty()
+    private bool IsTeam1Empty()
     {
         return  _teams[0].Count == 0;
     }
-    public bool IsTeam2Empty()
+    private bool IsTeam2Empty()
     {
         return  _teams[1].Count == 0;
     }
 
-    public void ReportRoundOutcome(int indexAttacker, string nameAttacker)
+    private void ReportRoundOutcome(int indexAttacker, string nameAttacker)
     {
-        
-        var team = _teams[indexAttacker-1];
-        
-        var attackerCharacter = team.FirstOrDefault(character => character.Name == nameAttacker);
+        var winnerTeam = _teams[indexAttacker-1];
+        var winnerCharacter = winnerTeam.FirstOrDefault(character => character.Name == nameAttacker);
 
-        if (attackerCharacter != _attackerCharacter)
-        {
-            SwapCharacters();
-        }
-        _view.WriteLine(_attackerCharacter.Name +" (" + _attackerCharacter.Stats.Hp + ") : " + _defenderCharacter.Name + " (" + _defenderCharacter.Stats.Hp + ")" );
+        if (winnerCharacter != _attackerCharacter) SwapCharacters();
         
+        _view.WriteLine(_attackerCharacter.Name +" (" + _attackerCharacter.Stats.Hp + ") : " +
+                        _defenderCharacter.Name + " (" + _defenderCharacter.Stats.Hp + ")" );
     }
-
-    public void ReportWhoWon()
+    private void ReportWhoWon()
     {
-        if (IsTeam1Empty())
-        {
-            _view.WriteLine("Player 2 ganó");
-        }
-        else
-        {
-            _view.WriteLine("Player 1 ganó");
-        }
+        if (IsTeam1Empty()) _view.WriteLine("Player 2 ganó");
+        else _view.WriteLine("Player 1 ganó");
     }
-    public void UpdateLastOponents()
+    private void UpdateLastOpponents()
     {
         _attackerCharacter.SetLastOpponent(_defenderCharacter);
         _defenderCharacter.SetLastOpponent(_attackerCharacter);
@@ -222,9 +197,6 @@ public class Battle
         
         _attackerCharacter.IsInitiator();
         _defenderCharacter.IsNotInitiator();
-        
-        
-        
 
         string attackerName = _attackerCharacter.Name;
         
@@ -234,9 +206,9 @@ public class Battle
         StartDuel();
         DeleteCharactersFromTeams();
         ReportRoundOutcome(attackerIndex, attackerName);
-        if (!isRoundOver())
+        if (!IsRoundOver())
         {
-            UpdateLastOponents();
+            UpdateLastOpponents();
             _attackerCharacter.RestoreAllStats();
             _defenderCharacter.RestoreAllStats();
             _attackerCharacter.UnNeutralizeBonusSkills();

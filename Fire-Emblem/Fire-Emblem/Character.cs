@@ -22,7 +22,7 @@ public class Character
     [JsonConverter(typeof(StringEnumConverter))]
     public GenderType Gender { get; set; }
 
-    private readonly Stats _originalStats;
+    public readonly Stats _originalStats;
     
     [JsonConverter(typeof(StringEnumConverter))]
     private WeaponType _weapon;
@@ -123,6 +123,7 @@ public class Character
 
     public void ApplySkills(Character defender)
     {
+        
         ApplySkillsOfType(EffectType.Bonus, defender);
         ApplySkillsOfType(EffectType.PenaltyOwn, defender);
         
@@ -177,6 +178,9 @@ public class Character
     
     public bool IsAbleToFollowUp(Character target)
     {
+        Console.WriteLine("Se está viendo si "+ Name+ "está a la altura de hacer un follow up");
+        Console.WriteLine("el valor de su spd es " + Stats.Spd);
+        Console.WriteLine("el valor del rival "+ target.Name + " es " + target.Stats.Spd);
         return Convert.ToInt32(Stats.Spd) > Convert.ToInt32(target.Stats.Spd) + 4;
     }
     
@@ -271,6 +275,8 @@ public class Character
     {
         SetStatsToOriginalStats();
         StatsBonus.SetDefault();
+        StatsPenalties.SetDefault();
+        
     }
     public void SetStatsToOriginalStats()
     {
@@ -303,22 +309,19 @@ public class Character
         if (StatsPenalties.Atk > 0)
         {
             view.WriteLine(Name + " obtiene Atk-" + StatsPenalties.Atk);
-            StatsPenalties.Atk = 0;
         }
         if (StatsPenalties.Spd > 0)
         {
             view.WriteLine(Name + " obtiene Spd-" + StatsPenalties.Spd);
-            StatsPenalties.Spd = 0;
         }
         if (StatsPenalties.Def > 0)
         {
             view.WriteLine(Name + " obtiene Def-" + StatsPenalties.Def);
-            StatsPenalties.Def = 0;
         }
         if (StatsPenalties.Res > 0)
         {
             view.WriteLine(Name + " obtiene Res-" + StatsPenalties.Res);
-            StatsPenalties.Res = 0;
+            //StatsPenalties.Res = 0;
         }
     }
 }
