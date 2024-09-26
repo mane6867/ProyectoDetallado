@@ -32,7 +32,9 @@ public class Character
         set
         {
             _weapon = value;
-            BattleContext.weaponType = value; // Actualizar automáticamente el contexto de batalla
+            BattleContext.weaponType = value;
+            SetAttackType();
+
         }
     }
     
@@ -199,24 +201,25 @@ public class Character
         else if (HasAdvantage(target)) return 1.2;
         else return 1;
     }
+
+    private int CalculateReductionDamage(Character target)
+    {
+        // si atacante tiene arma física
+        if (Weapon != WeaponType.Magic)
+        {
+            return Convert.ToInt32(target.Stats.Def);
+        }
+        return Convert.ToInt32(target.Stats.Res);
+    }
     public int CalculateDamage(Character target)
     {
         
         double wtb = CalculateWtbDamage(target);
+        int reduction = CalculateReductionDamage(target);
         
-        int valor_resta = 1000;
-        // si atacante tiene arma física
-        if (Weapon == WeaponType.Sword || Weapon == WeaponType.Lance || Weapon == WeaponType.Bow || Weapon == WeaponType.Axe)
-        {
-            valor_resta = Convert.ToInt32(target.Stats.Def);
-        }
-        else if (Weapon == WeaponType.Magic)
-        {
-            valor_resta = Convert.ToInt32(target.Stats.Res);
-        }
         
         // se calcula el daño
-        double daño_double = Convert.ToInt32(Stats.Atk) * wtb - valor_resta;
+        double daño_double = Convert.ToInt32(Stats.Atk) * wtb - reduction;
         
         // si es negativo es 0
         if (daño_double < 0)

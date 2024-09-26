@@ -231,8 +231,6 @@ public class Battle
         _attackerCharacter.IsInitiator();
         _defenderCharacter.IsNotInitiator();
         
-        _attackerCharacter.SetAttackType();
-        _defenderCharacter.SetAttackType();
         
         
 

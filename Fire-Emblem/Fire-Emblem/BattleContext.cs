@@ -18,4 +18,5 @@ public class BattleContext
         this.lastOpponent = null;
         this.actualOpponent = null;
     }
+    
 }
