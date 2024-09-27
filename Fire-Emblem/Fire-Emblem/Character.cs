@@ -395,4 +395,11 @@ public class Character
             //StatsPenalties.Res = 0;
         }
     }
+
+    public void RestoreAttributesForNextRound()
+    {
+        RestoreAllStats();
+        UnNeutralizeBonusSkills();
+        SetFalseArePenaltysSkillsNeutralized();
+    }
 }

@@ -114,14 +114,12 @@ public class Battle
         _attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
         _defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
     }
-    private void HandleDuelSequence()
+    private void HandleDuelFight()
     {
         HandleDamageFight();
-        if (!IsDuelOver())
-        {   
-            SwapCharacters();
-            HandleDamageFight();
-        }
+        if (IsDuelOver()) return; 
+        SwapCharacters(); 
+        HandleDamageFight();
     }
 
     private void HandleFollowUp()
@@ -137,7 +135,7 @@ public class Battle
             else _view.WriteLine("Ninguna unidad puede hacer un follow up");
         }
     }
-    private void StartDuel()
+    private void HandleDuel()
     {
         SimulateApplySkills();
         PrintCaseOfAdvantage();
@@ -145,14 +143,13 @@ public class Battle
         ResetStatsIfNeutralized();
         ApplyDefinitiveSkills();
         GetFollowUpStatusForDuelists();
-        HandleDuelSequence();
+        HandleDuelFight();
         HandleFollowUp();
         
     }
 
-    public bool IsRoundOver()
+    private bool IsRoundOver()
     {
-        //Console.WriteLine("Estoy en isRound Over");
         return IsTeam1Empty() || IsTeam2Empty();
     }
 
@@ -185,12 +182,23 @@ public class Battle
         _attackerCharacter.SetLastOpponent(_defenderCharacter);
         _defenderCharacter.SetLastOpponent(_attackerCharacter);
     }
+
+    private void ChooseUnits(int attackerIndex, int defenderIndex)
+    {
+        _attackerCharacter = AskUserToSelectUnit(attackerIndex);
+        _defenderCharacter = AskUserToSelectUnit(defenderIndex);
+    }
+
+    private void RestoreAttributesForNextRound()
+    {
+        _attackerCharacter.RestoreAttributesForNextRound();
+        _defenderCharacter.RestoreAttributesForNextRound();
+    }
     public bool Fight(int round)
     {
         (int attackerIndex, int defenderIndex) = GetIndexAttackerDefender(round);
-        
-        _attackerCharacter = AskUserToSelectUnit(attackerIndex);
-        _defenderCharacter = AskUserToSelectUnit(defenderIndex);
+
+        ChooseUnits(attackerIndex, defenderIndex);
         
         Character attacker = _attackerCharacter;
         Character defender = _defenderCharacter;
@@ -206,24 +214,18 @@ public class Battle
         
         _view.WriteLine("Round " + round + ": " + _attackerCharacter.Name + " (Player "+ attackerIndex+") comienza");
         
-        StartDuel();
+        HandleDuel();
         DeleteCharactersFromTeams();
         ReportRoundOutcome(attackerIndex, attackerName);
         if (!IsRoundOver())
         {
             UpdateLastOpponents();
-            _attackerCharacter.RestoreAllStats();
-            _defenderCharacter.RestoreAllStats();
-            _attackerCharacter.UnNeutralizeBonusSkills();
-            _attackerCharacter.SetFalseArePenaltysSkillsNeutralized();
-            _defenderCharacter.UnNeutralizeBonusSkills();
-            _defenderCharacter.SetFalseArePenaltysSkillsNeutralized();
+            RestoreAttributesForNextRound();
             
             Fight(round + 1);
         }
         else
         {
-            //Console.WriteLine("Estoy en Fight over");
             ReportWhoWon();
         }
         
