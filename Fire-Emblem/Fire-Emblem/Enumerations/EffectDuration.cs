@@ -3,5 +3,6 @@ namespace Fire_Emblem;
 public enum EffectDuration
 {
     WholeBattle, 
-    FirstAttack
+    FirstAttack,
+    FollowUp
 }

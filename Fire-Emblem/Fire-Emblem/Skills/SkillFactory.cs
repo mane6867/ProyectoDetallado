@@ -312,7 +312,7 @@ public class SkillFactory
         if (name == "Not *Quite*")
         {
             return new Skill(
-                new TrueCondition(),
+                new NotCond(new InitiateAttackCondition()),
                 new PenaltyRivalEffect(StatType.Atk, 4));
         }
         if (name == "Stunning Smile")
@@ -334,12 +334,6 @@ public class SkillFactory
                 new CompositeEffect(new PenaltyRivalEffect(StatType.Atk, 3), new PenaltyRivalEffect(StatType.Spd, 3 ))
                 );
         }
-        //if (name == "Luna")
-        //{
-        //    return new Skill(
-        //        new FirstAttackCondition(),
-        //        new LunaEffect());
-        //}
         if (name == "Belief in Love")
         {
             return new Skill(
@@ -539,6 +533,15 @@ public class SkillFactory
                     new BonusEffect(StatType.Def, 6),
                     new NeutralizeAllBonusEffect()));
         }
+
+        if (name == "Soulblade")
+        {
+            return new Skill(
+                new UsesWeaponCondition(WeaponType.Sword), new CompositeEffect(
+                    new SoulbladeDefEffect(), new SoulbladeResEffect()));
+        }
+
+
         throw new ApplicationException () ;
 
     }

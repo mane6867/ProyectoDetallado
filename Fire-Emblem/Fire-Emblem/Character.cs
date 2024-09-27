@@ -13,6 +13,7 @@ public class Character
     public Stats Stats { get; set; } = new Stats();
     public Stats StatsBonus  { get; set; } = new Stats();
     public Stats StatsPenalties  { get; set; }  = new Stats();
+    public Stats StatsFollowUp  { get; set; }  = new Stats();
     public BattleContext BattleContext { get; set; } = new BattleContext();
     private readonly SkillFactory _skillFactory = new SkillFactory();
     private Dictionary<EffectType, List<Skill>> _skills;
@@ -58,6 +59,7 @@ public class Character
         {
             Stats.Atk = int.Parse(value);
             _originalStats.Atk = int.Parse(value);
+            StatsFollowUp.Atk = int.Parse(value);
         }
     }
 
@@ -68,6 +70,7 @@ public class Character
         {
             Stats.Spd = int.Parse(value);
             _originalStats.Spd = int.Parse(value);
+            StatsFollowUp.Spd = int.Parse(value);
         }
     }
 
@@ -78,6 +81,7 @@ public class Character
         {
             Stats.Def = int.Parse(value);
             _originalStats.Def = int.Parse(value);
+            StatsFollowUp.Def = int.Parse(value);
         }
     }
 
@@ -88,6 +92,7 @@ public class Character
         {
             Stats.Res = int.Parse(value); 
             _originalStats.Res = int.Parse(value);
+            StatsFollowUp.Res = int.Parse(value);
         }
     }
     public Character()
@@ -152,11 +157,14 @@ public class Character
         }
         if (AreBonusSkillsNeutralized && !ArePenaltiesSkillsNeutralized)
         {
-            Stats.Atk -= StatsPenalties.Atk;
-            Stats.Spd -= StatsPenalties.Spd;
-            Stats.Res -= StatsPenalties.Res;
-            Stats.Def -= StatsPenalties.Def;
-            Console.WriteLine("Ahora el Spd OFICIALMENTE ES" + Stats.Spd);
+            if (BonusNeutralized.Contains(StatType.Atk)) Stats.Atk -= StatsPenalties.Atk;
+            else  Stats.Atk += StatsBonus.Atk - StatsPenalties.Atk;
+            if (BonusNeutralized.Contains(StatType.Spd)) Stats.Spd -= StatsPenalties.Spd;
+            else  Stats.Spd += StatsBonus.Spd - StatsPenalties.Spd;
+            if (BonusNeutralized.Contains(StatType.Res)) Stats.Res -= StatsPenalties.Res;
+            else  Stats.Res += StatsBonus.Res - StatsPenalties.Res;
+            if (BonusNeutralized.Contains(StatType.Def)) Stats.Def -= StatsPenalties.Def;
+            else  Stats.Def += StatsBonus.Def - StatsPenalties.Def;
         }
         
     }
@@ -168,8 +176,16 @@ public class Character
             SetStatsToOriginalStats();
         }
     }
+
+    public void SortListBonusNeutralized()
+    {
+        List<StatType> targetOrder = new List<StatType> { StatType.Atk, StatType.Spd, StatType.Def, StatType.Res };
+        BonusNeutralized = BonusNeutralized.OrderBy(stat => targetOrder.IndexOf(stat)).ToList();
+        
+    }
     private void PrintBonusNeutralizedStats(View view)
     {
+        SortListBonusNeutralized();
         foreach (var stat in BonusNeutralized)
         {
             view.WriteLine($"Los bonus de "+ stat + " de "+ Name +" fueron neutralizados"); 

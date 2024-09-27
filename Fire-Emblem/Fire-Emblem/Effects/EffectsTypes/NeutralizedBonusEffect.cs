@@ -13,7 +13,8 @@ public class NeutralizedBonusEffect: Effect
     {
         // Neutralizar todos los bonos del oponente
         defender.NeutralizeBonusSkills();
-        defender.BonusNeutralized.Add(TargetStat);
+        if (!defender.BonusNeutralized.Contains(TargetStat)) defender.BonusNeutralized.Add(TargetStat);
+        
 
         // Si hay otros bonos en más stats, puedes incluirlos aquí
     }

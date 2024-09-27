@@ -13,10 +13,11 @@ namespace Fire_Emblem.Effects
         {
             // Neutralizar todos los bonos del oponente
             defender.NeutralizeBonusSkills();
-            defender.BonusNeutralized.Add(StatType.Atk);
-            defender.BonusNeutralized.Add(StatType.Spd);
-            defender.BonusNeutralized.Add(StatType.Def);
-            defender.BonusNeutralized.Add(StatType.Res);
+            
+            if (!defender.BonusNeutralized.Contains(StatType.Atk)) defender.BonusNeutralized.Add(StatType.Atk);
+            if (!defender.BonusNeutralized.Contains(StatType.Spd)) defender.BonusNeutralized.Add(StatType.Spd);
+            if (!defender.BonusNeutralized.Contains(StatType.Def)) defender.BonusNeutralized.Add(StatType.Def);
+            if (!defender.BonusNeutralized.Contains(StatType.Res)) defender.BonusNeutralized.Add(StatType.Res);
 
             // Si hay otros bonos en más stats, puedes incluirlos aquí
         }
