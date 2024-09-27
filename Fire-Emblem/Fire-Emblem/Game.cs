@@ -12,6 +12,7 @@ public class Game
     private View _view;
     private string _teamsFolder;
     private Utilities _utilities;
+    private List<Character> _allCharacters = new List<Character>();
 
     public Game(View view, string teamsFolder)
     {
@@ -32,11 +33,6 @@ public class Game
         }
     }
     
-
-    private bool IsValueOutsideTheValidRange(int minValue, int value, int maxValue)
-        => value < minValue || value > maxValue;
-
-
     private string[] GetInfoChooseFile()
     {
         string pathChosenFile = AskToChoosePathFile();
@@ -54,54 +50,57 @@ public class Game
         return files[numberOfSelectedFile];
     }
 
-    public static bool HasMaxTwoSkills(List<string> listOfSkills)
+    private static bool HasMaxTwoSkills(List<string> listOfSkills)
     {
-        return listOfSkills.Count() <= 2;
+        return listOfSkills.Count <= 2;
     }
 
+    public void GetCharacters()
+    {
+        string myJson = File.ReadAllText("characters.json");
+        _allCharacters = JsonConvert.DeserializeObject<List<Character>>(myJson);
+    }
+    private List<string> ExtractSkills(string skillString)
+    {
+        return skillString.TrimEnd(')').Split(',')
+            .Select(skill => skill.Trim())
+            .ToList();
+    }
+    private Character FindCharacterByName(string name)
+    {
+        return _allCharacters.FirstOrDefault(c => c.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+    }
+    private string ExtractCharacterName(string characterData, int skillStartIndex)
+    {
+        return skillStartIndex != -1 
+            ? characterData.Substring(0, skillStartIndex).Trim() 
+            : characterData.Trim();
+    }
+    private (string name, List<string> skills) ParseCharacterData(string characterData)
+    {
+        int skillStartIndex = characterData.IndexOf('(');
+        
+        string characterName = ExtractCharacterName(characterData, skillStartIndex);
+        
+        List<string> characterSkills = skillStartIndex != -1 
+            ? ExtractSkills(characterData.Substring(skillStartIndex + 1)) 
+            : new List<string>();
+
+        return (characterName, characterSkills);
+    }
+    
     public List<Character> CreateCharactersFromNames(List<string> dataCharactersPlayer)
     {
-        List<string> nameOfCharactersToCreateList = new List<string>();
         List<Character> characters = new List<Character>();
-        string myJson = File.ReadAllText("characters.json");
-        var totalCharactersList = JsonConvert.DeserializeObject<List<Character>>(myJson);
-        // acá debo extraer las habilidades
-        
-        foreach (var dataCharacter in dataCharactersPlayer)
+        GetCharacters();
+        foreach (var characterData in dataCharactersPlayer)
         {
-            string name;
-            List<string> namesSkills = new List<string>();
-            int index =  dataCharacter.IndexOf('(');
-            if (index != -1)
-            {
-                // Extraer lo que está antes del paréntesis
-                name = dataCharacter.Substring(0, index).Trim();
-                string skillString = dataCharacter.Substring(index + 1, dataCharacter.Length - index - 2);
-                //Console.WriteLine("EL STRING DE LAS SKILLS ES"+ skillString);
-                namesSkills = skillString.Split(',')
-                    .Select(h => h.Trim()) // Limpiar espacios
-                    .ToList(); // Convertir en lista
-            }
-            else
-            {
-                // Si no hay paréntesis, se agrega la línea completa
-                name =  dataCharacter.Trim();
-            }
-            
-            Character character = totalCharactersList.FirstOrDefault(c => c.Name == name);
-            
-            character.AddSkills(namesSkills);
+            var characterInfo = ParseCharacterData(characterData);
+            Character character = FindCharacterByName(characterInfo.name);
+
+            character.AddSkills(characterInfo.skills);
             characters.Add(character);
         }
-        
-        //for (int i = 0; i < nameOfCharactersToCreateList.Count; i++)
-        //{
-        //    Character unidad = totalCharactersList.FirstOrDefault(c => c.Name == nameOfCharactersToCreateList[i]);
-        //    
-        //    
-        //}
-        
-
         return characters;
 
     }
@@ -110,10 +109,7 @@ public class Game
         FilesDisplayToChooseFrom();
         string[] infoFileSelectedTeam = GetInfoChooseFile();
 
-        if (!ValidateChoosenInfo(infoFileSelectedTeam))
-        {
-            _view.WriteLine("Archivo de equipos no válido");
-        }
+        if (!ValidateChosenInfo(infoFileSelectedTeam)) _view.WriteLine("Archivo de equipos no válido");
         else
         {
 
@@ -205,7 +201,7 @@ public class Game
         return isValidTeam(dataCharactersPlayer1) && isValidTeam(dataCharactersPlayer2);
     }
 
-    public bool ValidateChoosenInfo(string[] infoTeams)
+    public bool ValidateChosenInfo(string[] infoTeams)
     {
         (List<string> dataCharactersPlayer1, List<string> dataCharactersPlayer2) =
             ObtainDataCharactersFromTeams(infoTeams);
