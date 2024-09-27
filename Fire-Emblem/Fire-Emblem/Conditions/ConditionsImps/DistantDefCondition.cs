@@ -6,6 +6,6 @@ public class DistantDefCondition: Condition
     {
         return !character.BattleContext.isInitiator && 
                (character.BattleContext.actualOpponent.Weapon == WeaponType.Magic || 
-                character.BattleContext.actualOpponent.Weapon == WeaponType.Axe) ;
+                character.BattleContext.actualOpponent.Weapon == WeaponType.Bow) ;
     }
 }

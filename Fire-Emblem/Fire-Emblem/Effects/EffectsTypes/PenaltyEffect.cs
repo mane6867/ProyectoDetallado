@@ -5,7 +5,7 @@ public class PenaltyEffect : Effect {
     public PenaltyEffect ( StatType targetStat , int bonus): base(targetStat, bonus)
     { 
         _targetStat = targetStat; 
-        EffectType = EffectType.PenaltyOwn;
+        EffectType = EffectType.Penalty;
         EffectDuration = EffectDuration.WholeBattle;
         _bonus = bonus;
         Console.WriteLine("en el inicializador se coloca que el valor de penalty es "+ _bonus);

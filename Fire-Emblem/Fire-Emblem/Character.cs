@@ -18,6 +18,8 @@ public class Character
     private Dictionary<EffectType, List<Skill>> _skills;
     public bool AreBonusSkillsNeutralized { get; private set; } = false;
     public bool ArePenaltiesSkillsNeutralized  { get; set; } = false;
+    public List<StatType> BonusNeutralized = new List<StatType>();
+    public List<StatType> PenaltiesNeutralized = new List<StatType>();
     
     [JsonConverter(typeof(StringEnumConverter))]
     public GenderType Gender { get; set; }
@@ -99,8 +101,7 @@ public class Character
         _skills = new Dictionary<EffectType, List<Skill>>
         {
             { EffectType.Bonus, new List<Skill>() },
-            { EffectType.PenaltyOwn, new List<Skill>() },
-            { EffectType.PenaltyRival, new List<Skill>() }
+            { EffectType.Penalty, new List<Skill>() }
         };
     }
     public int GetOriginalStat(StatType statType)
@@ -123,20 +124,39 @@ public class Character
 
     public void SimulateApplySkills(Character defender)
     {
+        Console.WriteLine("see está realizando la simulación de " + Name);
         
         SimulateApplySkillsOfType(EffectType.Bonus, defender);
-        SimulateApplySkillsOfType(EffectType.PenaltyOwn, defender);
+        SimulateApplySkillsOfType(EffectType.Penalty, defender);
         
     }
 
     public void ApplyDefinitiveSkills()
     {
+        Console.WriteLine("se está en apply definitive");
+        Console.WriteLine(Name + "tiene los bonus neutralizados? "+ AreBonusSkillsNeutralized);
+        Console.WriteLine(Name + "tiene las penaltys? "+ ArePenaltiesSkillsNeutralized);
         if (!AreBonusSkillsNeutralized && !ArePenaltiesSkillsNeutralized)
         {
             Stats.Atk += StatsBonus.Atk - StatsPenalties.Atk;
             Stats.Spd += StatsBonus.Spd - StatsPenalties.Spd;
             Stats.Res += StatsBonus.Res - StatsPenalties.Res;
             Stats.Def += StatsBonus.Def - StatsPenalties.Def;
+        }
+        if (!AreBonusSkillsNeutralized && ArePenaltiesSkillsNeutralized)
+        {
+            Stats.Atk += StatsBonus.Atk;
+            Stats.Spd += StatsBonus.Spd;
+            Stats.Res += StatsBonus.Res;
+            Stats.Def += StatsBonus.Def;
+        }
+        if (AreBonusSkillsNeutralized && !ArePenaltiesSkillsNeutralized)
+        {
+            Stats.Atk -= StatsPenalties.Atk;
+            Stats.Spd -= StatsPenalties.Spd;
+            Stats.Res -= StatsPenalties.Res;
+            Stats.Def -= StatsPenalties.Def;
+            Console.WriteLine("Ahora el Spd OFICIALMENTE ES" + Stats.Spd);
         }
         
     }
@@ -148,31 +168,38 @@ public class Character
             SetStatsToOriginalStats();
         }
     }
-    private void PrintNeutralizedStats(View view, string skillType)
+    private void PrintBonusNeutralizedStats(View view)
     {
-        view.WriteLine($"Los {skillType}s de Atk de {Name} fueron neutralizados");
-        view.WriteLine($"Los {skillType}s de Spd de {Name} fueron neutralizados");
-        view.WriteLine($"Los {skillType}s de Def de {Name} fueron neutralizados");
-        view.WriteLine($"Los {skillType}s de Res de {Name} fueron neutralizados");
+        foreach (var stat in BonusNeutralized)
+        {
+            view.WriteLine($"Los bonus de "+ stat + " de "+ Name +" fueron neutralizados"); 
+        }
+    }
+    private void PrintPenaltiesNeutralizedStats(View view)
+    {
+        foreach (var stat in PenaltiesNeutralized)
+        {
+            view.WriteLine($"Los penalty de "+ stat + " de " + Name + " fueron neutralizados"); 
+        }
     }
 
     public void PrintSkillsNeutralized(View view)
     {
         if (AreBonusSkillsNeutralized)
         {
-            PrintNeutralizedStats(view, "bonu");
+            PrintBonusNeutralizedStats(view);
         }
 
         if (ArePenaltiesSkillsNeutralized)
         {
-            PrintNeutralizedStats(view, "penalty");
+            PrintPenaltiesNeutralizedStats(view);
         }
         
     }
     public void NeutralizeBonusSkills()
     {
         AreBonusSkillsNeutralized = true;
-        //Console.WriteLine(" SE CAMBIA A TRUE LOS BONUS NEUTRALIZADORES DE "+ Name);
+        Console.WriteLine(" SE CAMBIA A TRUE LOS BONUS NEUTRALIZADORES DE "+ Name);
     }
     public void UnNeutralizeBonusSkills()
     {
@@ -183,7 +210,7 @@ public class Character
     public void NeutralizePenaltiesSkills()
     {
         ArePenaltiesSkillsNeutralized = true;
-        //Console.WriteLine(" SE CAMBIA A TRUE LOS BONUS NEUTRALIZADORES DE "+ Name);
+        Console.WriteLine(" SE CAMBIA A TRUE LOS BONUS NEUTRALIZADORES DE "+ Name);
     }
     public void UnNeutralizePenaltiesSkills()
     {
@@ -288,8 +315,10 @@ public class Character
     {
         foreach (var nameSkill in namesSkills)
         {
+            Console.WriteLine("SE ESTÁ AÑADIENDO LA SKILL "+ nameSkill + " A " + Name);
             var skill = _skillFactory.Create(nameSkill);
             var effectType = skill.Effect.EffectType;
+            Console.WriteLine("LA SKILL  es de tipo" + effectType);
             _skills[effectType].Add(skill);
         }
     }
@@ -299,7 +328,9 @@ public class Character
         SetStatsToOriginalStats();
         StatsBonus.SetDefault();
         StatsPenalties.SetDefault();
-        
+        BonusNeutralized = new List<StatType>();
+        PenaltiesNeutralized = new List<StatType>();
+
     }
     public void SetStatsToOriginalStats()
     {
@@ -327,6 +358,11 @@ public class Character
         {
             view.WriteLine(Name + " obtiene Res+" + StatsBonus.Res);
         }
+        Console.WriteLine("Se está revisando si tiene penalties");
+        Console.WriteLine(StatsPenalties.Atk);
+        Console.WriteLine(StatsPenalties.Def);
+        Console.WriteLine(StatsPenalties.Res);
+        Console.WriteLine(StatsPenalties.Spd);
         
         
         if (StatsPenalties.Atk > 0)

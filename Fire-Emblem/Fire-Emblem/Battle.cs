@@ -39,7 +39,11 @@ public class Battle
         else if (_defenderCharacter.HasAdvantage(_attackerCharacter)) _view.WriteLine(_defenderCharacter.Name +
             " (" + _defenderCharacter.Weapon + ") tiene ventaja con respecto a " + _attackerCharacter.Name + 
             " (" + _attackerCharacter.Weapon + ")");
-        else _view.WriteLine("Ninguna unidad tiene ventaja con respecto a la otra");
+        else
+        {
+            _view.WriteLine("Ninguna unidad tiene ventaja con respecto a la otra");
+            Console.WriteLine("el atacante tiene " + _attackerCharacter.Weapon);
+        }
     }
 
     private void PrintDamage(int damage)
@@ -55,7 +59,7 @@ public class Battle
 
     private void HandleDamageFight()
     {
-        Console.WriteLine("Las stats originales son:");
+        Console.WriteLine("Las stats originales son:" + _attackerCharacter.Name);
         Console.WriteLine(_attackerCharacter._originalStats.Atk);
         Console.WriteLine(_attackerCharacter._originalStats.Def);
         Console.WriteLine(_attackerCharacter._originalStats.Res);
@@ -129,7 +133,7 @@ public class Battle
         }
         if (_defenderCharacter.AreBonusSkillsNeutralized)
         {   Console.WriteLine("se está en el if así que se va a ver si puede hacer follow up otra vez");
-            defenderIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_attackerCharacter);
+            defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
         }
         HandleDuelSequence();
         

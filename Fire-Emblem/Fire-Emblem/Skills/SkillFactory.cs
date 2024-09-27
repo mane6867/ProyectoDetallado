@@ -350,7 +350,11 @@ public class SkillFactory
         }
 
         if (name == "Beorc's Blessing")
-            return new Skill(new TrueCondition(), new NeutralizeBonusEffect());
+            return new Skill(new TrueCondition(), new NeutralizeAllBonusEffect());
+        
+        if (name == "Agnea's Arrow")
+            return new Skill(new TrueCondition(), new NeutralizeOwnPenaltiesEffect());
+        
         if (name == "Sword Agility")
             return new Skill(
                 new UsesWeaponCondition(WeaponType.Sword),
@@ -371,10 +375,10 @@ public class SkillFactory
                     new BonusEffect(StatType.Atk, 10),
                     new PenaltyEffect(StatType.Def, 10)));
         }
-        if (name == "Bow Power")
+        if (name == "Bow Focus")
         {
             return new Skill(
-                new UsesWeaponCondition(WeaponType.Sword), new CompositeEffect(
+                new UsesWeaponCondition(WeaponType.Bow), new CompositeEffect(
                     new BonusEffect(StatType.Atk, 10),
                     new PenaltyEffect(StatType.Res, 10)));
         }
@@ -447,7 +451,7 @@ public class SkillFactory
                 new CompositeEffect(
                     new BonusEffect(StatType.Def, 8),
                     new BonusEffect(StatType.Res, 8),
-                    new NeutralizeBonusEffect()));
+                    new NeutralizeAllBonusEffect()));
         }
         if (name == "Distant Def")
         {
@@ -456,20 +460,84 @@ public class SkillFactory
                 new CompositeEffect(
                     new BonusEffect(StatType.Def, 8),
                     new BonusEffect(StatType.Res, 8),
-                    new NeutralizeBonusEffect()));
+                    new NeutralizeAllBonusEffect()));
+        }
+
+        if (name == "Lull Atk/Spd")
+        {
+            return new Skill(
+                new TrueCondition(),
+                new CompositeEffect(
+                    new LullEffect(StatType.Atk, StatType.Spd),
+                new NeutralizedBonusEffect(StatType.Atk), new NeutralizedBonusEffect(StatType.Spd)));
+        }
+        if (name == "Lull Atk/Def")
+        {
+            return new Skill(
+                new TrueCondition(),
+                new CompositeEffect(
+                    new LullEffect(StatType.Atk, StatType.Def),
+                    new NeutralizedBonusEffect(StatType.Atk), new NeutralizedBonusEffect(StatType.Def)));
+        }
+        if (name == "Lull Atk/Res")
+        {
+            return new Skill(
+                new TrueCondition(),
+                new CompositeEffect(
+                    new LullEffect(StatType.Atk, StatType.Res),
+                    new NeutralizedBonusEffect(StatType.Atk), new NeutralizedBonusEffect(StatType.Res)));
+        }
+        if (name == "Lull Spd/Res")
+        {
+            return new Skill(
+                new TrueCondition(),
+                new CompositeEffect(
+                    new LullEffect(StatType.Spd, StatType.Res),
+                    new NeutralizedBonusEffect(StatType.Spd), new NeutralizedBonusEffect(StatType.Res)));
+        }
+        if (name == "Lull Spd/Def")
+        {
+            return new Skill(
+                new TrueCondition(),
+                new CompositeEffect(
+                    new LullEffect(StatType.Spd, StatType.Def),
+                    new NeutralizedBonusEffect(StatType.Spd), new NeutralizedBonusEffect(StatType.Def)));
+        }
+        if (name == "Lull Def/Res")
+        {
+            return new Skill(
+                new TrueCondition(),
+                new CompositeEffect(
+                    new LullEffect(StatType.Def, StatType.Res),
+                    new NeutralizedBonusEffect(StatType.Def), new NeutralizedBonusEffect(StatType.Res)));
         }
 
         if (name == "Light and Dark")
         {
             return new Skill(
                 new TrueCondition(), new CompositeEffect(
-                    new PenaltyEffect(StatType.Atk, 5),
-                    new PenaltyEffect(StatType.Spd, 5),
-                    new PenaltyEffect(StatType.Def, 5),
-                    new PenaltyEffect(StatType.Res, 5),
-                    new NeutralizePenaltiesEffect(),
-                    new NeutralizeBonusEffect()
-                ));
+                    new PenaltyRivalEffect(StatType.Atk, 5),
+                    new PenaltyRivalEffect(StatType.Spd, 5),
+                    new PenaltyRivalEffect(StatType.Def, 5),
+                    new PenaltyRivalEffect(StatType.Res, 5),
+                    new NeutralizeOwnPenaltiesEffect(),
+                    new NeutralizeAllBonusEffect()
+                )
+                );
+        }
+
+        if (name == "Dragonskin")
+        {
+            return new Skill(
+                new OrCondition(
+                    new NotCond(new InitiateAttackCondition()),
+                    new RivalGreaterOrEqualPercentageCondition(StatType.Hp, StatType.HpMax, 0.75)),
+                new CompositeEffect(
+                    new BonusEffect(StatType.Atk, 6),
+                    new BonusEffect(StatType.Spd, 6),
+                    new BonusEffect(StatType.Res, 6),
+                    new BonusEffect(StatType.Def, 6),
+                    new NeutralizeAllBonusEffect()));
         }
         throw new ApplicationException () ;
 
