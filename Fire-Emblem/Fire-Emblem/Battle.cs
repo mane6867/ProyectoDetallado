@@ -12,7 +12,8 @@ public class Battle
     private Character _attackerCharacter;
     
     private Character _defenderCharacter;
-    private BattleContext _battleContext;
+    private bool _attackerIsAbleToFollowUp = false;
+    private bool _defenderIsAbleToFollowUp = false;
 
     public Battle(View view, List<List<Character>> teams)
     {
@@ -80,17 +81,6 @@ public class Battle
         (_attackerCharacter, _defenderCharacter) = (_defenderCharacter, _attackerCharacter);
     }
     
-    private void HandleDuelSequence()
-    {
-        _attackerCharacter.SetIsNotFirstAttack(); 
-        HandleDamageFight();
-        if (!IsDuelOver())
-        {   
-            SwapCharacters();
-            _attackerCharacter.SetIsNotFirstAttack();
-            HandleDamageFight();
-        }
-    }
 
     private void SimulateApplySkills()
     {
@@ -118,6 +108,35 @@ public class Battle
         _attackerCharacter.ApplyDefinitiveSkills();
         _defenderCharacter.ApplyDefinitiveSkills();
     }
+
+    public void GetFollowUpStatusForDuelists()
+    {
+        _attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
+        _defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
+    }
+    private void HandleDuelSequence()
+    {
+        HandleDamageFight();
+        if (!IsDuelOver())
+        {   
+            SwapCharacters();
+            HandleDamageFight();
+        }
+    }
+
+    private void HandleFollowUp()
+    {
+        if (!IsDuelOver())
+        {
+            if (_attackerIsAbleToFollowUp)
+            {
+                SwapCharacters();
+                HandleDamageFight();
+            }
+            else if (_defenderIsAbleToFollowUp) HandleDamageFight();
+            else _view.WriteLine("Ninguna unidad puede hacer un follow up");
+        }
+    }
     private void StartDuel()
     {
         SimulateApplySkills();
@@ -125,38 +144,10 @@ public class Battle
         PrintSkillsStatus();
         ResetStatsIfNeutralized();
         ApplyDefinitiveSkills();
-        
-        var attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
-        var defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
-        if (_attackerCharacter.AreBonusSkillsNeutralized)
-        {
-            Console.WriteLine("se está en el if así que se va a ver si puede hacer follow up otra vez");
-            attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
-        }
-        if (_defenderCharacter.AreBonusSkillsNeutralized)
-        {   Console.WriteLine("se está en el if así que se va a ver si puede hacer follow up otra vez");
-            defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
-        }
+        GetFollowUpStatusForDuelists();
         HandleDuelSequence();
+        HandleFollowUp();
         
-        if (!IsDuelOver())
-        {
-
-            if (attackerIsAbleToFollowUp)
-            {
-                SwapCharacters();
-                HandleDamageFight();
-            }
-
-            else if (defenderIsAbleToFollowUp)
-            {
-                HandleDamageFight();
-            }
-            else
-            {
-                _view.WriteLine("Ninguna unidad puede hacer un follow up");
-            }
-        }
     }
 
     public bool IsRoundOver()
