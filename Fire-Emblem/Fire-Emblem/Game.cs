@@ -11,23 +11,18 @@ public class Game
 {
     private View _view;
     private string _teamsFolder;
+    private Utilities _utilities;
 
     public Game(View view, string teamsFolder)
     {
         _view = view;
         _teamsFolder = teamsFolder;
-        List<Character> player1;
-        List<Character> player2;
+        _utilities = new Utilities(_view);
 
     }
+    
 
-    static bool ContieneRepetidos<T>(List<T> lista)
-    {
-        // Utilizamos LINQ para agrupar los elementos de la lista por su valor y luego verificamos si algún grupo tiene más de un elemento
-        return lista.GroupBy(x => x).Any(g => g.Count() > 1);
-    }
-
-    public void filesDisplayToChooseFrom()
+    private void FilesDisplayToChooseFrom()
     {
         _view.WriteLine("Elige un archivo para cargar los equipos");
         string[] files = Directory.GetFiles(_teamsFolder);
@@ -36,32 +31,17 @@ public class Game
             _view.WriteLine(i + ": " + Path.GetFileName(files[i]));
         }
     }
+    
 
-    public int AskUserToSelectNumber(int minValue, int maxValue)
-    {
-        //_view.WriteLine($"(Ingresa un número entre {minValue} y {maxValue})");
-        int value;
-        bool wasParsePossible;
-        do
-        {
-            string? userInput = _view.ReadLine();
-            wasParsePossible = int.TryParse(userInput, out value);
-        } while (!wasParsePossible || IsValueOutsideTheValidRange(minValue, value, maxValue));
-
-        return value;
-    }
-
-    public bool IsValueOutsideTheValidRange(int minValue, int value, int maxValue)
+    private bool IsValueOutsideTheValidRange(int minValue, int value, int maxValue)
         => value < minValue || value > maxValue;
 
 
-    public string[] GetInfoChooseFile()
+    private string[] GetInfoChooseFile()
     {
-
-        //bool valido = ValidarEquipo(infoArchivoEquipo).valido;
-        string pathChoosenFile = AskToChoosePathFile();
-        string[] infoTeamsChoosenFile = File.ReadAllLines(pathChoosenFile);
-        return infoTeamsChoosenFile;
+        string pathChosenFile = AskToChoosePathFile();
+        string[] infoTeamsChosenFile = File.ReadAllLines(pathChosenFile);
+        return infoTeamsChosenFile;
 
     }
 
@@ -70,7 +50,7 @@ public class Game
         string[] files = Directory.GetFiles(_teamsFolder);
         int min = 0;
         int max = files.Length - 1;
-        int numberOfSelectedFile = AskUserToSelectNumber(min, max);
+        int numberOfSelectedFile = _utilities.AskUserToSelectNumber(min, max);
         return files[numberOfSelectedFile];
     }
 
@@ -127,7 +107,7 @@ public class Game
     }
     public void Play()
     {
-        filesDisplayToChooseFrom();
+        FilesDisplayToChooseFrom();
         string[] infoFileSelectedTeam = GetInfoChooseFile();
 
         if (!ValidateChoosenInfo(infoFileSelectedTeam))
@@ -208,12 +188,12 @@ public class Game
 
             namesCharacters.Add(nameCharacterOnReview);
 
-            if (!HasMaxTwoSkills(skills) || ContieneRepetidos(skills))
+            if (!HasMaxTwoSkills(skills) || _utilities.HasDuplicates(skills))
             { 
                 areSkillsValid = false;
             }
         }
-        bool areNamesRepeated = ContieneRepetidos(namesCharacters);
+        bool areNamesRepeated = _utilities.HasDuplicates(namesCharacters);
         bool hasMinOneCharacter = namesCharacters.Count > 0;
         bool hasMaxThreeCharacters = namesCharacters.Count <= 3;
         return !areNamesRepeated && areSkillsValid && hasMinOneCharacter && hasMaxThreeCharacters;

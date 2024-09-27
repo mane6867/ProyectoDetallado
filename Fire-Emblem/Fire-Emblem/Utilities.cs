@@ -10,7 +10,6 @@ public class Utilities
     
     public int AskUserToSelectNumber(int minValue, int maxValue)
     {
-        //_view.WriteLine($"(Ingresa un número entre {minValue} y {maxValue})");
         int value;
         bool wasParsePossible;
         do
@@ -25,4 +24,8 @@ public class Utilities
     public bool IsValueOutsideTheValidRange(int minValue, int value, int maxValue)
         => value < minValue || value > maxValue;
     
+    public bool HasDuplicates<T>(List<T> list)
+    {
+        return list.GroupBy(x => x).Any(g => g.Count() > 1);
+    }
 }

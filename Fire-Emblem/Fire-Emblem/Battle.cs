@@ -1,3 +1,5 @@
+using System.Runtime.InteropServices;
+
 namespace Fire_Emblem;
 using Fire_Emblem_View;
 using System.Collections.Generic;
@@ -109,7 +111,7 @@ public class Battle
         _defenderCharacter.ApplyDefinitiveSkills();
     }
 
-    public void GetFollowUpStatusForDuelists()
+    private void GetFollowUpStatusForDuelists()
     {
         _attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
         _defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
@@ -145,10 +147,12 @@ public class Battle
         GetFollowUpStatusForDuelists();
         HandleDuelFight();
         HandleFollowUp();
+        DeleteCharactersFromTeams();
+        
         
     }
 
-    private bool IsRoundOver()
+    private bool IsFightOver()
     {
         return IsTeam1Empty() || IsTeam2Empty();
     }
@@ -189,67 +193,66 @@ public class Battle
         _defenderCharacter = AskUserToSelectUnit(defenderIndex);
     }
 
+    private void SetAttributesOpponents()
+    {
+        _attackerCharacter.SetActualOpponent(_defenderCharacter);
+        _defenderCharacter.SetActualOpponent(_attackerCharacter);
+        _attackerCharacter.IsInitiator();
+        _defenderCharacter.IsNotInitiator();
+    }
+
     private void RestoreAttributesForNextRound()
     {
         _attackerCharacter.RestoreAttributesForNextRound();
         _defenderCharacter.RestoreAttributesForNextRound();
     }
-    public bool Fight(int round)
+
+    private void PrintRoundStart(int round, int attackerIndex)
     {
-        (int attackerIndex, int defenderIndex) = GetIndexAttackerDefender(round);
-
-        ChooseUnits(attackerIndex, defenderIndex);
-        
-        Character attacker = _attackerCharacter;
-        Character defender = _defenderCharacter;
-
-        _attackerCharacter.SetActualOpponent(_defenderCharacter);
-        _defenderCharacter.SetActualOpponent(_attackerCharacter);
-        
-        _attackerCharacter.IsInitiator();
-        _defenderCharacter.IsNotInitiator();
-
-        string attackerName = _attackerCharacter.Name;
-        
-        
         _view.WriteLine("Round " + round + ": " + _attackerCharacter.Name + " (Player "+ attackerIndex+") comienza");
-        
-        HandleDuel();
-        DeleteCharactersFromTeams();
-        ReportRoundOutcome(attackerIndex, attackerName);
-        if (!IsRoundOver())
+    }
+
+    private void HandleMoreRounds(int round)
+    {
+        if (!IsFightOver())
         {
             UpdateLastOpponents();
             RestoreAttributesForNextRound();
-            
             Fight(round + 1);
         }
-        else
-        {
-            ReportWhoWon();
-        }
+        else ReportWhoWon();
+    }
+    public bool Fight(int round)
+    {
+        (int attackerIndex, int defenderIndex) = GetIndexAttackerDefender(round);
+        ChooseUnits(attackerIndex, defenderIndex);
+        SetAttributesOpponents();
+        string attackerName = _attackerCharacter.Name;
         
+        PrintRoundStart(round, attackerIndex);
+        HandleDuel();
+        ReportRoundOutcome(attackerIndex, attackerName);
+        HandleMoreRounds(round);
         return true;
     }
 
     
-    public Character AskUserToSelectUnit(int int_player)
+    public Character AskUserToSelectUnit(int indexPlayer)
     {
-        _view.WriteLine("Player "+int_player+" selecciona una opción");
+        _view.WriteLine("Player "+ indexPlayer +" selecciona una opción");
 
-        int indice = 0;
-        foreach (Character Jugador in _teams[int_player-1])
+        int index = 0;
+        foreach (Character player in _teams[indexPlayer-1])
         {
-            String nombreJugador = Jugador.Name;
-            _view.WriteLine(indice + ": "+ nombreJugador);
-            indice++;
+            string namePlayer = player.Name;
+            _view.WriteLine(index + ": "+ namePlayer);
+            index++;
         }
-        // se le pide  seleccionar una unidad
-        int selected = _utilities.AskUserToSelectNumber(0, indice);
+        int indexSelected = _utilities.AskUserToSelectNumber(0, index);
         
-        Character unidad = _teams[int_player - 1][selected];
+        Character playerSelected = _teams[indexPlayer - 1][indexSelected];
 
-        return unidad;
+        return playerSelected;
     }
 
 }
