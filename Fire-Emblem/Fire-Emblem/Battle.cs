@@ -106,14 +106,18 @@ public class Battle
         _defenderCharacter.PrintSkillsEffects(_view);
         _defenderCharacter.PrintSkillsNeutralized(_view);
     }
-    public void StartDuel()
+
+    private void ResetStatsIfNeutralized()
+    {
+        _attackerCharacter.ResetStatsIfNeutralized();
+        _defenderCharacter.ResetStatsIfNeutralized();
+    }
+    private void StartDuel()
     {
         SimulateApplySkills();
         PrintCaseOfAdvantage();
-        
         PrintSkillsStatus();
-        _attackerCharacter.ResetStatsIfNeutralized();
-        _defenderCharacter.ResetStatsIfNeutralized();
+        ResetStatsIfNeutralized();
         
         _attackerCharacter.ApplyDefinitiveSkills();
         _defenderCharacter.ApplyDefinitiveSkills();
