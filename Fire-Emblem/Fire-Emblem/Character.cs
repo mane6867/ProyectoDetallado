@@ -59,7 +59,6 @@ public class Character
         {
             Stats.Atk = int.Parse(value);
             _originalStats.Atk = int.Parse(value);
-            StatsFollowUp.Atk = int.Parse(value);
         }
     }
 
@@ -70,7 +69,6 @@ public class Character
         {
             Stats.Spd = int.Parse(value);
             _originalStats.Spd = int.Parse(value);
-            StatsFollowUp.Spd = int.Parse(value);
         }
     }
 
@@ -81,7 +79,6 @@ public class Character
         {
             Stats.Def = int.Parse(value);
             _originalStats.Def = int.Parse(value);
-            StatsFollowUp.Def = int.Parse(value);
         }
     }
 
@@ -92,7 +89,6 @@ public class Character
         {
             Stats.Res = int.Parse(value); 
             _originalStats.Res = int.Parse(value);
-            StatsFollowUp.Res = int.Parse(value);
         }
     }
     public Character()

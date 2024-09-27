@@ -42,7 +42,6 @@ public class Battle
         else
         {
             _view.WriteLine("Ninguna unidad tiene ventaja con respecto a la otra");
-            Console.WriteLine("el atacante tiene " + _attackerCharacter.Weapon);
         }
     }
 
@@ -59,16 +58,6 @@ public class Battle
 
     private void HandleDamageFight()
     {
-        Console.WriteLine("Las stats originales son:" + _attackerCharacter.Name);
-        Console.WriteLine(_attackerCharacter._originalStats.Atk);
-        Console.WriteLine(_attackerCharacter._originalStats.Def);
-        Console.WriteLine(_attackerCharacter._originalStats.Res);
-        Console.WriteLine(_attackerCharacter._originalStats.Spd);
-        Console.WriteLine("Las stats actuales son:");
-        Console.WriteLine(_attackerCharacter.Stats.Atk);
-        Console.WriteLine(_attackerCharacter.Stats.Def);
-        Console.WriteLine(_attackerCharacter.Stats.Res);
-        Console.WriteLine(_attackerCharacter.Stats.Spd);
         int damage = _attackerCharacter.CalculateDamage(_defenderCharacter);
         PrintDamage(damage);
         ApplyDamageToCharacter(damage);
@@ -103,29 +92,34 @@ public class Battle
         }
     }
 
-    public void StartDuel()
+    private void SimulateApplySkills()
     {
+        
         _attackerCharacter.SimulateApplySkills(_defenderCharacter);
         _defenderCharacter.SimulateApplySkills(_attackerCharacter);
+    }
 
-        
-        //bool attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
-        //bool defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
-        
-        PrintCaseOfAdvantage();
-        
+    private void PrintSkillsStatus()
+    {
         _attackerCharacter.PrintSkillsEffects(_view);
-        _attackerCharacter.PrintSkillsNeutralized( _view);
+        _attackerCharacter.PrintSkillsNeutralized(_view);
         _defenderCharacter.PrintSkillsEffects(_view);
         _defenderCharacter.PrintSkillsNeutralized(_view);
+    }
+    public void StartDuel()
+    {
+        SimulateApplySkills();
+        PrintCaseOfAdvantage();
+        
+        PrintSkillsStatus();
         _attackerCharacter.ResetStatsIfNeutralized();
         _defenderCharacter.ResetStatsIfNeutralized();
         
         _attackerCharacter.ApplyDefinitiveSkills();
         _defenderCharacter.ApplyDefinitiveSkills();
         
-        bool attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
-        bool defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
+        var attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
+        var defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
         if (_attackerCharacter.AreBonusSkillsNeutralized)
         {
             Console.WriteLine("se está en el if así que se va a ver si puede hacer follow up otra vez");
