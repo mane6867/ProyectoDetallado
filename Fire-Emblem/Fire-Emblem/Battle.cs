@@ -112,15 +112,19 @@ public class Battle
         _attackerCharacter.ResetStatsIfNeutralized();
         _defenderCharacter.ResetStatsIfNeutralized();
     }
+
+    private void ApplyDefinitiveSkills()
+    {
+        _attackerCharacter.ApplyDefinitiveSkills();
+        _defenderCharacter.ApplyDefinitiveSkills();
+    }
     private void StartDuel()
     {
         SimulateApplySkills();
         PrintCaseOfAdvantage();
         PrintSkillsStatus();
         ResetStatsIfNeutralized();
-        
-        _attackerCharacter.ApplyDefinitiveSkills();
-        _defenderCharacter.ApplyDefinitiveSkills();
+        ApplyDefinitiveSkills();
         
         var attackerIsAbleToFollowUp = _attackerCharacter.IsAbleToFollowUp(_defenderCharacter);
         var defenderIsAbleToFollowUp = _defenderCharacter.IsAbleToFollowUp(_attackerCharacter);
