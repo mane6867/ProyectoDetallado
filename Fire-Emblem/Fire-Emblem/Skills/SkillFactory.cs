@@ -337,7 +337,7 @@ public class SkillFactory
         if (name == "Belief in Love")
         {
             return new Skill(
-                new OrCondition(new InitiateRivalAttackCondition(), new GreaterOrEqualPercentageCondition(StatType.Hp, StatType.HpMax, 1)),
+                new OrCondition(new InitiateRivalAttackCondition(), new RivalGreaterOrEqualPercentageCondition(StatType.Hp, StatType.HpMax, 1)),
                 new CompositeEffect(
                     new PenaltyRivalEffect(StatType.Atk, 5),
                     new PenaltyRivalEffect(StatType.Def, 5)));
