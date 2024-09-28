@@ -173,13 +173,10 @@ public class Character
 
     public void ResetStatsIfNeutralized()
     {
-        if (AreBonusSkillsNeutralized || ArePenaltiesSkillsNeutralized)
-        {
-            SetStatsToOriginalStats();
-        }
+        if (AreBonusSkillsNeutralized || ArePenaltiesSkillsNeutralized) SetStatsToOriginalStats();
     }
 
-    public void SortListBonusNeutralized()
+    private void SortListBonusNeutralized()
     {
         List<StatType> targetOrder = new List<StatType> { StatType.Atk, StatType.Spd, StatType.Def, StatType.Res };
         BonusNeutralized = BonusNeutralized.OrderBy(stat => targetOrder.IndexOf(stat)).ToList();
@@ -212,43 +209,34 @@ public class Character
         {
             PrintPenaltiesNeutralizedStats(view);
         }
-        
     }
     public void NeutralizeBonusSkills()
     {
         AreBonusSkillsNeutralized = true;
-        Console.WriteLine(" SE CAMBIA A TRUE LOS BONUS NEUTRALIZADORES DE "+ Name);
     }
     public void UnNeutralizeBonusSkills()
     {
         AreBonusSkillsNeutralized = false;
-        //Console.WriteLine(" SE CAMBIA A FALSE LOS BONUS NEUTRALIZADORES DE "+ Name);
     }
-    
     public void NeutralizePenaltiesSkills()
     {
         ArePenaltiesSkillsNeutralized = true;
-        Console.WriteLine(" SE CAMBIA A TRUE LOS BONUS NEUTRALIZADORES DE "+ Name);
     }
     public void UnNeutralizePenaltiesSkills()
     {
         ArePenaltiesSkillsNeutralized = false;
-        //Console.WriteLine(" SE CAMBIA A FALSE LOS BONUS NEUTRALIZADORES DE "+ Name);
     }
     public void SetTrueArePenaltysSkillsNeutralized()
     {
         ArePenaltiesSkillsNeutralized = true;
     }
-    public void SetFalseArePenaltysSkillsNeutralized()
+    public void SetFalseArePenaltiesSkillsNeutralized()
     {
         ArePenaltiesSkillsNeutralized = false;
     }
     
     public bool IsAbleToFollowUp(Character target)
     {
-        Console.WriteLine("Se está viendo si "+ Name+ "está a la altura de hacer un follow up");
-        Console.WriteLine("el valor de su spd es " + Stats.Spd);
-        Console.WriteLine("el valor del rival "+ target.Name + " es " + target.Stats.Spd);
         return Convert.ToInt32(Stats.Spd) > Convert.ToInt32(target.Stats.Spd) + 4;
     }
     
@@ -268,7 +256,6 @@ public class Character
 
     private double CalculateWtbDamage(Character target)
     {
-
         if (HasDisadvantage(target)) return 0.8;
         else if (HasAdvantage(target)) return 1.2;
         else return 1;
@@ -281,7 +268,6 @@ public class Character
     }
     public int CalculateDamage(Character target)
     {
-        
         double wtb = CalculateWtbDamage(target);
         int reduction = CalculateReductionDamage(target);
         double rawDamage = Convert.ToInt32(Stats.Atk) * wtb - reduction;
@@ -333,10 +319,8 @@ public class Character
     {
         foreach (var nameSkill in namesSkills)
         {
-            Console.WriteLine("SE ESTÁ AÑADIENDO LA SKILL "+ nameSkill + " A " + Name);
             var skill = _skillFactory.Create(nameSkill);
             var effectType = skill.Effect.EffectType;
-            Console.WriteLine("LA SKILL  es de tipo" + effectType);
             _skills[effectType].Add(skill);
         }
     }
@@ -406,6 +390,6 @@ public class Character
     {
         RestoreAllStats();
         UnNeutralizeBonusSkills();
-        SetFalseArePenaltysSkillsNeutralized();
+        SetFalseArePenaltiesSkillsNeutralized();
     }
 }
