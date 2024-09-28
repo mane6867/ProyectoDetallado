@@ -13,7 +13,6 @@ public class Character
     public Stats Stats { get; set; } = new Stats();
     public Stats StatsBonus  { get; set; } = new Stats();
     public Stats StatsPenalties  { get; set; }  = new Stats();
-    public Stats StatsFollowUp  { get; set; }  = new Stats();
     public BattleContext BattleContext { get; set; } = new BattleContext();
     private readonly SkillFactory _skillFactory = new SkillFactory();
     private Dictionary<EffectType, List<Skill>> _skills;
@@ -25,7 +24,7 @@ public class Character
     [JsonConverter(typeof(StringEnumConverter))]
     public GenderType Gender { get; set; }
 
-    public readonly Stats _originalStats;
+    private readonly Stats _originalStats;
     
     [JsonConverter(typeof(StringEnumConverter))]
     private WeaponType _weapon;
@@ -125,42 +124,49 @@ public class Character
 
     public void SimulateApplySkills(Character defender)
     {
-        Console.WriteLine("see está realizando la simulación de " + Name);
-        
         SimulateApplySkillsOfType(EffectType.Bonus, defender);
         SimulateApplySkillsOfType(EffectType.Penalty, defender);
-        
     }
 
+    private void ApplySkillsNotNeutralized()
+    {
+        Stats.Atk += StatsBonus.Atk - StatsPenalties.Atk;
+        Stats.Spd += StatsBonus.Spd - StatsPenalties.Spd;
+        Stats.Res += StatsBonus.Res - StatsPenalties.Res;
+        Stats.Def += StatsBonus.Def - StatsPenalties.Def;
+    }
+    private void ApplySkillsPenaltiesNeutralized()
+    {
+        Stats.Atk += StatsBonus.Atk;
+        Stats.Spd += StatsBonus.Spd;
+        Stats.Res += StatsBonus.Res;
+        Stats.Def += StatsBonus.Def;
+    }
+
+    private void ApplySkillsBonusNeutralized()
+    {
+        if (BonusNeutralized.Contains(StatType.Atk)) Stats.Atk -= StatsPenalties.Atk;
+        else  Stats.Atk += StatsBonus.Atk - StatsPenalties.Atk;
+        if (BonusNeutralized.Contains(StatType.Spd)) Stats.Spd -= StatsPenalties.Spd;
+        else  Stats.Spd += StatsBonus.Spd - StatsPenalties.Spd;
+        if (BonusNeutralized.Contains(StatType.Res)) Stats.Res -= StatsPenalties.Res;
+        else  Stats.Res += StatsBonus.Res - StatsPenalties.Res;
+        if (BonusNeutralized.Contains(StatType.Def)) Stats.Def -= StatsPenalties.Def;
+        else  Stats.Def += StatsBonus.Def - StatsPenalties.Def;
+    }
     public void ApplyDefinitiveSkills()
     {
-        Console.WriteLine("se está en apply definitive");
-        Console.WriteLine(Name + "tiene los bonus neutralizados? "+ AreBonusSkillsNeutralized);
-        Console.WriteLine(Name + "tiene las penaltys? "+ ArePenaltiesSkillsNeutralized);
         if (!AreBonusSkillsNeutralized && !ArePenaltiesSkillsNeutralized)
         {
-            Stats.Atk += StatsBonus.Atk - StatsPenalties.Atk;
-            Stats.Spd += StatsBonus.Spd - StatsPenalties.Spd;
-            Stats.Res += StatsBonus.Res - StatsPenalties.Res;
-            Stats.Def += StatsBonus.Def - StatsPenalties.Def;
+            ApplySkillsNotNeutralized();
         }
         if (!AreBonusSkillsNeutralized && ArePenaltiesSkillsNeutralized)
         {
-            Stats.Atk += StatsBonus.Atk;
-            Stats.Spd += StatsBonus.Spd;
-            Stats.Res += StatsBonus.Res;
-            Stats.Def += StatsBonus.Def;
+            ApplySkillsPenaltiesNeutralized();
         }
         if (AreBonusSkillsNeutralized && !ArePenaltiesSkillsNeutralized)
         {
-            if (BonusNeutralized.Contains(StatType.Atk)) Stats.Atk -= StatsPenalties.Atk;
-            else  Stats.Atk += StatsBonus.Atk - StatsPenalties.Atk;
-            if (BonusNeutralized.Contains(StatType.Spd)) Stats.Spd -= StatsPenalties.Spd;
-            else  Stats.Spd += StatsBonus.Spd - StatsPenalties.Spd;
-            if (BonusNeutralized.Contains(StatType.Res)) Stats.Res -= StatsPenalties.Res;
-            else  Stats.Res += StatsBonus.Res - StatsPenalties.Res;
-            if (BonusNeutralized.Contains(StatType.Def)) Stats.Def -= StatsPenalties.Def;
-            else  Stats.Def += StatsBonus.Def - StatsPenalties.Def;
+            ApplySkillsBonusNeutralized();
         }
         
     }
