@@ -341,7 +341,8 @@ public class Character
         Stats.Def = _originalStats.Def;
         Stats.Res = _originalStats.Res;
     }
-    public void PrintSkillsEffects(View view)
+
+    private void PrintBonus(View view)
     {
         if (StatsBonus.Atk > 0)
         {
@@ -360,13 +361,10 @@ public class Character
         {
             view.WriteLine(Name + " obtiene Res+" + StatsBonus.Res);
         }
-        Console.WriteLine("Se está revisando si tiene penalties");
-        Console.WriteLine(StatsPenalties.Atk);
-        Console.WriteLine(StatsPenalties.Def);
-        Console.WriteLine(StatsPenalties.Res);
-        Console.WriteLine(StatsPenalties.Spd);
-        
-        
+    }
+
+    private void PrintPenalties(View view)
+    {
         if (StatsPenalties.Atk > 0)
         {
             view.WriteLine(Name + " obtiene Atk-" + StatsPenalties.Atk);
@@ -382,8 +380,12 @@ public class Character
         if (StatsPenalties.Res > 0)
         {
             view.WriteLine(Name + " obtiene Res-" + StatsPenalties.Res);
-            //StatsPenalties.Res = 0;
         }
+    }
+    public void PrintSkillsEffects(View view)
+    {
+        PrintBonus(view);
+        PrintPenalties(view);
     }
 
     public void RestoreAttributesForNextRound()
