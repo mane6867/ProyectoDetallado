@@ -5,6 +5,6 @@ public class SameOpponentCondition: Condition
 {
     public override bool DoesHold(Character character, Character defender)
     {
-        return character.BattleContext.actualOpponent == character.BattleContext.lastOpponent;
+        return defender == character.BattleContext.LastOpponent;
     }
 }

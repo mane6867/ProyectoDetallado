@@ -10,6 +10,6 @@ public class RivalUsesWeaponCondition: Condition
     }
     public override bool DoesHold(Character character, Character defender)
     {
-        return character.BattleContext.actualOpponent.Weapon == _weaponType;
+        return character.BattleContext.ActualOpponent.Weapon == _weaponType;
     }
 }

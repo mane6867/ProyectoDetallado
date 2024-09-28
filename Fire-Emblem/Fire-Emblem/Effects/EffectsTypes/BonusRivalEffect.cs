@@ -8,8 +8,8 @@ public class BonusRivalEffect : Effect {
     public BonusRivalEffect ( StatType targetStat , int bonus): base(targetStat, bonus)
     { 
         _targetStat = targetStat; 
-        EffectType = EffectType.Bonus;
-        EffectDuration = EffectDuration.WholeBattle;
+        EffectType = Fire_Emblem.EffectType.Bonus;
+        EffectDuration = Fire_Emblem.EffectDuration.WholeBattle;
         _bonus = bonus;
     }
 

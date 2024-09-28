@@ -14,27 +14,18 @@ public class LullEffect:Effect
 
     private void PenalizedRival(Character attacker, StatType statType)
     {
-        Console.WriteLine("se le suma en el efecto  3 puntos a stats Penaltys");
-        if (statType == StatType.Atk) attacker.BattleContext.actualOpponent.StatsPenalties.Atk += 3;
-        if (statType == StatType.Spd) attacker.BattleContext.actualOpponent.StatsPenalties.Spd += 3;
-        if (statType == StatType.Res) attacker.BattleContext.actualOpponent.StatsPenalties.Res += 3;
-        if (statType == StatType.Def) attacker.BattleContext.actualOpponent.StatsPenalties.Def += 3;
-    }
 
-    //private void NeutralizedRival(Character attacker, StatType statType)
-    //{
-    //    if (statType == StatType.Atk) attacker.BattleContext.actualOpponent.BonusNeutralized.Add(StatType.Atk);
-    //    if (statType == StatType.Spd) attacker.BattleContext.actualOpponent.BonusNeutralized.Add(StatType.Spd);
-    //    if (statType == StatType.Res) attacker.BattleContext.actualOpponent.BonusNeutralized.Add(StatType.Res);
-    //    if (statType == StatType.Def) attacker.BattleContext.actualOpponent.BonusNeutralized.Add(StatType.Def);
-    //}
+        if (statType == StatType.Atk) attacker.BattleContext.ActualOpponent.StatsPenalties.Atk += 3;
+        if (statType == StatType.Spd) attacker.BattleContext.ActualOpponent.StatsPenalties.Spd += 3;
+        if (statType == StatType.Res) attacker.BattleContext.ActualOpponent.StatsPenalties.Res += 3;
+        if (statType == StatType.Def) attacker.BattleContext.ActualOpponent.StatsPenalties.Def += 3;
+    }
+    
     
     public override void Apply(Character character, Character defender)
     {
         PenalizedRival(character, _statTypePenalty1);
         PenalizedRival(character, _statTypePenalty2);
-        //NeutralizedRival(character, _statTypeNeutralized1);
-        //NeutralizedRival(character, _statTypeNeutralized2);
     }
 
 }

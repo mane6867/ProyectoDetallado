@@ -2,21 +2,21 @@ namespace Fire_Emblem;
 
 public class BattleContext
 {
-    public bool isInitiator { get; set; }
-    public bool isFirstAttack { get; set; }
-    public AttackType attackType { get; set; }
-    public Character lastOpponent { get; set; }
-    public Character actualOpponent { get; set; }
-    public WeaponType weaponType { get; set; }
+    public bool IsInitiator { get; set; }
+    public bool IsFirstAttack { get; set; }
+    public AttackType AttackType { get; set; }
+    public Character LastOpponent { get; set; }
+    public Character ActualOpponent { get; set; }
+    public WeaponType WeaponType { get; set; }
 
 
     public BattleContext()
     {
-        this.isInitiator = false;
-        this.isFirstAttack = true;
-        this.attackType = AttackType.Physical;
-        this.lastOpponent = null;
-        this.actualOpponent = null;
+        this.IsInitiator = false;
+        this.IsFirstAttack = true;
+        this.AttackType = AttackType.Physical;
+        this.LastOpponent = null;
+        this.ActualOpponent = null;
     }
     
 }

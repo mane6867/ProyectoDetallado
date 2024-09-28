@@ -9,8 +9,8 @@ public class PercentageBonusEffect: Effect
     { 
         _targetStat = targetStat; 
         _percentageBonus = bonus;
-        EffectType = EffectType.Bonus;
-        EffectDuration = EffectDuration.FirstAttack;
+        EffectType = Fire_Emblem.EffectType.Bonus;
+        EffectDuration = Fire_Emblem.EffectDuration.FirstAttack;
     }
     public override void Apply ( Character character, Character defender)
     {

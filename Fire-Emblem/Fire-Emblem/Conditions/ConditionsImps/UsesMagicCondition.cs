@@ -4,6 +4,6 @@ public class UsesMagicCondition : Condition
 {
     public override bool DoesHold(Character character, Character defender)
     {
-        return character.BattleContext.attackType == AttackType.Magical;
+        return character.BattleContext.AttackType == AttackType.Magical;
     }
 }

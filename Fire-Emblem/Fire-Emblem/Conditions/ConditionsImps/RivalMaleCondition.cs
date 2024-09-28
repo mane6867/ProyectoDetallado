@@ -4,6 +4,6 @@ public class RivalMaleCondition: Condition
 {
     public override bool DoesHold(Character character, Character defender)
     {
-        return character.BattleContext.actualOpponent.Gender == GenderType.Male;
+        return character.BattleContext.ActualOpponent.Gender == GenderType.Male;
     }
 }

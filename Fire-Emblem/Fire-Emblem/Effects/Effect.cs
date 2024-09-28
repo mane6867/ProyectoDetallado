@@ -7,8 +7,6 @@ public abstract class Effect
     public EffectType EffectType;
     public EffectDuration EffectDuration;
     protected int _bonus;
-    protected EffectType effectType;
-    protected EffectDuration effectDuration;
     public int Bonus => _bonus;
     public StatType TargetStat;
     

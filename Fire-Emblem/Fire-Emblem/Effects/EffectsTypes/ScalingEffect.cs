@@ -10,8 +10,8 @@ public class ScalingEffect : Effect
         _targetStat = targetStat;
         _scalingFactor = scalingFactor;
         _bonusPerFactor = bonusPerFactor;
-        EffectType = EffectType.Bonus;
-        EffectDuration = EffectDuration.WholeBattle;
+        EffectType = Fire_Emblem.EffectType.Bonus;
+        EffectDuration = Fire_Emblem.EffectDuration.WholeBattle;
     }
 
     public override void Apply(Character character, Character defender)

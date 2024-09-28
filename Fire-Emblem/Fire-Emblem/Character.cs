@@ -34,7 +34,7 @@ public class Character
         set
         {
             _weapon = value;
-            BattleContext.weaponType = value;
+            BattleContext.WeaponType = value;
             SetAttackType();
 
         }
@@ -281,38 +281,38 @@ public class Character
 
     public void SetLastOpponent(Character character)
     {
-        BattleContext.lastOpponent = character;
+        BattleContext.LastOpponent = character;
     }
     
     public void SetActualOpponent(Character character)
     {
-        BattleContext.actualOpponent = character;
+        BattleContext.ActualOpponent = character;
     }
 
     public void SetIsNotFirstAttack()
     {
-        BattleContext.isFirstAttack = false;
+        BattleContext.IsFirstAttack = false;
     }
 
     public void IsInitiator()
     {
-        BattleContext.isInitiator = true;
+        BattleContext.IsInitiator = true;
         
     }
     
     public void IsNotInitiator()
     {
-        BattleContext.isInitiator = false;
+        BattleContext.IsInitiator = false;
     }
     public void SetWeaponBattle()
     {
-        BattleContext.weaponType = Weapon;
+        BattleContext.WeaponType = Weapon;
     }
 
     public void SetAttackType()
     {
-        if (Weapon == WeaponType.Magic) BattleContext.attackType = AttackType.Magical;
-        else BattleContext.attackType = AttackType.Physical;
+        if (Weapon == WeaponType.Magic) BattleContext.AttackType = AttackType.Magical;
+        else BattleContext.AttackType = AttackType.Physical;
     }
 
     public void AddSkills(List<string> namesSkills)
