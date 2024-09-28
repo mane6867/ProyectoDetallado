@@ -21,7 +21,10 @@ public class Game
         _utilities = new Utilities(_view);
 
     }
-    
+    public  bool ValidateTeams(List<string> dataCharactersPlayer1, List<string> dataCharactersPlayer2)
+    {
+        return IsValidTeam(dataCharactersPlayer1) && IsValidTeam(dataCharactersPlayer2);
+    }
 
     private void DisplayAvailableFiles()
     {
@@ -131,18 +134,18 @@ public class Game
         if (!IsValidFileInfo(selectedFileInfo))
         {
             _view.WriteLine("Archivo de equipos no válido");
-            return; // Salida temprana si el archivo no es válido
+            return; 
         }
 
         var teams = CreateTeamsFromFile(selectedFileInfo);
         StartBattle(teams);
         
     }
-    public static bool InfoContainTwoPlayers(string[] info)
+    private static bool InfoContainTwoPlayers(string[] info)
         =>  info.Contains("Player 2 Team") && info.Contains("Player 1 Team");
     
     
-    public static (List<string> dataCharactersPlayer1, List<string> dataCharactersPlayer2)
+    private static (List<string> dataCharactersPlayer1, List<string> dataCharactersPlayer2)
         ObtainDataCharactersFromTeams(string[] infoTeams)
     {
         bool isReadingPlayer1 = false;
@@ -159,7 +162,6 @@ public class Game
 
         return (dataCharactersPlayer1, dataCharactersPlayer2);
     }
-    
 
     private static void AddCharacterData(string line, bool isReadingPlayer1, List<string> player1Data,
         List<string> player2Data)
@@ -169,47 +171,36 @@ public class Game
         else player2Data.Add(trimmedLine);
     }
     
-
-    public  bool isValidTeam(List<string> dataCharacters)
+    private bool AreSkillsValid(List<string> skills)
     {
-        bool areSkillsValid = true;
-        string patron = @"\((.*?)\)";
-        List<string> namesCharacters = [];
+        return HasMaxTwoSkills(skills) && !_utilities.HasDuplicates(skills);
+    }
+    private bool AreCharacterNamesValid(List<string> names)
+    {
+        bool hasMinOneCharacter = names.Count > 0;
+        bool hasMaxThreeCharacters = names.Count <= 3;
+        bool areNamesRepeated = _utilities.HasDuplicates(names);
 
-        foreach (var dataCharacter in dataCharacters)
+        return !areNamesRepeated && hasMinOneCharacter && hasMaxThreeCharacters;
+    }
+    
+    private bool IsValidTeam(List<string> characterData)
+    {
+        List<string> characterNames = new List<string>();
+        bool allSkillsValid = true;
+
+        foreach (var data in characterData)
         {
-            string nameCharacterOnReview = dataCharacter;
-            List<string> skills = new List<string>();
-            Match containHabilities = Regex.Match(dataCharacter, patron);
-            if (containHabilities.Success)
+            var (name, skills) = ParseCharacterData(data);
+            characterNames.Add(name);
+
+            if (!AreSkillsValid(skills))
             {
-                nameCharacterOnReview =
-                    dataCharacter.Substring(0, containHabilities.Index).Trim(); // Guarda la parte antes del paréntesis
-                string habilidades =
-                    dataCharacter.Remove(0, nameCharacterOnReview.Length + 1)
-                        .TrimStart(); // Extrae los valores entre paréntesis y los divide por coma
-                habilidades = habilidades.Trim().Trim('(', ')');
-                // Divide el string utilizando la coma como separador
-                skills = habilidades.Split(',').Select(s => s.Trim()).ToList();
-            }
-
-            namesCharacters.Add(nameCharacterOnReview);
-
-            if (!HasMaxTwoSkills(skills) || _utilities.HasDuplicates(skills))
-            { 
-                areSkillsValid = false;
+                allSkillsValid = false;
             }
         }
-        bool areNamesRepeated = _utilities.HasDuplicates(namesCharacters);
-        bool hasMinOneCharacter = namesCharacters.Count > 0;
-        bool hasMaxThreeCharacters = namesCharacters.Count <= 3;
-        return !areNamesRepeated && areSkillsValid && hasMinOneCharacter && hasMaxThreeCharacters;
-
-
+        return AreCharacterNamesValid(characterNames) && allSkillsValid;
     }
-    public  bool ValidateTeams(List<string> dataCharactersPlayer1, List<string> dataCharactersPlayer2)
-    {
-        return isValidTeam(dataCharactersPlayer1) && isValidTeam(dataCharactersPlayer2);
-    }
+    
     
 }
