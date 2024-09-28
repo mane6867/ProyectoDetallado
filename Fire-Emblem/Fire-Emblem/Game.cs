@@ -23,7 +23,7 @@ public class Game
     }
     
 
-    private void FilesDisplayToChooseFrom()
+    private void DisplayAvailableFiles()
     {
         _view.WriteLine("Elige un archivo para cargar los equipos");
         string[] files = Directory.GetFiles(_teamsFolder);
@@ -33,7 +33,7 @@ public class Game
         }
     }
     
-    private string[] GetInfoChooseFile()
+    private string[] GetSelectedInfo()
     {
         string pathChosenFile = AskToChoosePathFile();
         string[] infoTeamsChosenFile = File.ReadAllLines(pathChosenFile);
@@ -104,60 +104,71 @@ public class Game
         return characters;
 
     }
+    public bool IsValidFileInfo(string[] infoTeams)
+    {
+        (List<string> dataCharactersPlayer1, List<string> dataCharactersPlayer2) =
+            ObtainDataCharactersFromTeams(infoTeams);
+        return InfoContainTwoPlayers(infoTeams) && ValidateTeams(dataCharactersPlayer1, dataCharactersPlayer2);
+
+    }
+    private List<List<Character>> CreateTeamsFromFile(string[] fileInfo)
+    {
+        var team1 = CreateCharactersFromNames(ObtainDataCharactersFromTeams(fileInfo).dataCharactersPlayer1);
+        var team2 = CreateCharactersFromNames(ObtainDataCharactersFromTeams(fileInfo).dataCharactersPlayer2);
+
+        return new List<List<Character>> { team1, team2 };
+    }
+    private void StartBattle(List<List<Character>> teams)
+    {
+        Battle battle = new Battle(_view, teams);
+        battle.Fight(1);
+    }
     public void Play()
     {
-        FilesDisplayToChooseFrom();
-        string[] infoFileSelectedTeam = GetInfoChooseFile();
+        DisplayAvailableFiles();
+        string[] selectedFileInfo = GetSelectedInfo();
 
-        if (!ValidateChosenInfo(infoFileSelectedTeam)) _view.WriteLine("Archivo de equipos no válido");
-        else
+        if (!IsValidFileInfo(selectedFileInfo))
         {
-
-            List<Character> team1 =
-                CreateCharactersFromNames(ObtainDataCharactersFromTeams(infoFileSelectedTeam).dataCharactersPlayer1);
-            List<Character> team2 =
-                CreateCharactersFromNames(ObtainDataCharactersFromTeams(infoFileSelectedTeam).dataCharactersPlayer2);
-            List<List<Character>> teams = new List<List<Character>>();
-            teams.Add(team1);
-            teams.Add(team2);
-
-            Battle batalla = new Battle(_view, teams);
-            batalla.Fight(1);
+            _view.WriteLine("Archivo de equipos no válido");
+            return; // Salida temprana si el archivo no es válido
         }
+
+        var teams = CreateTeamsFromFile(selectedFileInfo);
+        StartBattle(teams);
+        
     }
     public static bool InfoContainTwoPlayers(string[] info)
         =>  info.Contains("Player 2 Team") && info.Contains("Player 1 Team");
     
-
-    public static bool IsNameInNames(string name, List<string> names)
-        => names.Contains(name);
-
+    
     public static (List<string> dataCharactersPlayer1, List<string> dataCharactersPlayer2)
         ObtainDataCharactersFromTeams(string[] infoTeams)
     {
-        bool leyendoJugador1 = false;
-        bool leyendoJugador2 = false;
-
+        bool isReadingPlayer1 = false;
         List<string> dataCharactersPlayer1 = new List<string>();
         List<string> dataCharactersPlayer2 = new List<string>();
 
-        foreach (var linea in infoTeams)
+        foreach (var line in infoTeams)
         {
-            if (linea.StartsWith("Player 1"))
-            {
-                leyendoJugador1 = true;
-            }
-            else if (linea.StartsWith("Player 2"))
-            {
-                leyendoJugador1 = false;
-            }
-            else
-            {
-                (leyendoJugador1 ? dataCharactersPlayer1 : dataCharactersPlayer2).Add(linea.Trim());
-            }
+            if (line.StartsWith("Player 1")) isReadingPlayer1 = true;
+            else if (line.StartsWith("Player 2")) isReadingPlayer1 = false;
+            else AddCharacterData(line, isReadingPlayer1, dataCharactersPlayer1,
+                dataCharactersPlayer2);
         }
+
         return (dataCharactersPlayer1, dataCharactersPlayer2);
     }
+    
+
+    private static void AddCharacterData(string line, bool isReadingPlayer1, List<string> player1Data,
+        List<string> player2Data)
+    {
+        var trimmedLine = line.Trim();
+        if (isReadingPlayer1) player1Data.Add(trimmedLine);
+        else player2Data.Add(trimmedLine);
+    }
+    
 
     public  bool isValidTeam(List<string> dataCharacters)
     {
@@ -200,12 +211,5 @@ public class Game
     {
         return isValidTeam(dataCharactersPlayer1) && isValidTeam(dataCharactersPlayer2);
     }
-
-    public bool ValidateChosenInfo(string[] infoTeams)
-    {
-        (List<string> dataCharactersPlayer1, List<string> dataCharactersPlayer2) =
-            ObtainDataCharactersFromTeams(infoTeams);
-        return InfoContainTwoPlayers(infoTeams) && ValidateTeams(dataCharactersPlayer1, dataCharactersPlayer2);
-
-    }
+    
 }
